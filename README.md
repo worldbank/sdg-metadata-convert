@@ -4,7 +4,9 @@ A library in Node.js for converting SDG indicator metadata between formats.
 
 ## Installation
 
+```
 npm install --save brockfanning/sdg-metadata-concert#master
+```
 
 ## Usage
 
