@@ -20,6 +20,7 @@
     "markdown-it-footnote": "3.0.2",
     "mocha": "7.1.1",
     "node-watch": "0.6.3",
+    "nunjucks": "3.2.1",
     "pdf-puppeteer": "1.1.10",
     "read-excel-file": "4.0.5",
     "turndown": "6.0.0",

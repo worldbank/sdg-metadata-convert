@@ -5,7 +5,7 @@ A library in Node.js for converting SDG indicator metadata between formats.
 ## Installation
 
 ```
-npm install --save brockfanning/sdg-metadata-concert#master
+npm install --save brockfanning/sdg-metadata-convert#master
 ```
 
 ## Usage
@@ -13,15 +13,15 @@ npm install --save brockfanning/sdg-metadata-concert#master
 Example conversion from a particular Word template to a *.pot (GetText) file:
 
 ```
-const { templateInput, potOutput } = require('sdg-metadata-convert')
+const { WordTemplateInput, PotOutput } = require('sdg-metadata-convert')
 
-new templateInput('1-1-1a.docx').convertTo(new potOutput('1-1-1a.pot'))
+new WordTemplateInput('1-1-1a.docx').convertTo(new PotOutput('1-1-1a.pot'))
 ```
 
 And the other way around:
 
 ```
-const { potInput, templateOutput } = require('sdg-metadata-convert')
+const { PotInput, WordTemplateOutput } = require('sdg-metadata-convert')
 
-new potInput('1-1-1a.pot').convertTo(new templateOutput('1-1-1a.docx'))
+new PotInput('1-1-1a.pot').convertTo(new WordTemplateOutput('1-1-1a.docx'))
 ```
