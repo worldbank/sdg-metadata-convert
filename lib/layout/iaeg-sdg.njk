@@ -9,6 +9,16 @@
 {% endmacro %}
 
 {% block content %}
+<style>
+#SDG_INDICATOR {
+  color: #1c75bc;
+}
+#SDG_INDICATOR p, #SDG_GOAL p, #SDG_TARGET p {
+  background: #EEE;
+  margin: 0;
+  padding: 10px 0;
+}
+</style>
 {{ renderConcept(SDG_INDICATOR_INFO) }}
 {{ renderConcept(SDG_GOAL) }}
 {{ renderConcept(SDG_TARGET) }}

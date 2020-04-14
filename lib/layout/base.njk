@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>{{ SDG_INDICATOR.value }}</title>
+        <title>{{ SDG_INDICATOR.value | striptags }}</title>
         <style>
             h1 {
                 border-bottom: 2px solid #BBB;
@@ -21,19 +21,11 @@
             img {
                 max-width: 100%;
             }
-            .m-ind-header {
-                color: #1c75bc;
-            }
-            .m-ind-header, .m-g-t-header {
-                background: #EEE;
-                margin: 0;
-                padding: 10px 0;
-            }
             .footnotes {
                 border-top: 1px solid #BBB;
                 border-bottom: 1px solid #BBB;
                 margin: 25px 0 0 0;
-                padding: 15px 15px 15px 25px;
+                padding: 15px 15px 10px 25px;
                 font-size: 13px;
                 list-style-type: none;
             }
