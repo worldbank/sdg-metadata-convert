@@ -41,6 +41,7 @@ You may want to perform a conversion on muliple source files. For small numbers 
 ```
 const conversions = [
   ['3-8-2.docx', '3-8-2.pot'],
+  ['3-8-3.docx', '3-8-3.pot'],
 ]
 for (const conversion of conversions) {
   const [inputFile, outputFile] = conversion
