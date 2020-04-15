@@ -73,3 +73,7 @@ async function convert() {
 }
 convert()
 ```
+
+## Synchronous reading
+
+Some inputs may provide a `readSync` method, for easier use.
