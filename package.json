@@ -1,6 +1,6 @@
 {
   "name": "sdg-metadata-convert",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "main": "lib/index.js",
   "description": "Conversion tools for Sustainable Development Goal indicator metadata.",
   "author": "Brock Fanning <brockfanning@gmail.com> (https://github.com/brockfanning)",
