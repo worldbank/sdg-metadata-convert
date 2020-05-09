@@ -34,6 +34,13 @@ The above example could be changed to use any of the available inputs/outputs.
 * All inputs have a `read` method, which returns a Promise containing the metadata.
 * All outputs have a `write` method, which returns a Promise (containing nothing).
 
+The metadata which is returned from the inputs, and written by the outputs, is an instance of the Metadata class, which has two methods:
+
+* `getConcepts()`
+* `getDescriptors()`
+
+The "concepts" are the actual metadata about the SDG indicator, while the "descriptors" are metadata about the concepts.
+
 ## Looping
 
 You may want to perform a conversion on muliple source files. For small numbers of files, you can simply loop the code above.
@@ -77,3 +84,21 @@ convert()
 ## Synchronous reading
 
 Some inputs may provide a `readSync` method, for easier use.
+
+## Reading only
+
+Perhaps you would like to use this library to read metadata from a source and then do something other than writing a file. This can be done like so:
+
+```
+const { WordTemplateInput } = require('sdg-metadata-convert')
+const input = new WordTemplateInput()
+const inputFile = '3-8-2.docx'
+
+input.read(inputFile)
+  .then(metadata => doSomething(metadata))
+  .catch(err => console.log(err))
+
+function doSomething(metadata) {
+  // Do something here.
+}
+```
