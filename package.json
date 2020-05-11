@@ -16,6 +16,7 @@
     "mocha": "7.1.1",
     "nunjucks": "3.2.1",
     "pdf-puppeteer": "1.1.10",
-    "pretty": "2.0.0"
+    "pretty": "2.0.0",
+    "xmlbuilder2": "2.1.2"
   }
 }
