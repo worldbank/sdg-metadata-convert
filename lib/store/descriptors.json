@@ -2,16 +2,19 @@
     {
         "id": "REPORTING_TYPE",
         "name": "Reporting type",
+        "templateTag": "ddReportingType",
         "options": {}
     },
     {
         "id": "SERIES",
         "name": "SDG series",
+        "templateTag": "ddSeries",
         "options": {}
     },
     {
         "id": "REF_AREA",
         "name": "Reference area",
+        "templateTag": "ddRefArea",
         "options": {}
     }
 ]
