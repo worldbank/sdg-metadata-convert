@@ -1,0 +1,17 @@
+[
+    {
+        "id": "REPORTING_TYPE",
+        "name": "Reporting type",
+        "options": {}
+    },
+    {
+        "id": "SERIES",
+        "name": "SDG series",
+        "options": {}
+    },
+    {
+        "id": "REF_AREA",
+        "name": "Reference area",
+        "options": {}
+    }
+]
