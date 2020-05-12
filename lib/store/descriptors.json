@@ -1,0 +1,3179 @@
+[
+    {
+        "id": "REPORTING_TYPE",
+        "name": "Reporting type",
+        "templateTag": "ddReportingType",
+        "options": [
+            {
+                "key": "G",
+                "value": "Global"
+            },
+            {
+                "key": "N",
+                "value": "National"
+            },
+            {
+                "key": "R",
+                "value": "Regional"
+            }
+        ]
+    },
+    {
+        "id": "SERIES",
+        "name": "SDG series",
+        "templateTag": "ddSeries",
+        "options": [
+            {
+                "key": "SI_POV_DAY1",
+                "value": "1.1.1  Proportion of population below international poverty line"
+            },
+            {
+                "key": "SI_POV_EMP1",
+                "value": "1.1.1  Employed population below international poverty line"
+            },
+            {
+                "key": "SI_POV_NAHC",
+                "value": "1.2.1  Proportion of population living below the national poverty line"
+            },
+            {
+                "key": "SI_POV_NMPI",
+                "value": "1.2.2  Proportion of population living in poverty in all its dimensions according to national definitions"
+            },
+            {
+                "key": "SI_COV_BENFTS",
+                "value": "1.3.1  Proportion of population covered by at least one social protection benefit"
+            },
+            {
+                "key": "SI_COV_CHLD",
+                "value": "1.3.1  Proportion of children/households receiving child/family cash benefit"
+            },
+            {
+                "key": "SI_COV_DISAB",
+                "value": "1.3.1  Proportion of population with severe disabilities receiving disability cash benefit"
+            },
+            {
+                "key": "SI_COV_LMKT",
+                "value": "1.3.1  Proportion of population covered by labour market programs"
+            },
+            {
+                "key": "SI_COV_MATNL",
+                "value": "1.3.1  Proportion of mothers with newborns receiving maternity cash benefit"
+            },
+            {
+                "key": "SI_COV_PENSN",
+                "value": "1.3.1  Proportion of population above statutory pensionable age receiving a pension"
+            },
+            {
+                "key": "SI_COV_POOR",
+                "value": "1.3.1  Proportion of poor population receiving social assistance cash benefit"
+            },
+            {
+                "key": "SI_COV_SOCAST",
+                "value": "1.3.1  Proportion of population covered by social assistance programs"
+            },
+            {
+                "key": "SI_COV_SOCINS",
+                "value": "1.3.1  Proportion of population covered by social insurance programs"
+            },
+            {
+                "key": "SI_COV_UEMP",
+                "value": "1.3.1  Proportion of unemployed persons receiving unemployment cash benefit"
+            },
+            {
+                "key": "SI_COV_VULN",
+                "value": "1.3.1  Proportion of vulnerable population receiving social assistance cash benefit"
+            },
+            {
+                "key": "SI_COV_WKINJRY",
+                "value": "1.3.1  Proportion of employed population covered in the event of work injury"
+            },
+            {
+                "key": "SP_ACS_BSRV",
+                "value": "1.4.1  Proportion of population living in households with access to basic services"
+            },
+            {
+                "key": "SP_LGL_LNDDOC",
+                "value": "1.4.2  Proportion of total adult population with secure tenure rights to land,  with legally recognized documentation"
+            },
+            {
+                "key": "SP_LGL_LNDSEC",
+                "value": "1.4.2  Proportion of total adult population with secure tenure rights to land who perceive their rights to land as secure"
+            },
+            {
+                "key": "VC_DSR_MISS",
+                "value": "1.5.1, 11.5.1, 13.1.1 Number of missing persons due to disaster"
+            },
+            {
+                "key": "VC_DSR_AFFCT",
+                "value": "1.5.1, 11.5.1, 13.1.1 Number of people affected by disaster"
+            },
+            {
+                "key": "VC_DSR_MORT",
+                "value": "1.5.1, 11.5.1, 13.1.1 Number of deaths due to disaster"
+            },
+            {
+                "key": "VC_DSR_MTMP",
+                "value": "1.5.1, 11.5.1, 13.1.1 Number of deaths and missing persons attributed to disasters per 100,000 population"
+            },
+            {
+                "key": "VC_DSR_MMHN",
+                "value": "1.5.1, 11.5.1, 13.1.1 Number of deaths and missing persons attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_DAFF",
+                "value": "1.5.1, 11.5.1, 13.1.1 Number of directly affected persons attributed to disasters per 100,000 population"
+            },
+            {
+                "key": "VC_DSR_IJILN",
+                "value": "1.5.1, 11.5.1, 13.1.1 Number of injured or ill people attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_PDAN",
+                "value": "1.5.1, 11.5.1, 13.1.1 Number of people whose damaged dwellings were attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_DDHN",
+                "value": "1.5.1, 11.5.1, 13.1.1 Number damaged dwellings attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_PDYN",
+                "value": "1.5.1, 11.5.1, 13.1.1 Number of people whose destroyed dwellings were attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_DYDN",
+                "value": "1.5.1, 11.5.1, 13.1.1 Number of destroyed dwellings attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_PDLN",
+                "value": "1.5.1, 11.5.1, 13.1.1 Number of people whose livelihoods were disrupted or destroyed, attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_DYHN",
+                "value": "1.5.1, 11.5.1, 13.1.1 Number destroyed dwellings attributed to disasters, by hazard type"
+            },
+            {
+                "key": "VC_DSR_GDPLS",
+                "value": "1.5.2  Direct economic loss attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_LSGP",
+                "value": "1.5.2, 11.5.2 Direct economic loss attributed to disasters relative to GDP"
+            },
+            {
+                "key": "VC_DSR_AGLH",
+                "value": "1.5.2, 11.5.2 Direct agriculture loss attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_HOLH",
+                "value": "1.5.2, 11.5.2 Direct economic loss in the housing sector attributed to disasters, by hazard type (millions of current United States dollars)"
+            },
+            {
+                "key": "VC_DSR_CILN",
+                "value": "1.5.2, 11.5.2 Direct economic loss resulting from damaged or destroyed critical infrastructure attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_CHLN",
+                "value": "1.5.2, 11.5.2 Direct economic loss to cultural heritage damaged or destroyed attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_DDPA",
+                "value": "1.5.2, 11.5.2 Direct economic loss to other damaged or destroyed productive assets attributed to disasters"
+            },
+            {
+                "key": "SG_DSR_LEGREG",
+                "value": "1.5.3  Countries with legislative and/or regulatory provisions been made for managing disaster risk (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "SG_DSR_LGRGSR",
+                "value": "1.5.3, 11.b.1, 13.1.2 Score of adoption and implementation of national DRR strategies in line with the Sendai Framework"
+            },
+            {
+                "key": "SG_DSR_SILS",
+                "value": "1.5.4, 11.b.2, 13.1.3 Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies"
+            },
+            {
+                "key": "SG_DSR_SILN",
+                "value": "1.5.4, 11.b.2, 13.1.3 Number of local governments that adopt and implement local DRR strategies in line with national strategies"
+            },
+            {
+                "key": "SG_GOV_LOGV",
+                "value": "1.5.4, 11.b.2, 13.1.3 Number of local governments"
+            },
+            {
+                "key": "SG_POV_DOM",
+                "value": "1.a.1  Proportion of domestically generated resources allocated by the government directly to poverty reduction programmes"
+            },
+            {
+                "key": "SG_XPD_HLTH",
+                "value": "1.a.2 Proportion of total government spending on health"
+            },
+            {
+                "key": "SG_XPD_PROT",
+                "value": "1.a.2 Proportion of total government spending on social protection"
+            },
+            {
+                "key": "SD_XPD_ESED",
+                "value": "1.a.2 Proportion of total government spending on essential services, education"
+            },
+            {
+                "key": "SG_POV_TOTL",
+                "value": "1.a.3  Sum of total grants and non-debt-creating inflows directly allocated to poverty reduction programmes as a proportion of GDP"
+            },
+            {
+                "key": "SG_XPD_VULN",
+                "value": "1.b.1  Proportion of government recurrent and capital spending to sectors that disproportionately benefit women, the poor and vulnerable groups"
+            },
+            {
+                "key": "SN_ITK_DEFC",
+                "value": "2.1.1  Prevalence of undernourishment"
+            },
+            {
+                "key": "SN_ITK_DEFCN",
+                "value": "2.1.1 Number of undernourish people"
+            },
+            {
+                "key": "AG_PRD_FIESMS",
+                "value": "2.1.2  Prevalence of moderate or severe food insecurity in the population"
+            },
+            {
+                "key": "AG_PRD_FIESMSN",
+                "value": "2.1.2  Population in moderate or severe food insecurity (number)"
+            },
+            {
+                "key": "AG_PRD_FIESMSTN",
+                "value": "2.1.2  Population living in households where at least one adult experienced moderate or severe food insecurity (number)"
+            },
+            {
+                "key": "AG_PRD_FIESS",
+                "value": "2.1.2  Prevalence of severe food insecurity in the population"
+            },
+            {
+                "key": "AG_PRD_FIESSN",
+                "value": "2.1.2  Population in severe food insecurity (number)"
+            },
+            {
+                "key": "AG_PRD_FIESSTN",
+                "value": "2.1.2  Population living in households where at least one adult experienced severe food insecurity (number)"
+            },
+            {
+                "key": "SH_STA_STNT",
+                "value": "2.2.1  Proportion of children moderately or severely stunted"
+            },
+            {
+                "key": "SH_STA_STNTN",
+                "value": "2.2.1  Children moderately or severely stunted (number)"
+            },
+            {
+                "key": "SH_STA_WAST",
+                "value": "2.2.2  Proportion of children moderately or severely wasted"
+            },
+            {
+                "key": "SH_STA_WASTN",
+                "value": "2.2.2  Children moderately or severely wasted (number)"
+            },
+            {
+                "key": "SN_STA_OVWGT",
+                "value": "2.2.2  Proportion of children moderately or severely overweight"
+            },
+            {
+                "key": "SN_STA_OVWGTN",
+                "value": "2.2.2  Children moderately or severely overweight (number)"
+            },
+            {
+                "key": "PD_AGR_SSFP",
+                "value": "2.3.1 Productivity of small-scale food producers"
+            },
+            {
+                "key": "SI_AGR_SSFP",
+                "value": "2.3.2 Average income of small-scale food producers"
+            },
+            {
+                "key": "AG_LND_SUST",
+                "value": "2.4.1 Proportion of agricultural area under productive and sustainable agriculture"
+            },
+            {
+                "key": "ER_GRF_ANIMKPT",
+                "value": "2.5.1  Number of local breeds kept in the country"
+            },
+            {
+                "key": "ER_GRF_ANIMRCNT",
+                "value": "2.5.1  Proportion of local breeds for which sufficient genetic resources are stored for reconstitution"
+            },
+            {
+                "key": "ER_GRF_ANIMRCNTN",
+                "value": "2.5.1  Number of local breeds for which sufficient genetic resources are stored for reconstitution"
+            },
+            {
+                "key": "ER_GRF_ANIMSTOR",
+                "value": "2.5.1  Proportion of local breeds with genetic material stored"
+            },
+            {
+                "key": "ER_GRF_ANIMSTORN",
+                "value": "2.5.1  Number of local breeds with genetic material stored"
+            },
+            {
+                "key": "ER_GRF_GENEBNK",
+                "value": "2.5.1  Operational in vitro gene bank for animal genetic resources"
+            },
+            {
+                "key": "ER_GRF_PLNTSTOR",
+                "value": "2.5.1  Plant breeds for which sufficient genetic resources are stored (number)"
+            },
+            {
+                "key": "ER_RSK_LBREDS",
+                "value": "2.5.2  Proportion of local breeds classified as being at risk as a percentage of local breeds with known level of extinction risk"
+            },
+            {
+                "key": "AG_PRD_ORTIND",
+                "value": "2.a.1  Agriculture orientation index for government expenditures"
+            },
+            {
+                "key": "AG_XPD_AGSGB",
+                "value": "2.a.1 Agriculture share of Government Expenditure"
+            },
+            {
+                "key": "AG_PRD_AGVAS",
+                "value": "2.a.1 Agriculture value added share of GDP"
+            },
+            {
+                "key": "DC_TOF_AGRL",
+                "value": "2.a.2  Total official flows (disbursements) for agriculture, by recipient countries"
+            },
+            {
+                "key": "AG_PRD_XSUBDY",
+                "value": "2.b.1  Agricultural export subsidies"
+            },
+            {
+                "key": "AG_FPA_COMM",
+                "value": "2.c.1 Indicator of Food Price Anomalies (IFPA)"
+            },
+            {
+                "key": "AG_FPA_CFPI",
+                "value": "2.c.1 Consumer Food Price Index"
+            },
+            {
+                "key": "SH_STA_MORT",
+                "value": "3.1.1  Maternal mortality ratio"
+            },
+            {
+                "key": "SH_STA_BRTC",
+                "value": "3.1.2  Proportion of births attended by skilled health personnel"
+            },
+            {
+                "key": "SH_DYN_IMRT",
+                "value": "3.2.1  Infant mortality rate"
+            },
+            {
+                "key": "SH_DYN_IMRTN",
+                "value": "3.2.1  Infant deaths (number)"
+            },
+            {
+                "key": "SH_DYN_MORT",
+                "value": "3.2.1  Under-five mortality rate"
+            },
+            {
+                "key": "SH_DYN_MORTN",
+                "value": "3.2.1  Under-five deaths (number)"
+            },
+            {
+                "key": "SH_DYN_NMRT",
+                "value": "3.2.2  Neonatal mortality rate"
+            },
+            {
+                "key": "SH_DYN_NMRTN",
+                "value": "3.2.2  Neonatal deaths (number)"
+            },
+            {
+                "key": "SH_HIV_INCD",
+                "value": "3.3.1  Number of new HIV infections per 1,000 uninfected population"
+            },
+            {
+                "key": "SH_TBS_INCD",
+                "value": "3.3.2  Tuberculosis incidence"
+            },
+            {
+                "key": "SH_STA_MALR",
+                "value": "3.3.3  Malaria incidence per 1,000 population at risk"
+            },
+            {
+                "key": "SH_HAP_HBSAG",
+                "value": "3.3.4 Prevalence of hepatitis B surface antigen (HBsAg)"
+            },
+            {
+                "key": "SH_TRP_INTVN",
+                "value": "3.3.5  Number of people requiring interventions against neglected tropical diseases"
+            },
+            {
+                "key": "SH_DTH_NCD",
+                "value": "3.4.1  Deaths attributed non-communicable diseases (number)"
+            },
+            {
+                "key": "SH_DTH_NCOM",
+                "value": "3.4.1 Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease"
+            },
+            {
+                "key": "SH_STA_SCIDE",
+                "value": "3.4.2  Suicide mortality rate"
+            },
+            {
+                "key": "SH_STA_SCIDEN",
+                "value": "3.4.2  Number of deaths attributed to suicide"
+            },
+            {
+                "key": "SH_ALC_CONSPT",
+                "value": "3.5.2  Alcohol consumption per capita (aged 15 years and older) within a calendar year"
+            },
+            {
+                "key": "SH_STA_TRAF",
+                "value": "3.6.1  Death rate due to road traffic injuries"
+            },
+            {
+                "key": "SH_STA_TRAFN",
+                "value": "3.6.1  Number of deaths rate due to road traffic injuries"
+            },
+            {
+                "key": "SH_FPL_MTMM",
+                "value": "3.7.1  Proportion of women married or in a union of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods"
+            },
+            {
+                "key": "SP_DYN_ADKL",
+                "value": "3.7.2  Adolescent birth rate (per 1,000 women aged 15-19 years)"
+            },
+            {
+                "key": "SH_ACS_UNHC",
+                "value": "3.8.1 Universal health coverage (UHC) service coverage index"
+            },
+            {
+                "key": "SH_XPD_EARN25",
+                "value": "3.8.2 Proportion of population with large household expenditures on health (greater than 25%) as a share of total household expenditure or income"
+            },
+            {
+                "key": "SH_XPD_EARN10",
+                "value": "3.8.2 Proportion of population with large household expenditures on health (greater than 10%) as a share of total household expenditure or income"
+            },
+            {
+                "key": "SH_AAP_ASMORT",
+                "value": "3.9.1  Age-standardized mortality rate attributed to ambient air pollution"
+            },
+            {
+                "key": "SH_AAP_MORT",
+                "value": "3.9.1  Crude death rate attributed to ambient air pollution"
+            },
+            {
+                "key": "SH_HAP_ASMORT",
+                "value": "3.9.1  Age-standardized mortality rate attributed to household air pollution"
+            },
+            {
+                "key": "SH_HAP_MORT",
+                "value": "3.9.1  Crude death rate attributed to household air pollution"
+            },
+            {
+                "key": "SH_STA_AIRP",
+                "value": "3.9.1  Crude death rate attributed to household and ambient air pollution"
+            },
+            {
+                "key": "SH_STA_ASAIRP",
+                "value": "3.9.1  Age-standardized mortality rate attributed to household and ambient air pollution"
+            },
+            {
+                "key": "SH_STA_WASH",
+                "value": "3.9.2  Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene"
+            },
+            {
+                "key": "SH_STA_POISN",
+                "value": "3.9.3  Mortality rate attributed to unintentional poisonings"
+            },
+            {
+                "key": "SH_PRV_SMOK",
+                "value": "3.a.1  Age-standardized prevalence of current tobacco use among persons aged 15 years and older"
+            },
+            {
+                "key": "SH_ACS_DTP3",
+                "value": "3.b.1 Proportion of the target population with access to 3 doses of diphtheria-tetanus-pertussis (DTP3)"
+            },
+            {
+                "key": "SH_ACS_MCV2",
+                "value": "3.b.1 Proportion of the target population with access to measles-containing-vaccine second-dose (MCV2)"
+            },
+            {
+                "key": "SH_ACS_PCV3",
+                "value": "3.b.1 Proportion of the target population with access to pneumococcal conjugate 3rd dose (PCV3)"
+            },
+            {
+                "key": "SH_ACS_VACN",
+                "value": "3.b.1  Proportion of the target population covered by all vaccines included in their national programme"
+            },
+            {
+                "key": "DC_TOF_HLTHL",
+                "value": "3.b.2  Total official development assistance to medical research and basic heath sectors, gross disbursement, by recipient countries"
+            },
+            {
+                "key": "DC_TOF_HLTHNT",
+                "value": "3.b.2  Total official development assistance to medical research and basic heath sectors, net disbursement, by recipient countries"
+            },
+            {
+                "key": "SH_MED_DEN",
+                "value": "3.c.1  Health workder density"
+            },
+            {
+                "key": "SH_IHR_CAPPRD",
+                "value": "3.d.1  Average of 13 International Health Regulations (IHR) core capacities"
+            },
+            {
+                "key": "SH_IHR_CAPS",
+                "value": "3.d.1 International Health Regulations (IHR) capacity, by type of IHR capacity"
+            },
+            {
+                "key": "SE_TOT_PRFL",
+                "value": "4.1.1  Proportion of children and young people achieving a minimum proficiency level in reading and mathematics"
+            },
+            {
+                "key": "SE_DEV_ONTRK",
+                "value": "4.2.1  Proportion of children aged 36-59 months who are developmentally on track in at least three of the following domains: literacy-numeracy, physical development, social-emotional development, and learning"
+            },
+            {
+                "key": "SE_PRE_PARTN",
+                "value": "4.2.2  Participation rate in organized learning (one year before the official primary entry age)"
+            },
+            {
+                "key": "SE_ADT_EDUCTRN",
+                "value": "4.3.1  Participation rate in formal and non-formal education and training"
+            },
+            {
+                "key": "SE_ADT_ACTS",
+                "value": "4.4.1 Proportion of youth and adults with information and communications technology (ICT) skills"
+            },
+            {
+                "key": "SE_GPI_PART",
+                "value": "4.5.1 Gender parity index for participation rate in formal and non-formal education and training"
+            },
+            {
+                "key": "SE_GPI_ICTS",
+                "value": "4.5.1 Gender parity index for youth/adults with information and communications technology (ICT) skills"
+            },
+            {
+                "key": "SE_NAP_ACHI",
+                "value": "4.5.1 Native parity index for achievement"
+            },
+            {
+                "key": "SE_LGP_ACHI",
+                "value": "4.5.1 Language test parity index for achievement"
+            },
+            {
+                "key": "SE_IMP_FPOF",
+                "value": "4.5.1 Immigration status parity index for achieving at least a fixed level of proficiency in functional skills, by numeracy/literacy skills"
+            },
+            {
+                "key": "SE_TOT_GPI",
+                "value": "4.5.1  Gender parity index for achievement"
+            },
+            {
+                "key": "SE_TOT_SESPI",
+                "value": "4.5.1  Low to high socio-economic parity status index for achievement"
+            },
+            {
+                "key": "SE_TOT_RUPI",
+                "value": "4.5.1  Rural to urban parity index for achievement"
+            },
+            {
+                "key": "SE_GPI_TCAQ",
+                "value": "4.5.1  Gender parity index of trained teachers"
+            },
+            {
+                "key": "SE_GPI_PTNPRE",
+                "value": "4.5.1  Gender parity index for participation rate in organized learning (one year before the official primary entry age)"
+            },
+            {
+                "key": "SE_ADT_FUNS",
+                "value": "4.6.1 Proportion of population achieving at least a fixed level of proficiency in functional skills"
+            },
+            {
+                "key": "SE_ACS_ELECT",
+                "value": "4.a.1  Proportion of schools with access to electricity"
+            },
+            {
+                "key": "SE_ACS_CMPTR",
+                "value": "4.a.1  Proportion of schools with access to computers for pedagogical purposes"
+            },
+            {
+                "key": "SE_ACS_H2O",
+                "value": "4.a.1  Proportion of schools with access to basic drinking water"
+            },
+            {
+                "key": "SE_ACC_HNDWSH",
+                "value": "4.a.1  Proportion of schools with basic handwashing facilities"
+            },
+            {
+                "key": "SE_ACS_INTNT",
+                "value": "4.a.1  Proportion of schools with access to the internet for pedagogical purposes"
+            },
+            {
+                "key": "SE_ACS_SANIT",
+                "value": "4.a.1  Proportion of schools with access to access to single-sex basic sanitation"
+            },
+            {
+                "key": "SE_INF_DSBL",
+                "value": "4.a.1 Proportion of schools with access to adapted infrastructure and materials for students with disabilities"
+            },
+            {
+                "key": "DC_TOF_SCHIPSL",
+                "value": "4.b.1  Total official flows for scholarships, by recipient countries"
+            },
+            {
+                "key": "SE_TRA_GRDL",
+                "value": "4.c.1 Proportion of teachers who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country"
+            },
+            {
+                "key": "SG_LGL_GENEQLFP",
+                "value": "5.1.1 Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 1: overarching legal frameworks and public life."
+            },
+            {
+                "key": "SG_LGL_GENEQVAW",
+                "value": "5.1.1 Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 2: violence against women."
+            },
+            {
+                "key": "SG_LGL_GENEQEMP",
+                "value": "5.1.1 Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 3: employment and economic benefits."
+            },
+            {
+                "key": "SG_LGL_GENEQMAR",
+                "value": "5.1.1 Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 4: marriage and family."
+            },
+            {
+                "key": "VC_VAW_MARR",
+                "value": "5.2.1  Proportion of ever-partnered women and girls subjected to physical and sexual violence by a current or former intimate partner in the previous 12 months"
+            },
+            {
+                "key": "VC_VAW_PHYV",
+                "value": "5.2.1  Proportion of ever-partnered women and girls subjected to physical violence by a current or former intimate partner in the previous 12 months"
+            },
+            {
+                "key": "VC_VAW_SEXV",
+                "value": "5.2.1  Proportion of ever-partnered women and girls subjected to sexual violence by a current or former intimate partner in the previous 12 months"
+            },
+            {
+                "key": "VC_VAW_PSYV",
+                "value": "5.2.1  Proportion of ever-partnered women and girls subjected to psychological violence by a current or former intimate partner in the previous 12 months"
+            },
+            {
+                "key": "VC_VAW_NONMARR",
+                "value": "5.2.2  Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months"
+            },
+            {
+                "key": "SP_DYN_MRBF15",
+                "value": "5.3.1  Proportion of women aged 20-24 years who were married or in a union before age 15"
+            },
+            {
+                "key": "SP_DYN_MRBF18",
+                "value": "5.3.1  Proportion of women aged 20-24 years who were married or in a union before age 18"
+            },
+            {
+                "key": "SH_STA_FGMS",
+                "value": "5.3.2  Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting"
+            },
+            {
+                "key": "SL_DOM_TSPD",
+                "value": "5.4.1  Proportion of time spent on unpaid domestic chores and care work"
+            },
+            {
+                "key": "SL_DOM_TSPDCW",
+                "value": "5.4.1  Proportion of time spent on unpaid care work"
+            },
+            {
+                "key": "SL_DOM_TSPDDC",
+                "value": "5.4.1  Proportion of time spent on unpaid domestic chores"
+            },
+            {
+                "key": "SG_GEN_LOCGELS",
+                "value": "5.5.1 Proportion of elected seats held by women in deliberative bodies of local government"
+            },
+            {
+                "key": "SG_GEN_PARL",
+                "value": "5.5.1  Proportion of seats held by women in national parliaments (% of total number of seats)"
+            },
+            {
+                "key": "SG_GEN_PARLN",
+                "value": "5.5.1  Number of seats held by women in national parliaments"
+            },
+            {
+                "key": "SG_GEN_PARLNT",
+                "value": "5.5.1  Number of seats in national parliaments"
+            },
+            {
+                "key": "SG_GEN_LOCG",
+                "value": "5.5.1  Proportion of seats held by women in local governments (% of total number of seats)"
+            },
+            {
+                "key": "IC_GEN_MGTL",
+                "value": "5.5.2  Proportion of women in managerial positions"
+            },
+            {
+                "key": "IC_GEN_MGTN",
+                "value": "5.5.2  Proportion of women in senior and middle management positions"
+            },
+            {
+                "key": "SH_FPL_INFM",
+                "value": "5.6.1  Proportion of women who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care (% of women aged 15-49 years)"
+            },
+            {
+                "key": "SH_FPL_INFMSR",
+                "value": "5.6.1 Proportion of women who make their own informed decisions regarding sexual relations (% of women aged 15-49 years)"
+            },
+            {
+                "key": "SH_FPL_INFMCU",
+                "value": "5.6.1 Proportion of women who make their own informed decisions regarding contraceptive use (% of women aged 15-49 years)"
+            },
+            {
+                "key": "SH_FPL_INFMRH",
+                "value": "5.6.1 Proportion of women who make their own informed decisions regarding reproductive health care (% of women aged 15-49 years)"
+            },
+            {
+                "key": "SG_RHC_ACCS",
+                "value": "5.6.2  Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education"
+            },
+            {
+                "key": "SP_LGL_LNDAGSEC",
+                "value": "5.a.1  Proportion of total agricultural population with ownership or secure rights over agricultural land"
+            },
+            {
+                "key": "SG_LGL_LNDWMN",
+                "value": "5.a.2  Proportion of countries where the legal framework (including customary law) guarantees women's equal rights to land ownership and/or control"
+            },
+            {
+                "key": "IT_MOB_OWN",
+                "value": "5.b.1  Proportion of individuals who own a mobile telephone"
+            },
+            {
+                "key": "SG_GEN_EQPWN",
+                "value": "5.c.1  Proportion of countries with systems to track and make public allocations for gender equality and women's empowerment"
+            },
+            {
+                "key": "SH_H2O_SAFE",
+                "value": "6.1.1  Proportion of population using safely managed drinking water services"
+            },
+            {
+                "key": "SH_SAN_DEFECT",
+                "value": "6.2.1  Proportion of population practicing open defecation"
+            },
+            {
+                "key": "SH_SAN_HNDWSH",
+                "value": "6.2.1  Proportion of population with basic handwashing facilities on premises"
+            },
+            {
+                "key": "SH_SAN_SAFE",
+                "value": "6.2.1  Proportion of population using safely managed sanitation services"
+            },
+            {
+                "key": "EN_WWT_WWDS",
+                "value": "6.3.1 Proportion of safely treated domestic wastewater flows"
+            },
+            {
+                "key": "EN_H2O_OPAMBQ",
+                "value": "6.3.2 Proportion of open water bodies with good ambient water quality"
+            },
+            {
+                "key": "EN_H2O_RVAMBQ",
+                "value": "6.3.2 Proportion of river water bodies with good ambient water quality"
+            },
+            {
+                "key": "EN_H2O_GRAMBQ",
+                "value": "6.3.2 Proportion of groundwater bodies with good ambient water quality"
+            },
+            {
+                "key": "EN_H2O_WBAMBQ",
+                "value": "6.3.2 Proportion of bodies of water with good ambient water quality"
+            },
+            {
+                "key": "ER_H2O_WUEYST",
+                "value": "6.4.1 Water Use Efficiency (United States dollars per cubic meter)"
+            },
+            {
+                "key": "ER_H2O_STRESS",
+                "value": "6.4.2  Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+            },
+            {
+                "key": "ER_H2O_IWRMD",
+                "value": "6.5.1 Degree of integrated water resources management implementation"
+            },
+            {
+                "key": "ER_H2O_IWRMP",
+                "value": "6.5.1 Proportion of countries by IWRM implementation category"
+            },
+            {
+                "key": "EG_TBA_H2CO",
+                "value": "6.5.2 Proportion of transboundary basins (river and lake basins and aquifers) with an operational arrangement for water cooperation"
+            },
+            {
+                "key": "EG_TBA_H2COAQ",
+                "value": "6.5.2 Proportion of transboundary aquifers with an operational arrangement for water cooperation"
+            },
+            {
+                "key": "EG_TBA_H2CORL",
+                "value": "6.5.2 Proportion of transboundary river and lake basins with an operational arrangement for water cooperation"
+            },
+            {
+                "key": "EN_WBE_PMPR",
+                "value": "6.6.1 Water body extent (permanent) (% of total land area)"
+            },
+            {
+                "key": "EN_WBE_PMNR",
+                "value": "6.6.1 Water body extent (permanent) (square kilometres)"
+            },
+            {
+                "key": "EN_WBE_PMPP",
+                "value": "6.6.1 Water body extent (permanent and maybe permanent) (% of total land area)"
+            },
+            {
+                "key": "EN_WBE_PMPN",
+                "value": "6.6.1 Water body extent (permanent and maybe permanent) (square kilometres)"
+            },
+            {
+                "key": "EN_WBE_NDETOT",
+                "value": "6.6.1 Nationally derived total extent (square kilometres)"
+            },
+            {
+                "key": "EN_WBE_NDOPW",
+                "value": "6.6.1 Nationally derived extent of open water bodies (square kilometres)"
+            },
+            {
+                "key": "EN_WBE_NDQLGRW",
+                "value": "6.6.1 Nationally derived quality of groundwater (%)"
+            },
+            {
+                "key": "EN_WBE_NDQLOPW",
+                "value": "6.6.1 Nationally derived quality of open water bodies  (%)"
+            },
+            {
+                "key": "EN_WBE_NDQLRVR",
+                "value": "6.6.1 Nationally derived quality of river  (%)"
+            },
+            {
+                "key": "EN_WBE_NDQLTOT",
+                "value": "6.6.1 Nationally derived proportion of water bodies with good quality (%)"
+            },
+            {
+                "key": "EN_WBE_NDQTGRW",
+                "value": "6.6.1 Nationally derived quantity of groundwater (millions of cubic metres per annum)"
+            },
+            {
+                "key": "EN_WBE_NDQTOPW",
+                "value": "6.6.1 Nationally derived quantity of open water bodies (million of cubic metres per annum)"
+            },
+            {
+                "key": "EN_WBE_NDQTRVR",
+                "value": "6.6.1 Nationally derived quantity of rivers (million of cubic metres per annum)"
+            },
+            {
+                "key": "EN_WBE_NDQTTOT",
+                "value": "6.6.1 Nationally derived total quantity (millions of cubic metres per annum)"
+            },
+            {
+                "key": "EN_WBE_NDRV",
+                "value": "6.6.1 Nationally derived extend of rivers (square kilometres)"
+            },
+            {
+                "key": "EN_WBE_NDWTL",
+                "value": "6.6.1 Nationally derived extent of wetlands (square kilometres)"
+            },
+            {
+                "key": "DC_TOF_WASHL",
+                "value": "6.a.1  Total official development assistance (gross disbursement) for water supply and sanitation, by recipient countries"
+            },
+            {
+                "key": "ER_H20_LCMGM",
+                "value": "6.b.1 Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management"
+            },
+            {
+                "key": "ER_WAT_PROCED",
+                "value": "6.b.1 Proportion of countries with clearly defined procedures in law or policy for participation by service users/communities in planning program in water resources planning and management"
+            },
+            {
+                "key": "ER_H2O_PARTIC",
+                "value": "6.b.1 Proportion of countries with high level of users/communities participating in planning programs in rural drinking-water supply"
+            },
+            {
+                "key": "ER_H2O_PROCED",
+                "value": "6.b.1 Proportion of countries with clearly defined procedures in law or policy for participation by service users/communities in planning program in rural drinking-water supply"
+            },
+            {
+                "key": "ER_WAT_PARTIC",
+                "value": "6.b.1 Proportion of countries with high level of users/communities participating in planning programs in water resources planning and management"
+            },
+            {
+                "key": "ER_H2O_RURP",
+                "value": "6.b.1 Countries with users/communities participating in planning programs in rural drinking-water supply, by level of participation (3 = High; 2 = Moderate; 1 = Low; 0 = NA)"
+            },
+            {
+                "key": "ER_H2O_PRDU",
+                "value": "6.b.1 Countries with procedures in law or policy for participation by service users/communities in planning program in rural drinking-water supply, by level of definition in procedures (10 = Clearly defined; 5 = Not clearly defined ; 0 = NA)"
+            },
+            {
+                "key": "ER_WAT_PART",
+                "value": "6.b.1 Countries with users/communities participating in planning programs in water resources planning and management, by level of participation (3 = High; 2 = Moderate; 1 = Low; 0 = NA)"
+            },
+            {
+                "key": "ER_WAT_PRDU",
+                "value": "6.b.1 Countries with procedures in law or policy for participation by service users/communities in planning program in water resources planning and management, by level of definition in procedures (10 = Clearly defined; 5 = Not clearly defined ; 0 = NA)"
+            },
+            {
+                "key": "EG_ACS_ELEC",
+                "value": "7.1.1  Proportion of population with access to electricity"
+            },
+            {
+                "key": "EG_EGY_CLEAN",
+                "value": "7.1.2  Proportion of population with primary reliance on clean fuels and technology"
+            },
+            {
+                "key": "EG_CFT_COOK",
+                "value": "7.1.2  Proportion of population with primary reliance on clean fuels and technology for cooking"
+            },
+            {
+                "key": "EG_CFT_LIGHT",
+                "value": "7.1.2  Proportion of population with primary reliance on clean fuels and technology for lighting"
+            },
+            {
+                "key": "EG_FEC_RNEW",
+                "value": "7.2.1  Renewable energy share in the total final energy consumption"
+            },
+            {
+                "key": "EG_EGY_PRIM",
+                "value": "7.3.1  Energy intensity level of primary energy (megajoules per constant purchasing power parity GDP)"
+            },
+            {
+                "key": "EG_IFF_RANDN",
+                "value": "7.a.1  International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems"
+            },
+            {
+                "key": "NY_GDP_PCAP",
+                "value": "8.1.1  Annual growth rate of real GDP per capita"
+            },
+            {
+                "key": "SL_EMP_PCAP",
+                "value": "8.2.1  Annual growth rate of real GDP per employed person"
+            },
+            {
+                "key": "SL_ISV_IFRM",
+                "value": "8.3.1  Proportion of informal employment in non-agriculture employment"
+            },
+            {
+                "key": "EN_MAT_FTPRPC",
+                "value": "8.4.1, 12.2.1 Material footprint per capita"
+            },
+            {
+                "key": "EN_MAT_FTPRPG",
+                "value": "8.4.1, 12.2.1 Material footprint per unit of GDP"
+            },
+            {
+                "key": "EN_MAT_FTPRTN",
+                "value": "8.4.1, 12.2.1 Material footprint"
+            },
+            {
+                "key": "EN_MAT_DOMCMPC",
+                "value": "8.4.2  Domestic material consumption per capita, by type of raw material"
+            },
+            {
+                "key": "EN_MAT_DOMCMPG",
+                "value": "8.4.2  Domestic material consumption per unit of GDP"
+            },
+            {
+                "key": "EN_MAT_DOMCMPT",
+                "value": "8.4.2  Domestic material consumption"
+            },
+            {
+                "key": "SL_EMP_EARN",
+                "value": "8.5.1  Average hourly earnings"
+            },
+            {
+                "key": "SL_TLF_UEM",
+                "value": "8.5.2  Unemployment rate"
+            },
+            {
+                "key": "SL_TLF_UEMDIS",
+                "value": "8.5.2  Unemployment rate, by disability"
+            },
+            {
+                "key": "SL_TLF_NEET",
+                "value": "8.6.1  Proportion of youth not in education, employment or training"
+            },
+            {
+                "key": "SL_TLF_CHLDEC",
+                "value": "8.7.1 Proportion of children engaged in economic activity and household chores"
+            },
+            {
+                "key": "SL_TLF_CHLDECN",
+                "value": "8.7.1 Number of children engaged in economic activity and household chores"
+            },
+            {
+                "key": "SL_TLF_CHLDEA",
+                "value": "8.7.1 Proportion of children engaged in economic activity"
+            },
+            {
+                "key": "SL_TLF_CHLDEAN",
+                "value": "8.7.1 Number of children engaged in economic activity"
+            },
+            {
+                "key": "SL_EMP_FTLINJUR",
+                "value": "8.8.1  Fatal occupational injuries among employees (rate)"
+            },
+            {
+                "key": "SL_EMP_INJUR",
+                "value": "8.8.1  Non-fatal occupational injuries among employees (rate)"
+            },
+            {
+                "key": "ST_GDP_ZS",
+                "value": "8.9.1  Tourism direct GDP as a proportion of total GDP"
+            },
+            {
+                "key": "ST_EMP_SUST",
+                "value": "8.9.2  Proportion of jobs in sustainable tourism industries out of total tourism jobs"
+            },
+            {
+                "key": "FB_ATM_TOTL",
+                "value": "8.10.1  Number of automated teller machines (ATMs) per 100,000 adults"
+            },
+            {
+                "key": "FB_CBK_BRCH",
+                "value": "8.10.1  Number of commercial bank branches per 100,000 adults"
+            },
+            {
+                "key": "FB_BNK_ACCSS",
+                "value": "8.10.2  Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider (% of adults aged 15 years and older)"
+            },
+            {
+                "key": "DC_TOF_TRDCMDL",
+                "value": "8.a.1  Total official flows (commitments) for Aid for Trade, by donor countries"
+            },
+            {
+                "key": "DC_TOF_TRDCML",
+                "value": "8.a.1  Total official flows (commitments) for Aid for Trade, by recipient countries"
+            },
+            {
+                "key": "DC_TOF_TRDDBMDL",
+                "value": "8.a.1  Total official flows (disbursement) for Aid for Trade, by donor countries"
+            },
+            {
+                "key": "DC_TOF_TRDDBML",
+                "value": "8.a.1  Total official flows (disbursement) for Aid for Trade, by recipient countries"
+            },
+            {
+                "key": "SL_CPA_YEMP",
+                "value": "8.b.1  Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy"
+            },
+            {
+                "key": "SP_ROD_R2KM",
+                "value": "9.1.1  Proportion of the rural population who live within 2 km of an all-season road"
+            },
+            {
+                "key": "IS_TRP_MAILTKM",
+                "value": "9.1.2 Mail volume (tonne kilometres)"
+            },
+            {
+                "key": "IS_RDP_FRGVOL",
+                "value": "9.1.2 Freight volume (tonne kilometres)"
+            },
+            {
+                "key": "IS_RDP_PFVOL",
+                "value": "9.1.2 Passenger volume (passenger kilometres)"
+            },
+            {
+                "key": "NV_IND_MANF",
+                "value": "9.2.1  Manufacturing value added as a proportion of GDP"
+            },
+            {
+                "key": "NV_IND_MANFPC",
+                "value": "9.2.1  Manufacturing value added per capita"
+            },
+            {
+                "key": "SL_TLF_MANF",
+                "value": "9.2.2  Manufacturing employment as a proportion of total employment"
+            },
+            {
+                "key": "NV_IND_SSIS",
+                "value": "9.3.1 Proportion of small-scale industries in total industry value added"
+            },
+            {
+                "key": "FC_ACC_SSID",
+                "value": "9.3.2 Proportion of small-scale industries with a loan or line of credit"
+            },
+            {
+                "key": "EN_ATM_CO2",
+                "value": "9.4.1  Carbon dioxide emissions from fuel combustion"
+            },
+            {
+                "key": "EN_ATM_CO2GDP",
+                "value": "9.4.1  Carbon dioxide emissions per unit of GDP"
+            },
+            {
+                "key": "EN_ATM_CO2MVA",
+                "value": "9.4.1  Carbon dioxide emissions per unit of manufacturing value added"
+            },
+            {
+                "key": "GB_XPD_RSDV",
+                "value": "9.5.1  Research and development expenditure as a proportion of GDP"
+            },
+            {
+                "key": "GB_POP_SCIERD",
+                "value": "9.5.2  Researchers (in full-time equivalent) per million inhabitants"
+            },
+            {
+                "key": "DC_TOF_INFRAL",
+                "value": "9.a.1  Total official flows for infrastructure, by recipient countries"
+            },
+            {
+                "key": "NV_IND_TECH",
+                "value": "9.b.1  Proportion of medium and high-tech industry value added in total value added"
+            },
+            {
+                "key": "IT_MOB_2GNTWK",
+                "value": "9.c.1  Proportion of population covered by at least a 2G mobile network"
+            },
+            {
+                "key": "IT_MOB_3GNTWK",
+                "value": "9.c.1  Proportion of population covered by at least a 3G mobile network"
+            },
+            {
+                "key": "IT_MOB_4GNTWK",
+                "value": "9.c.1  Proportion of population covered by at least a 4G mobile network"
+            },
+            {
+                "key": "SI_HEI_TOTL",
+                "value": "10.1.1  Growth rates of household expenditure or income per capita"
+            },
+            {
+                "key": "SI_POV_50MI",
+                "value": "10.2.1  Proportion of people living below 50 percent of median income"
+            },
+            {
+                "key": "VC_VOV_DCMN",
+                "value": "16.b.1  Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law"
+            },
+            {
+                "key": "SL_EMP_GTOTL",
+                "value": "10.4.1  Labour share of GDP, comprising wages and social protection transfers"
+            },
+            {
+                "key": "FI_FSI_FSANL",
+                "value": "10.5.1 Non-performing loans to total gross loans (%)"
+            },
+            {
+                "key": "FI_FSI_FSERA",
+                "value": "10.5.1 Return on assets (%)"
+            },
+            {
+                "key": "FI_FSI_FSKA",
+                "value": "10.5.1 Regulatory capital to assets (%)"
+            },
+            {
+                "key": "FI_FSI_FSKNL",
+                "value": "10.5.1 Non-performing loans net of provisions to capital (%)"
+            },
+            {
+                "key": "FI_FSI_FSKRTC",
+                "value": "10.5.1 Regulatory Tier 1 capital to risk-weighted assets (%)"
+            },
+            {
+                "key": "FI_FSI_FSLS",
+                "value": "10.5.1 Liquid assets to short term liabilities (%)"
+            },
+            {
+                "key": "FI_FSI_FSSNO",
+                "value": "10.5.1 Net open position in foreign exchange to capital (%)"
+            },
+            {
+                "key": "SG_INT_MBRDEV",
+                "value": "10.6.1, 16.8.1 Proportion of members of developing countries in international organizations, by organization"
+            },
+            {
+                "key": "SG_INT_VRTDEV",
+                "value": "10.6.1, 16.8.1 Proportion of voting rights of developing countries in international organizations, by organization"
+            },
+            {
+                "key": "SL_EMP_RCOST",
+                "value": "10.7.1  Recruitment cost borne by employee as a proportion of yearly income earned in country of destination"
+            },
+            {
+                "key": "SG_CPA_MIGR",
+                "value": "10.7.2  Number of countries that have implemented well-managed migration policies"
+            },
+            {
+                "key": "TM_TRF_ZERO",
+                "value": "10.a.1  Proportion of tariff lines applied to imports with zero-tariff"
+            },
+            {
+                "key": "DC_TRF_TOTDL",
+                "value": "10.b.1  Total assistance for development, by donor countries"
+            },
+            {
+                "key": "DC_TRF_TOTL",
+                "value": "10.b.1  Total assistance for development, by recipient countries"
+            },
+            {
+                "key": "DC_TRF_TFDV",
+                "value": "10.b.1 Total resource flows for development, by recipient and donor countries"
+            },
+            {
+                "key": "SI_RMT_COST",
+                "value": "10.c.1  Remittance costs as a proportion of the amount remitted"
+            },
+            {
+                "key": "EN_LND_SLUM",
+                "value": "11.1.1  Proportion of urban population living in slums"
+            },
+            {
+                "key": "EN_LND_SLUMN",
+                "value": "11.1.1  Urban population living in slums (number)"
+            },
+            {
+                "key": "SP_TRN_PUBL",
+                "value": "11.2.1  Proportion of population that has convenient access to public transport"
+            },
+            {
+                "key": "EN_LND_CNSPOP",
+                "value": "11.3.1  Ratio of land consumption rate to population growth rate"
+            },
+            {
+                "key": "SG_URB_CSPART",
+                "value": "11.3.2  Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically"
+            },
+            {
+                "key": "VC_DSR_CDAN",
+                "value": "11.5.2 Number of damaged critical infrastructure attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_HFDN",
+                "value": "11.5.2 Number of destroyed or damaged health facilities attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_EFDN",
+                "value": "11.5.2 Number of destroyed or damaged educational facilities attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_CDYN",
+                "value": "11.5.2 Number of other destroyed or damaged critical infrastructure units and facilities attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_BSDN",
+                "value": "11.5.2 Number of disruptions to basic services attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_ESDN",
+                "value": "11.5.2 Number of disruptions to educational services attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_HSDN",
+                "value": "11.5.2 Number of disruptions to health services attributed to disasters"
+            },
+            {
+                "key": "VC_DSR_OBDN",
+                "value": "11.5.2 Number of disruptions to other basic services attributed to disasters"
+            },
+            {
+                "key": "EN_REF_COLDIS",
+                "value": "11.6.1  Proportion of population served by municipal waste collection"
+            },
+            {
+                "key": "EN_REF_WASCOL",
+                "value": "11.6.1 Municipal Solid Waste collection coverage, by cities (%)"
+            },
+            {
+                "key": "EN_ATM_PM25",
+                "value": "11.6.2  Annual mean levels of fine particulate matter in cities, urban population"
+            },
+            {
+                "key": "EN_URB_OPENSP",
+                "value": "11.7.1  Average share of the built-up area of cities that is open space for public use for all"
+            },
+            {
+                "key": "VC_VOH_SXPH",
+                "value": "11.7.2  Proportion of persons victim of physical or sexual harassment, in the previous 12 months"
+            },
+            {
+                "key": "SG_URB_PLAN",
+                "value": "11.a.1  Proportion of population living in cities that implement urban and regional development plans integrating population projections and resource needs"
+            },
+            {
+                "key": "DC_CST_EFICP",
+                "value": "11.c.1  Proportion of financial support to the least developed countries that is allocated to the construction and retrofitting of sustainable, resilient and resource-efficient buildings utilizing local materials"
+            },
+            {
+                "key": "SG_SCP_CNTRY",
+                "value": "12.1.1 Countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or target into national policies (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "SG_SCP_CORMEC",
+                "value": "12.1.1 Countries with coordination mechanism for sustainable consumption and production (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "SG_SCP_MACPOL",
+                "value": "12.1.1 Countries with macro policy for sustainable consumption and production (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "SG_SCP_POLINS",
+                "value": "12.1.1 Countries with policy instrument for sustainable consumption and production (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "AG_FLS_IDX",
+                "value": "12.3.1  Global food loss index"
+            },
+            {
+                "key": "SG_HAZ_CMRBASEL",
+                "value": "12.4.1  Compliance with the Basel Convention on hazardous waste and other chemicals"
+            },
+            {
+                "key": "SG_HAZ_CMRMNTRL",
+                "value": "12.4.1  Compliance with the Montreal Protocol on hazardous waste and other chemicals"
+            },
+            {
+                "key": "SG_HAZ_CMRROTDAM",
+                "value": "12.4.1  Compliance with the Rotterdam Convention on hazardous waste and other chemicals"
+            },
+            {
+                "key": "SG_HAZ_CMRSTHOLM",
+                "value": "12.4.1  Compliance with the Stockholm Convention on hazardous waste and other chemicals"
+            },
+            {
+                "key": "EN_HAZ_PCAP",
+                "value": "12.4.2  Hazardous waste generated per capita"
+            },
+            {
+                "key": "EN_HAZ_TREAT",
+                "value": "12.4.2  Proportion of hazardous waste treated"
+            },
+            {
+                "key": "EN_SCP_FRMN",
+                "value": "12.6.1  Number of companies publishing sustainability reports"
+            },
+            {
+                "key": "SG_SCP_PROCN",
+                "value": "12.7.1  Number of countries implementing sustainable public procurement policies and action plans"
+            },
+            {
+                "key": "DC_SCP_RANDN",
+                "value": "12.a.1  Amount of support to developing countries on research and development for sustainable consumption and production and environmentally sound technologies"
+            },
+            {
+                "key": "ER_FFS_PRTSST",
+                "value": "12.c.1 Fossil-fuel pre-tax subsidies (consumption and production)"
+            },
+            {
+                "key": "ER_FFS_PRTSPC",
+                "value": "12.c.1 Fossil-fuel pre-tax subsidies (consumption and production) per capita"
+            },
+            {
+                "key": "ER_FFS_PRTSPR",
+                "value": "12.c.1 Fossil-fuel pre-tax subsidies (consumption and production) as a proportion of total GDP"
+            },
+            {
+                "key": "DC_CLC_100B",
+                "value": "13.a.1  Mobilized amount of United States dollars per year between 2020 and 2025 accountable towards the $100 billion commitment"
+            },
+            {
+                "key": "EN_SCP_EZECO",
+                "value": "14.2.1  Proportion of national exclusive economic zones managed using ecosystem-based approaches"
+            },
+            {
+                "key": "ER_H2O_FISHFEXP",
+                "value": "14.4.1  Proportion of fish stocks that are fully exploited"
+            },
+            {
+                "key": "ER_H2O_FISHNFEXP",
+                "value": "14.4.1  Proportion of fish stocks that are not fully exploited"
+            },
+            {
+                "key": "ER_H2O_FISHOVEXP",
+                "value": "14.4.1  Proportion of fish stocks that are overexploited"
+            },
+            {
+                "key": "ER_H2O_FWTL",
+                "value": "14.4.1  Proportion of fish stocks within biologically sustainable levels (not overexploited)"
+            },
+            {
+                "key": "ER_MRN_MARIN",
+                "value": "14.5.1  Coverage of protected areas in relation to marine areas (Exclusive Economic Zones)"
+            },
+            {
+                "key": "ER_MRN_MARINT",
+                "value": "14.5.1  Protected marine area (Exclusive Economic Zones) (square kilometres)"
+            },
+            {
+                "key": "ER_MRN_TOTL",
+                "value": "14.5.1  Marine area (Economic Exclusion Zones)"
+            },
+            {
+                "key": "ER_MRN_MPA",
+                "value": "14.5.1 Average proportion of Marine Key Biodiversity Areas (KBAs) covered by protected areas"
+            },
+            {
+                "key": "ER_REG_UNFCIM",
+                "value": "14.6.1 Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing (level of implementation: 1 lowest to 5 highest)"
+            },
+            {
+                "key": "EN_SCP_FSHGDP",
+                "value": "14.7.1  Sustainable fisheries as a proportion of GDP"
+            },
+            {
+                "key": "ER_RDE_OSEX",
+                "value": "14.a.1 National ocean science expenditure as a share of total research and development funding"
+            },
+            {
+                "key": "ER_REG_SSFRAR",
+                "value": "14.b.1 Degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries (level of implementation: 1 lowest to 5 highest)"
+            },
+            {
+                "key": "AG_LND_FRST",
+                "value": "15.1.1  Forest area as a proportion of total land area"
+            },
+            {
+                "key": "AG_LND_FRSTN",
+                "value": "15.1.1  Forest area (hectares)"
+            },
+            {
+                "key": "AG_LND_TOTL",
+                "value": "15.1.1  Land area (hectares)"
+            },
+            {
+                "key": "ER_PTD_FRHWTR",
+                "value": "15.1.2  Average proportion of Freshwater Key Biodiversity Areas (KBAs) covered by protected areas"
+            },
+            {
+                "key": "ER_PTD_TERR",
+                "value": "15.1.2  Average proportion of Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas"
+            },
+            {
+                "key": "AG_LND_FRSTBIOM",
+                "value": "15.2.1  Above-ground biomass in forest (tonnes)"
+            },
+            {
+                "key": "AG_LND_FRSTBIOPHA",
+                "value": "15.2.1  Above-ground biomass in forest per hectare (tonnes per hectare)"
+            },
+            {
+                "key": "AG_LND_FRSTCERT",
+                "value": "15.2.1  Forest area certified under an independently verified certification scheme (hectares)"
+            },
+            {
+                "key": "AG_LND_FRSTCHG",
+                "value": "15.2.1  Forest area net change rate (%)"
+            },
+            {
+                "key": "AG_LND_FRSTMGT",
+                "value": "15.2.1  Proportion of forest area with a long-term management plan"
+            },
+            {
+                "key": "AG_LND_FRSTPRCT",
+                "value": "15.2.1  Proportion of forest area within legally established protected areas"
+            },
+            {
+                "key": "AG_LND_FRSTPRCTN",
+                "value": "15.2.1  Forest area within legally established protected areas"
+            },
+            {
+                "key": "AG_LND_DGRD",
+                "value": "15.3.1  Proportion of land that is degraded over total land area"
+            },
+            {
+                "key": "ER_PTD_MTN",
+                "value": "15.4.1  Average proportion of Mountain Key Biodiversity Areas (KBAs) covered by protected areas"
+            },
+            {
+                "key": "ER_MTN_GRNCOV",
+                "value": "15.4.2  Mountain green cover area (square kilometres)"
+            },
+            {
+                "key": "ER_MTN_GRNCVI",
+                "value": "15.4.2  Mountain Green Cover Index"
+            },
+            {
+                "key": "ER_MTN_TOTL",
+                "value": "15.4.2  Mountain area (square kilometres)"
+            },
+            {
+                "key": "ER_RSK_LST",
+                "value": "15.5.1  Red List Index"
+            },
+            {
+                "key": "ER_CBD_ABSCLRHS",
+                "value": "15.6.1  Countries that have legislative, administrative and policy framework or measures reported to the Access and Benefit-Sharing Clearing-House (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "ER_CBD_NAGOYA",
+                "value": "15.6.1  Countries that are parties to the Nagoya Protocol (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "ER_CBD_ORSPGRFA",
+                "value": "15.6.1  Countries that have legislative, administrative and policy framework or measures reported through the Online Reporting System on Compliance  of the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "ER_CBD_PTYPGRFA",
+                "value": "15.6.1  Countries that are contracting Parties to the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "ER_CBD_SMTA",
+                "value": "15.6.1  Total reported number of Standard Material Transfer Agreements (SMTAs) transferring plant genetic resources for food and agriculture to the country"
+            },
+            {
+                "key": "ER_WLD_TRPOACH",
+                "value": "15.7.1  Proportion of traded wildlife that was poached or illicitly trafficked"
+            },
+            {
+                "key": "DC_ODA_BDVDL",
+                "value": "15.a.1  Total official development assistance for biodiversity, by donor countries"
+            },
+            {
+                "key": "DC_ODA_BDVL",
+                "value": "15.a.1  Total official development assistance for biodiversity, by recipient countries"
+            },
+            {
+                "key": "VC_IHR_PSRC",
+                "value": "16.1.1  Number of victims of intentional homicide per 100,000 population"
+            },
+            {
+                "key": "VC_IHR_PSRCN",
+                "value": "16.1.1  Number of victims of intentional homicide"
+            },
+            {
+                "key": "VC_DTH_TOCV",
+                "value": "16.1.2  Conflict-related deaths per 100,000 population"
+            },
+            {
+                "key": "VC_VOV_PHYL",
+                "value": "16.1.3 Proportion of population subjected to physical violence in the previous 12 months"
+            },
+            {
+                "key": "VC_VOV_ROBB",
+                "value": "16.1.3 Proportion of population subjected to robbery in the previous 12 months"
+            },
+            {
+                "key": "VC_VOV_SEXL",
+                "value": "16.1.3 Proportion of population subjected to sexual violence in the previous 12 months"
+            },
+            {
+                "key": "VC_SNS_WALN",
+                "value": "16.1.4  Proportion of population that feel safe walking alone around the area they live in"
+            },
+            {
+                "key": "VC_VAW_PHYPYV",
+                "value": "16.2.1  Proportion of children aged 1-14 years who experienced physical punishment and/or psychological aggression by caregivers in last month"
+            },
+            {
+                "key": "VC_VAW_DIST",
+                "value": "16.2.2 Age and sex distribution of detected victims of trafficking in persons (%)"
+            },
+            {
+                "key": "VC_HTF_DETVFL",
+                "value": "16.2.2 Detected victims of human trafficking for forced labour, servitude and slavery (number)"
+            },
+            {
+                "key": "VC_HTF_DETVOP",
+                "value": "16.2.2 Detected victims of human trafficking for other purposes (number)"
+            },
+            {
+                "key": "VC_HTF_DETVOG",
+                "value": "16.2.2 Detected victims of human trafficking for removal of organ (number)"
+            },
+            {
+                "key": "VC_HTF_DETVSX",
+                "value": "16.2.2 Detected victims of human trafficking for sexual exploitaton (number)"
+            },
+            {
+                "key": "VC_HTF_DETV",
+                "value": "16.2.2 Detected victims of human trafficking (number)"
+            },
+            {
+                "key": "VC_VAW_SXVLN",
+                "value": "16.2.3  Proportion of population aged 18-29 years who experienced sexual violence by age 18"
+            },
+            {
+                "key": "VC_PRR_PHYV",
+                "value": "16.3.1 Police reporting rate for physical assault, by sex (%)"
+            },
+            {
+                "key": "VC_PRR_SEXV",
+                "value": "16.3.1 Police reporting rate for sexual assault, by sex (%)"
+            },
+            {
+                "key": "VC_PRR_ROBB",
+                "value": "16.3.1 Police reporting rate for robbery, by sex (%)"
+            },
+            {
+                "key": "VC_PRS_UNSNT",
+                "value": "16.3.2  Unsentenced detainees as a proportion of overall prison population"
+            },
+            {
+                "key": "VC_PRS_UNSNTN",
+                "value": "16.3.2  Unsentenced detainees (number)"
+            },
+            {
+                "key": "DI_ILL_IN",
+                "value": "16.4.1  Total value of inward illicit financial flows"
+            },
+            {
+                "key": "DI_ILL_OUT",
+                "value": "16.4.1  Total value of outward illicit financial flows"
+            },
+            {
+                "key": "VC_ARM_SZTRACE",
+                "value": "16.4.2  Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments"
+            },
+            {
+                "key": "IU_COR_BRIB",
+                "value": "16.5.1  Prevalence rate of bribery"
+            },
+            {
+                "key": "IC_FRM_BRIB",
+                "value": "16.5.2  Bribery incidence (% of firms experiencing at least one bribe payment request)"
+            },
+            {
+                "key": "GF_XPD_GBPC",
+                "value": "16.6.1 Primary government expenditures as a proportion of original approved budget"
+            },
+            {
+                "key": "SP_PSR_SATIS",
+                "value": "16.6.2  Proportion of population satisfied with their last experience of public services"
+            },
+            {
+                "key": "IU_DMK_ICRS",
+                "value": "16.7.2  Proportion of population who believe decision-making is inclusive and responsive"
+            },
+            {
+                "key": "SG_REG_BRTH",
+                "value": "16.9.1  Proportion of children under 5 years of age whose births have been registered with a civil authority"
+            },
+            {
+                "key": "VC_VAW_MTUHRA",
+                "value": "16.10.1  Number of cases of killings of human rights defenders, journalists and trade unionists"
+            },
+            {
+                "key": "SG_INF_ACCSS",
+                "value": "16.10.2  Countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information"
+            },
+            {
+                "key": "SG_NHR_IMPL",
+                "value": "16.a.1  Proportion of countries with independent National Human Rights Institutions in compliance with the Paris Principles (%)"
+            },
+            {
+                "key": "SG_NHR_IMPLN",
+                "value": "16.a.1  Countries with National Human Rights Institutions in compliance with the Paris Principles, A status (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "SG_NHR_INTEXST",
+                "value": "16.a.1  Proportion of countries that applied for accreditation as independent National Human Rights Institutions in compliance with the Paris Principles"
+            },
+            {
+                "key": "SG_NHR_INTEXSTN",
+                "value": "16.a.1  Countries with National Human Rights Institutions not fully compliant with the Paris Principles, B status (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "SG_NHR_NOAPPLN",
+                "value": "16.a.1  Countries with no application for accreditation with the Paris Principles, D status  (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "SG_NHR_NOSTUSN",
+                "value": "16.a.1  Countries with National Human Rights Institutions and no status with the Paris Principles, C status (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "GR_G14_GDP",
+                "value": "17.1.1  Total government revenue as a proportion of GDP"
+            },
+            {
+                "key": "GR_G14_XDC",
+                "value": "17.1.1  Total government revenue, in local currency"
+            },
+            {
+                "key": "GC_GOB_TAXD",
+                "value": "17.1.2  Proportion of domestic budget funded by domestic taxes"
+            },
+            {
+                "key": "DC_ODA_LDCG",
+                "value": "17.2.1  Net official development assistance (ODA) to LDCs as a percentage of OECD-DAC donors' GNI, by donor countries"
+            },
+            {
+                "key": "DC_ODA_LDCS",
+                "value": "17.2.1  Net official development assistance (ODA) to LDCs from OECD-DAC countries, by donor countries"
+            },
+            {
+                "key": "DC_ODA_LLDC",
+                "value": "17.2.1  Net official development assistance (ODA) to landlocked developing countries from OECD-DAC countries, by donor countries"
+            },
+            {
+                "key": "DC_ODA_LLDCG",
+                "value": "17.2.1  Net official development assistance (ODA) to landlocked developing countries as a percentage of OECD-DAC donors' GNI, by donor countries"
+            },
+            {
+                "key": "DC_ODA_SIDS",
+                "value": "17.2.1  Net official development assistance (ODA) to small island states (SIDS) from OECD-DAC countries, by donor countries"
+            },
+            {
+                "key": "DC_ODA_SIDSG",
+                "value": "17.2.1  Net official development assistance (ODA) to small island states (SIDS) as a percentage of OECD-DAC donors' GNI, by donor countries"
+            },
+            {
+                "key": "DC_ODA_TOTG",
+                "value": "17.2.1  Net official development assistance (ODA) as a percentage of OECD-DAC donors' GNI, by donor countries"
+            },
+            {
+                "key": "DC_ODA_TOTL",
+                "value": "17.2.1  Net official development assistance (ODA) from OECD-DAC countries, by donor countries"
+            },
+            {
+                "key": "GF_FRN_FDIODASS",
+                "value": "17.3.1  Foreign direct investment (FDI), official development assistance and South-South cooperation as a proportion of total domestic budget"
+            },
+            {
+                "key": "BX_TRF_PWKR",
+                "value": "17.3.2  Volume of remittances (in United States dollars) as a proportion of total GDP"
+            },
+            {
+                "key": "DT_TDS_DECT",
+                "value": "17.4.1  Debt service as a proportion of exports of goods and services"
+            },
+            {
+                "key": "SG_CPA_INVPRMLDC",
+                "value": "17.5.1  Number of countries that adopt and implement investment promotion regimes for least developed countries"
+            },
+            {
+                "key": "IT_NET_BBND",
+                "value": "17.6.2  Fixed broadband subscriptions per 100 inhabitants"
+            },
+            {
+                "key": "IT_NET_BBNDN",
+                "value": "17.6.2  Fixed broadband subscriptions (number)"
+            },
+            {
+                "key": "DC_TOF_ENVTECH",
+                "value": "17.7.1  Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies"
+            },
+            {
+                "key": "IT_USE_II99",
+                "value": "17.8.1  Internet users per 100 inhabitants"
+            },
+            {
+                "key": "DC_FTA_TOTAL",
+                "value": "17.9.1  Total official development assistance (gross disbursement) for technical cooperation"
+            },
+            {
+                "key": "TM_TAX_WMFN",
+                "value": "17.10.1  Worldwide weighted tariff-average, most-favoured-nation status"
+            },
+            {
+                "key": "TM_TAX_WMPS",
+                "value": "17.10.1  Worldwide weighted tariff-average, preferential status"
+            },
+            {
+                "key": "TX_EXP_GBMRCH",
+                "value": "17.11.1  Developing countries’ and least developed countries’ share of global merchandise exports"
+            },
+            {
+                "key": "TX_EXP_GBSVR",
+                "value": "17.11.1  Developing countries’ and least developed countries’ share of global services exports"
+            },
+            {
+                "key": "TX_IMP_GBMRCH",
+                "value": "17.11.1  Developing countries’ and least developed countries’ share of global merchandise imports"
+            },
+            {
+                "key": "TX_IMP_GBSVR",
+                "value": "17.11.1  Developing countries’ and least developed countries’ share of global services imports"
+            },
+            {
+                "key": "TM_TAX_WM",
+                "value": "17.12.1  Average tariff applied by developed countries"
+            },
+            {
+                "key": "SG_CPA_SDEV",
+                "value": "17.14.1  Number of countries with mechanisms in place to enhance policy coherence of sustainable development"
+            },
+            {
+                "key": "SG_PLN_PRVNDI",
+                "value": "17.15.1  Proportion of new development interventions drawn from country-led result frameworks - data by provider (%)"
+            },
+            {
+                "key": "SG_PLN_PRVRICTRY",
+                "value": "17.15.1  Proportion of results indicators drawn from country-led results frameworks - data by provider (%)"
+            },
+            {
+                "key": "SG_PLN_PRVRIMON",
+                "value": "17.15.1  Proportion of results indicators which will be monitored using government sources and monitoring systems - data by provider (%)"
+            },
+            {
+                "key": "SG_PLN_RECNDI",
+                "value": "17.15.1  Proportion of new development interventions drawn from country-led result frameworks - data by recipient (%)"
+            },
+            {
+                "key": "SG_PLN_RECRICTRY",
+                "value": "17.15.1  Proportion of results indicators drawn from country-led results frameworks - data by recipient (%)"
+            },
+            {
+                "key": "SG_PLN_RECRIMON",
+                "value": "17.15.1  Proportion of results indicators which will be monitored using government sources and monitoring systems - data by recipient (%)"
+            },
+            {
+                "key": "SG_PLN_PRPOLRES",
+                "value": "17.15.1 Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - data by provider (%)"
+            },
+            {
+                "key": "SG_PLN_REPOLRES",
+                "value": "17.15.1 Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - data by recipient (%)"
+            },
+            {
+                "key": "SG_PLN_MSTKSDG",
+                "value": "17.16.1  Progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "GF_COM_PPP",
+                "value": "17.17.1  Amount of United States dollars committed to public-private partnerships"
+            },
+            {
+                "key": "GF_COM_CSP",
+                "value": "17.17.1  Amount of United States dollars committed to civil society partnerships"
+            },
+            {
+                "key": "SD_SDG_AVLB",
+                "value": "17.18.1  Proportion of sustainable development indicators produced at the national level with full disaggregation when relevant to the target, in accordance with the Fundamental Principles of Official Statistics"
+            },
+            {
+                "key": "SG_STT_FPOS",
+                "value": "17.18.2  Countries with national statistical legislation exists that complies with the Fundamental Principles of Official Statistics (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "SG_STT_NSDSFDDNR",
+                "value": "17.18.3  Countries with national statistical plans with funding from donors (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "SG_STT_NSDSFDGVT",
+                "value": "17.18.3  Countries with national statistical plans with funding from Government (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "SG_STT_NSDSFDOTHR",
+                "value": "17.18.3  Countries with national statistical plans with funding from others (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "SG_STT_NSDSFND",
+                "value": "17.18.3  Countries with national statistical plans that are fully funded (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "SG_STT_NSDSIMPL",
+                "value": "17.18.3  Countries with national statistical plans that are under implementation (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "SG_STT_CAPTY",
+                "value": "17.19.1  Dollar value of all resources made available to strengthen statistical capacity in developing countries"
+            },
+            {
+                "key": "SG_REG_BRTH90",
+                "value": "17.19.2  Proportion of countries with birth registration data that are at least 90 percent complete"
+            },
+            {
+                "key": "SG_REG_BRTH90N",
+                "value": "17.19.2  Countries with birth registration data that are at least 90 percent complete (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "SG_REG_CENSUS",
+                "value": "17.19.2  Proportion of countries that have conducted at least one population and housing census in the last 10 years"
+            },
+            {
+                "key": "SG_REG_CENSUSN",
+                "value": "17.19.2  Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO)"
+            },
+            {
+                "key": "SG_REG_DETH75",
+                "value": "17.19.2  Proportion of countries with death registration data that are at least 75 percent complete"
+            },
+            {
+                "key": "SG_REG_DETH75N",
+                "value": "17.19.2  Countries with death registration data that are at least 75 percent complete (1 = YES; 0 = NO)"
+            }
+        ]
+    },
+    {
+        "id": "REF_AREA",
+        "name": "Reference area",
+        "templateTag": "ddRefArea",
+        "options": [
+            {
+                "key": "1",
+                "value": "World"
+            },
+            {
+                "key": "4",
+                "value": "Afghanistan"
+            },
+            {
+                "key": "901",
+                "value": "Africa (ILO)"
+            },
+            {
+                "key": "2",
+                "value": "Africa (M49)"
+            },
+            {
+                "key": "248",
+                "value": "Åland Islands"
+            },
+            {
+                "key": "8",
+                "value": "Albania"
+            },
+            {
+                "key": "16",
+                "value": "American Samoa"
+            },
+            {
+                "key": "19",
+                "value": "Americas (M49)"
+            },
+            {
+                "key": "20",
+                "value": "Andorra"
+            },
+            {
+                "key": "24",
+                "value": "Angola"
+            },
+            {
+                "key": "660",
+                "value": "Anguilla"
+            },
+            {
+                "key": "10",
+                "value": "Antarctica"
+            },
+            {
+                "key": "28",
+                "value": "Antigua and Barbuda"
+            },
+            {
+                "key": "32",
+                "value": "Argentina"
+            },
+            {
+                "key": "51",
+                "value": "Armenia"
+            },
+            {
+                "key": "533",
+                "value": "Aruba"
+            },
+            {
+                "key": "142",
+                "value": "Asia (M49)"
+            },
+            {
+                "key": "902",
+                "value": "Asia and the Pacific (ILO)"
+            },
+            {
+                "key": "36",
+                "value": "Australia"
+            },
+            {
+                "key": "53",
+                "value": "Australia and New Zealand (SDG)"
+            },
+            {
+                "key": "40",
+                "value": "Austria"
+            },
+            {
+                "key": "31",
+                "value": "Azerbaijan"
+            },
+            {
+                "key": "44",
+                "value": "Bahamas"
+            },
+            {
+                "key": "48",
+                "value": "Bahrain"
+            },
+            {
+                "key": "50",
+                "value": "Bangladesh"
+            },
+            {
+                "key": "52",
+                "value": "Barbados"
+            },
+            {
+                "key": "112",
+                "value": "Belarus"
+            },
+            {
+                "key": "56",
+                "value": "Belgium"
+            },
+            {
+                "key": "84",
+                "value": "Belize"
+            },
+            {
+                "key": "204",
+                "value": "Benin"
+            },
+            {
+                "key": "60",
+                "value": "Bermuda"
+            },
+            {
+                "key": "64",
+                "value": "Bhutan"
+            },
+            {
+                "key": "68",
+                "value": "Bolivia (Plurinational State of)"
+            },
+            {
+                "key": "535",
+                "value": "Bonaire, Sint Eustatius and Saba"
+            },
+            {
+                "key": "70",
+                "value": "Bosnia and Herzegovina"
+            },
+            {
+                "key": "72",
+                "value": "Botswana"
+            },
+            {
+                "key": "76",
+                "value": "Brazil"
+            },
+            {
+                "key": "86",
+                "value": "British Indian Ocean Territory"
+            },
+            {
+                "key": "92",
+                "value": "British Virgin Islands"
+            },
+            {
+                "key": "96",
+                "value": "Brunei Darussalam"
+            },
+            {
+                "key": "100",
+                "value": "Bulgaria"
+            },
+            {
+                "key": "854",
+                "value": "Burkina Faso"
+            },
+            {
+                "key": "108",
+                "value": "Burundi"
+            },
+            {
+                "key": "132",
+                "value": "Cabo Verde"
+            },
+            {
+                "key": "116",
+                "value": "Cambodia"
+            },
+            {
+                "key": "120",
+                "value": "Cameroon"
+            },
+            {
+                "key": "124",
+                "value": "Canada"
+            },
+            {
+                "key": "29",
+                "value": "Caribbean (M49)"
+            },
+            {
+                "key": "135",
+                "value": "Caucasus and Central Asia (MDG)"
+            },
+            {
+                "key": "136",
+                "value": "Cayman Islands"
+            },
+            {
+                "key": "140",
+                "value": "Central African Republic"
+            },
+            {
+                "key": "13",
+                "value": "Central America (M49)"
+            },
+            {
+                "key": "903",
+                "value": "Central and Eastern Europe (ILO)"
+            },
+            {
+                "key": "143",
+                "value": "Central Asia (M49)"
+            },
+            {
+                "key": "62",
+                "value": "Central Asia and Southern Asia (SDG)"
+            },
+            {
+                "key": "148",
+                "value": "Chad"
+            },
+            {
+                "key": "830",
+                "value": "Channel Islands"
+            },
+            {
+                "key": "152",
+                "value": "Chile"
+            },
+            {
+                "key": "156",
+                "value": "China"
+            },
+            {
+                "key": "344",
+                "value": "China, Hong Kong Special Administrative Region"
+            },
+            {
+                "key": "446",
+                "value": "China, Macao Special Administrative Region"
+            },
+            {
+                "key": "162",
+                "value": "Christmas Island"
+            },
+            {
+                "key": "166",
+                "value": "Cocos (Keeling) Islands"
+            },
+            {
+                "key": "170",
+                "value": "Colombia"
+            },
+            {
+                "key": "174",
+                "value": "Comoros"
+            },
+            {
+                "key": "178",
+                "value": "Congo"
+            },
+            {
+                "key": "184",
+                "value": "Cook Islands"
+            },
+            {
+                "key": "188",
+                "value": "Costa Rica"
+            },
+            {
+                "key": "384",
+                "value": "Côte d'Ivoire"
+            },
+            {
+                "key": "191",
+                "value": "Croatia"
+            },
+            {
+                "key": "192",
+                "value": "Cuba"
+            },
+            {
+                "key": "531",
+                "value": "Curaçao"
+            },
+            {
+                "key": "196",
+                "value": "Cyprus"
+            },
+            {
+                "key": "203",
+                "value": "Czechia"
+            },
+            {
+                "key": "408",
+                "value": "Democratic People's Republic of Korea"
+            },
+            {
+                "key": "180",
+                "value": "Democratic Republic of the Congo"
+            },
+            {
+                "key": "208",
+                "value": "Denmark"
+            },
+            {
+                "key": "514",
+                "value": "Developed regions - Europe, Cyprus, Israel, Northern America, Japan, Australia &amp; New Zealand (MDG)"
+            },
+            {
+                "key": "515",
+                "value": "Developing regions (MDG)"
+            },
+            {
+                "key": "593",
+                "value": "Development Assistance Committee members (DAC)"
+            },
+            {
+                "key": "262",
+                "value": "Djibouti"
+            },
+            {
+                "key": "212",
+                "value": "Dominica"
+            },
+            {
+                "key": "214",
+                "value": "Dominican Republic"
+            },
+            {
+                "key": "14",
+                "value": "Eastern Africa (M49)"
+            },
+            {
+                "key": "30",
+                "value": "Eastern Asia (M49)"
+            },
+            {
+                "key": "753",
+                "value": "Eastern Asia and South-eastern Asia (SDG)"
+            },
+            {
+                "key": "518",
+                "value": "Eastern Asia, exc. Japan (MDG)"
+            },
+            {
+                "key": "223",
+                "value": "Eastern Asia, exc. Japan and China (MDG)"
+            },
+            {
+                "key": "151",
+                "value": "Eastern Europe (M49)"
+            },
+            {
+                "key": "909",
+                "value": "Eastern Southern South-Eastern Asia and Oceania (MDG)"
+            },
+            {
+                "key": "218",
+                "value": "Ecuador"
+            },
+            {
+                "key": "818",
+                "value": "Egypt"
+            },
+            {
+                "key": "222",
+                "value": "El Salvador"
+            },
+            {
+                "key": "226",
+                "value": "Equatorial Guinea"
+            },
+            {
+                "key": "232",
+                "value": "Eritrea"
+            },
+            {
+                "key": "233",
+                "value": "Estonia"
+            },
+            {
+                "key": "231",
+                "value": "Ethiopia"
+            },
+            {
+                "key": "150",
+                "value": "Europe (M49)"
+            },
+            {
+                "key": "238",
+                "value": "Falkland Islands (Malvinas)"
+            },
+            {
+                "key": "234",
+                "value": "Faroe Islands"
+            },
+            {
+                "key": "242",
+                "value": "Fiji"
+            },
+            {
+                "key": "246",
+                "value": "Finland"
+            },
+            {
+                "key": "250",
+                "value": "France"
+            },
+            {
+                "key": "254",
+                "value": "French Guiana"
+            },
+            {
+                "key": "258",
+                "value": "French Polynesia"
+            },
+            {
+                "key": "260",
+                "value": "French Southern Territories"
+            },
+            {
+                "key": "266",
+                "value": "Gabon"
+            },
+            {
+                "key": "270",
+                "value": "Gambia"
+            },
+            {
+                "key": "268",
+                "value": "Georgia"
+            },
+            {
+                "key": "276",
+                "value": "Germany"
+            },
+            {
+                "key": "288",
+                "value": "Ghana"
+            },
+            {
+                "key": "292",
+                "value": "Gibraltar"
+            },
+            {
+                "key": "300",
+                "value": "Greece"
+            },
+            {
+                "key": "304",
+                "value": "Greenland"
+            },
+            {
+                "key": "308",
+                "value": "Grenada"
+            },
+            {
+                "key": "312",
+                "value": "Guadeloupe"
+            },
+            {
+                "key": "316",
+                "value": "Guam"
+            },
+            {
+                "key": "320",
+                "value": "Guatemala"
+            },
+            {
+                "key": "831",
+                "value": "Guernsey"
+            },
+            {
+                "key": "324",
+                "value": "Guinea"
+            },
+            {
+                "key": "624",
+                "value": "Guinea-Bissau"
+            },
+            {
+                "key": "328",
+                "value": "Guyana"
+            },
+            {
+                "key": "332",
+                "value": "Haiti"
+            },
+            {
+                "key": "334",
+                "value": "Heard Island and McDonald Islands"
+            },
+            {
+                "key": "910",
+                "value": "High income economies (WB)"
+            },
+            {
+                "key": "336",
+                "value": "Holy See"
+            },
+            {
+                "key": "340",
+                "value": "Honduras"
+            },
+            {
+                "key": "348",
+                "value": "Hungary"
+            },
+            {
+                "key": "352",
+                "value": "Iceland"
+            },
+            {
+                "key": "356",
+                "value": "India"
+            },
+            {
+                "key": "360",
+                "value": "Indonesia"
+            },
+            {
+                "key": "917",
+                "value": "International Centers (FAO)"
+            },
+            {
+                "key": "364",
+                "value": "Iran (Islamic Republic of)"
+            },
+            {
+                "key": "368",
+                "value": "Iraq"
+            },
+            {
+                "key": "372",
+                "value": "Ireland"
+            },
+            {
+                "key": "833",
+                "value": "Isle of Man"
+            },
+            {
+                "key": "376",
+                "value": "Israel"
+            },
+            {
+                "key": "380",
+                "value": "Italy"
+            },
+            {
+                "key": "388",
+                "value": "Jamaica"
+            },
+            {
+                "key": "392",
+                "value": "Japan"
+            },
+            {
+                "key": "832",
+                "value": "Jersey"
+            },
+            {
+                "key": "400",
+                "value": "Jordan"
+            },
+            {
+                "key": "398",
+                "value": "Kazakhstan"
+            },
+            {
+                "key": "404",
+                "value": "Kenya"
+            },
+            {
+                "key": "296",
+                "value": "Kiribati"
+            },
+            {
+                "key": "412",
+                "value": "Kosovo"
+            },
+            {
+                "key": "414",
+                "value": "Kuwait"
+            },
+            {
+                "key": "417",
+                "value": "Kyrgyzstan"
+            },
+            {
+                "key": "432",
+                "value": "Landlocked developing countries (LLDCs)"
+            },
+            {
+                "key": "418",
+                "value": "Lao People's Democratic Republic"
+            },
+            {
+                "key": "420",
+                "value": "Latin America (MDG)"
+            },
+            {
+                "key": "419",
+                "value": "Latin America and the Caribbean (SDG-MDG)"
+            },
+            {
+                "key": "428",
+                "value": "Latvia"
+            },
+            {
+                "key": "199",
+                "value": "Least Developed Countries (LDCs)"
+            },
+            {
+                "key": "422",
+                "value": "Lebanon"
+            },
+            {
+                "key": "426",
+                "value": "Lesotho"
+            },
+            {
+                "key": "430",
+                "value": "Liberia"
+            },
+            {
+                "key": "434",
+                "value": "Libya"
+            },
+            {
+                "key": "438",
+                "value": "Liechtenstein"
+            },
+            {
+                "key": "440",
+                "value": "Lithuania"
+            },
+            {
+                "key": "913",
+                "value": "Low and middle income economies (WB)"
+            },
+            {
+                "key": "911",
+                "value": "Low income economies (WB)"
+            },
+            {
+                "key": "912",
+                "value": "Lower middle economies (WB)"
+            },
+            {
+                "key": "442",
+                "value": "Luxembourg"
+            },
+            {
+                "key": "450",
+                "value": "Madagascar"
+            },
+            {
+                "key": "454",
+                "value": "Malawi"
+            },
+            {
+                "key": "458",
+                "value": "Malaysia"
+            },
+            {
+                "key": "462",
+                "value": "Maldives"
+            },
+            {
+                "key": "466",
+                "value": "Mali"
+            },
+            {
+                "key": "470",
+                "value": "Malta"
+            },
+            {
+                "key": "584",
+                "value": "Marshall Islands"
+            },
+            {
+                "key": "474",
+                "value": "Martinique"
+            },
+            {
+                "key": "478",
+                "value": "Mauritania"
+            },
+            {
+                "key": "480",
+                "value": "Mauritius"
+            },
+            {
+                "key": "175",
+                "value": "Mayotte"
+            },
+            {
+                "key": "54",
+                "value": "Melanesia (M49)"
+            },
+            {
+                "key": "484",
+                "value": "Mexico"
+            },
+            {
+                "key": "583",
+                "value": "Micronesia (Federated States of)"
+            },
+            {
+                "key": "57",
+                "value": "Micronesia (M49)"
+            },
+            {
+                "key": "17",
+                "value": "Middle Africa (M49)"
+            },
+            {
+                "key": "905",
+                "value": "Middle East (ILO)"
+            },
+            {
+                "key": "904",
+                "value": "Middle East and North Africa (ILO)"
+            },
+            {
+                "key": "492",
+                "value": "Monaco"
+            },
+            {
+                "key": "496",
+                "value": "Mongolia"
+            },
+            {
+                "key": "499",
+                "value": "Montenegro"
+            },
+            {
+                "key": "500",
+                "value": "Montserrat"
+            },
+            {
+                "key": "504",
+                "value": "Morocco"
+            },
+            {
+                "key": "508",
+                "value": "Mozambique"
+            },
+            {
+                "key": "104",
+                "value": "Myanmar"
+            },
+            {
+                "key": "516",
+                "value": "Namibia"
+            },
+            {
+                "key": "520",
+                "value": "Nauru"
+            },
+            {
+                "key": "524",
+                "value": "Nepal"
+            },
+            {
+                "key": "528",
+                "value": "Netherlands"
+            },
+            {
+                "key": "530",
+                "value": "Netherlands Antilles [former, 1986 to 2010]"
+            },
+            {
+                "key": "540",
+                "value": "New Caledonia"
+            },
+            {
+                "key": "554",
+                "value": "New Zealand"
+            },
+            {
+                "key": "558",
+                "value": "Nicaragua"
+            },
+            {
+                "key": "562",
+                "value": "Niger"
+            },
+            {
+                "key": "566",
+                "value": "Nigeria"
+            },
+            {
+                "key": "570",
+                "value": "Niue"
+            },
+            {
+                "key": "574",
+                "value": "Norfolk Island"
+            },
+            {
+                "key": "906",
+                "value": "North America (ILO)"
+            },
+            {
+                "key": "15",
+                "value": "Northern Africa (M49)"
+            },
+            {
+                "key": "746",
+                "value": "Northern Africa, exc. Sudan (MDG)"
+            },
+            {
+                "key": "21",
+                "value": "Northern America (M49)"
+            },
+            {
+                "key": "513",
+                "value": "Northern America and Europe (SDG)"
+            },
+            {
+                "key": "154",
+                "value": "Northern Europe (M49)"
+            },
+            {
+                "key": "580",
+                "value": "Northern Mariana Islands"
+            },
+            {
+                "key": "578",
+                "value": "Norway"
+            },
+            {
+                "key": "9",
+                "value": "Oceania (M49)"
+            },
+            {
+                "key": "543",
+                "value": "Oceania, exc. Australia and New Zealand (SDG-MDG)"
+            },
+            {
+                "key": "198",
+                "value": "OECD Member States"
+            },
+            {
+                "key": "512",
+                "value": "Oman"
+            },
+            {
+                "key": "907",
+                "value": "Other regions (ILO)"
+            },
+            {
+                "key": "586",
+                "value": "Pakistan"
+            },
+            {
+                "key": "585",
+                "value": "Palau"
+            },
+            {
+                "key": "591",
+                "value": "Panama"
+            },
+            {
+                "key": "598",
+                "value": "Papua New Guinea"
+            },
+            {
+                "key": "600",
+                "value": "Paraguay"
+            },
+            {
+                "key": "604",
+                "value": "Peru"
+            },
+            {
+                "key": "608",
+                "value": "Philippines"
+            },
+            {
+                "key": "612",
+                "value": "Pitcairn"
+            },
+            {
+                "key": "616",
+                "value": "Poland"
+            },
+            {
+                "key": "61",
+                "value": "Polynesia (M49)"
+            },
+            {
+                "key": "620",
+                "value": "Portugal"
+            },
+            {
+                "key": "630",
+                "value": "Puerto Rico"
+            },
+            {
+                "key": "634",
+                "value": "Qatar"
+            },
+            {
+                "key": "410",
+                "value": "Republic of Korea"
+            },
+            {
+                "key": "498",
+                "value": "Republic of Moldova"
+            },
+            {
+                "key": "638",
+                "value": "Réunion"
+            },
+            {
+                "key": "642",
+                "value": "Romania"
+            },
+            {
+                "key": "643",
+                "value": "Russian Federation"
+            },
+            {
+                "key": "646",
+                "value": "Rwanda"
+            },
+            {
+                "key": "652",
+                "value": "Saint Barthélemy"
+            },
+            {
+                "key": "654",
+                "value": "Saint Helena"
+            },
+            {
+                "key": "659",
+                "value": "Saint Kitts and Nevis"
+            },
+            {
+                "key": "662",
+                "value": "Saint Lucia"
+            },
+            {
+                "key": "663",
+                "value": "Saint Martin (French Part)"
+            },
+            {
+                "key": "666",
+                "value": "Saint Pierre and Miquelon"
+            },
+            {
+                "key": "670",
+                "value": "Saint Vincent and the Grenadines"
+            },
+            {
+                "key": "882",
+                "value": "Samoa"
+            },
+            {
+                "key": "674",
+                "value": "San Marino"
+            },
+            {
+                "key": "678",
+                "value": "Sao Tome and Principe"
+            },
+            {
+                "key": "682",
+                "value": "Saudi Arabia"
+            },
+            {
+                "key": "686",
+                "value": "Senegal"
+            },
+            {
+                "key": "688",
+                "value": "Serbia"
+            },
+            {
+                "key": "891",
+                "value": "Serbia and Montenegro [former]"
+            },
+            {
+                "key": "690",
+                "value": "Seychelles"
+            },
+            {
+                "key": "694",
+                "value": "Sierra Leone"
+            },
+            {
+                "key": "702",
+                "value": "Singapore"
+            },
+            {
+                "key": "534",
+                "value": "Sint Maarten (Dutch part)"
+            },
+            {
+                "key": "703",
+                "value": "Slovakia"
+            },
+            {
+                "key": "705",
+                "value": "Slovenia"
+            },
+            {
+                "key": "722",
+                "value": "Small island developing States (SIDS)"
+            },
+            {
+                "key": "90",
+                "value": "Solomon Islands"
+            },
+            {
+                "key": "706",
+                "value": "Somalia"
+            },
+            {
+                "key": "710",
+                "value": "South Africa"
+            },
+            {
+                "key": "5",
+                "value": "South America (M49)"
+            },
+            {
+                "key": "239",
+                "value": "South Georgia and the South Sandwich Islands"
+            },
+            {
+                "key": "728",
+                "value": "South Sudan"
+            },
+            {
+                "key": "35",
+                "value": "South-eastern Asia (M49-MDG)"
+            },
+            {
+                "key": "18",
+                "value": "Southern Africa (M49)"
+            },
+            {
+                "key": "34",
+                "value": "Southern Asia (M49-MDG)"
+            },
+            {
+                "key": "127",
+                "value": "Southern Asia, exc. India (MDG)"
+            },
+            {
+                "key": "39",
+                "value": "Southern Europe (M49)"
+            },
+            {
+                "key": "724",
+                "value": "Spain"
+            },
+            {
+                "key": "144",
+                "value": "Sri Lanka"
+            },
+            {
+                "key": "275",
+                "value": "State of Palestine"
+            },
+            {
+                "key": "202",
+                "value": "Sub-Saharan Africa (SDG)"
+            },
+            {
+                "key": "738",
+                "value": "Sub-Saharan Africa, inc. Sudan (MDG)"
+            },
+            {
+                "key": "729",
+                "value": "Sudan"
+            },
+            {
+                "key": "736",
+                "value": "Sudan [former]"
+            },
+            {
+                "key": "740",
+                "value": "Suriname"
+            },
+            {
+                "key": "744",
+                "value": "Svalbard and Jan Mayen Islands"
+            },
+            {
+                "key": "748",
+                "value": "Swaziland"
+            },
+            {
+                "key": "752",
+                "value": "Sweden"
+            },
+            {
+                "key": "756",
+                "value": "Switzerland"
+            },
+            {
+                "key": "760",
+                "value": "Syrian Arab Republic"
+            },
+            {
+                "key": "762",
+                "value": "Tajikistan"
+            },
+            {
+                "key": "764",
+                "value": "Thailand"
+            },
+            {
+                "key": "807",
+                "value": "The former Yugoslav Republic of Macedonia"
+            },
+            {
+                "key": "626",
+                "value": "Timor-Leste"
+            },
+            {
+                "key": "768",
+                "value": "Togo"
+            },
+            {
+                "key": "772",
+                "value": "Tokelau"
+            },
+            {
+                "key": "776",
+                "value": "Tonga"
+            },
+            {
+                "key": "780",
+                "value": "Trinidad and Tobago"
+            },
+            {
+                "key": "788",
+                "value": "Tunisia"
+            },
+            {
+                "key": "792",
+                "value": "Turkey"
+            },
+            {
+                "key": "795",
+                "value": "Turkmenistan"
+            },
+            {
+                "key": "796",
+                "value": "Turks and Caicos Islands"
+            },
+            {
+                "key": "798",
+                "value": "Tuvalu"
+            },
+            {
+                "key": "800",
+                "value": "Uganda"
+            },
+            {
+                "key": "804",
+                "value": "Ukraine"
+            },
+            {
+                "key": "784",
+                "value": "United Arab Emirates"
+            },
+            {
+                "key": "826",
+                "value": "United Kingdom of Great Britain and Northern Ireland"
+            },
+            {
+                "key": "834",
+                "value": "United Republic of Tanzania"
+            },
+            {
+                "key": "835",
+                "value": "United Republic of Tanzania (Mainland)"
+            },
+            {
+                "key": "836",
+                "value": "United Republic of Tanzania (Zanzibar)"
+            },
+            {
+                "key": "581",
+                "value": "United States minor outlying islands"
+            },
+            {
+                "key": "840",
+                "value": "United States of America"
+            },
+            {
+                "key": "850",
+                "value": "United States Virgin Islands"
+            },
+            {
+                "key": "914",
+                "value": "Upper middle economies (WB)"
+            },
+            {
+                "key": "858",
+                "value": "Uruguay"
+            },
+            {
+                "key": "860",
+                "value": "Uzbekistan"
+            },
+            {
+                "key": "548",
+                "value": "Vanuatu"
+            },
+            {
+                "key": "862",
+                "value": "Venezuela (Bolivarian Republic of)"
+            },
+            {
+                "key": "704",
+                "value": "Viet Nam"
+            },
+            {
+                "key": "876",
+                "value": "Wallis and Futuna Islands"
+            },
+            {
+                "key": "11",
+                "value": "Western Africa (M49)"
+            },
+            {
+                "key": "145",
+                "value": "Western Asia (M49)"
+            },
+            {
+                "key": "747",
+                "value": "Western Asia and Northern Africa (SDG)"
+            },
+            {
+                "key": "485",
+                "value": "Western Asia, exc. Armenia, Azerbaijan, Cyprus, Israel and Georgia (MDG)"
+            },
+            {
+                "key": "908",
+                "value": "Western Europe (ILO)"
+            },
+            {
+                "key": "155",
+                "value": "Western Europe (M49)"
+            },
+            {
+                "key": "732",
+                "value": "Western Sahara"
+            },
+            {
+                "key": "916",
+                "value": "WTO Developed Member States"
+            },
+            {
+                "key": "915",
+                "value": "WTO Developing Member States"
+            },
+            {
+                "key": "889",
+                "value": "WTO Member States"
+            },
+            {
+                "key": "887",
+                "value": "Yemen"
+            },
+            {
+                "key": "894",
+                "value": "Zambia"
+            },
+            {
+                "key": "716",
+                "value": "Zimbabwe"
+            }
+        ]
+    }
+]
