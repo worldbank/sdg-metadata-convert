@@ -56,32 +56,32 @@
     },
     {
         "id": "ORGANISATION_UNIT",
-        "name": "1.c. Contact Organisation Unit",
+        "name": "1.c. Contact organisation unit",
         "section": "CONTACT"
     },
     {
         "id": "CONTACT_FUNCT",
-        "name": "1.d. Contact Person Function",
+        "name": "1.d. Contact person function",
         "section": "CONTACT"
     },
     {
         "id": "CONTACT_PHONE",
-        "name": "1.e. Contact Phone",
+        "name": "1.e. Contact phone",
         "section": "CONTACT"
     },
     {
         "id": "CONTACT_MAIL",
-        "name": "1.f. Contact Mail",
+        "name": "1.f. Contact mail",
         "section": "CONTACT"
     },
     {
         "id": "CONTACT_EMAIL",
-        "name": "1.g. Contact emails",
+        "name": "1.g. Contact email",
         "section": "CONTACT"
     },
     {
         "id": "IND_DEF_CON_CLASS",
-        "name": "2. Definition, concepts and classifications",
+        "name": "2. Definition, concepts, and classifications",
         "section": "IND_DEF_CON_CLASS"
     },
     {
@@ -91,7 +91,7 @@
     },
     {
         "id": "UNIT_MEASURE",
-        "name": "2.b. Unit of Measure",
+        "name": "2.b. Unit of measure",
         "section": "IND_DEF_CON_CLASS"
     },
     {
@@ -101,7 +101,7 @@
     },
     {
         "id": "SRC_TYPE_COLL_METHOD",
-        "name": "3. Data source type and data collection method",
+        "name": "3. Data source type and collection method",
         "section": "SRC_TYPE_COLL_METHOD"
     },
     {
@@ -136,7 +136,7 @@
     },
     {
         "id": "INST_MANDATE",
-        "name": "3.g. Institutional Mandate",
+        "name": "3.g. Institutional mandate",
         "section": "SRC_TYPE_COLL_METHOD"
     },
     {
