@@ -1,4 +1,4 @@
 node_modules
-*.docx
-*.pot
+/*.docx
+/*.pot
 word-template-temp
