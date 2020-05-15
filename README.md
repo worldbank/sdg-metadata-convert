@@ -32,7 +32,7 @@ input.read(inputFile)
 The above example could be changed to use any of the available inputs/outputs.
 
 * All inputs have a `read` method, which returns a Promise containing the metadata.
-* All outputs have a `write` method, which returns a Promise (containing nothing).
+* All outputs have a `write` method, which returns a Promise containing the metadata.
 
 The metadata which is returned from the inputs, and written by the outputs, is an instance of the Metadata class, which has two methods:
 
@@ -101,4 +101,22 @@ input.read(inputFile)
 function doSomething(metadata) {
   // Do something here.
 }
+```
+
+## Multiple outputs
+
+Because the `write` methods return Promises containing the metadata, they can be "chained" so that you can convert one input into multiple outputs. For example:
+
+```
+const { WordTemplateInput, GettextOutput, PdfOutput } = require('sdg-metadata-convert')
+
+const input = new WordTemplateInput()
+const getTextOutput = new GettextOutput()
+const pdfOutput = new PdfOutput()
+
+input.read('3-8-2.docx')
+  .then(metadata => getTextOutput.write(metadata, '3-8-2.pot'))
+  .then(metadata => pdfOutput.write(metadata, '3-8-2.pdf'))
+  .then(() => console.log('Succeeded in converting 3-8-2 to PDF and Gettext.'))
+  .catch(err => console.log(err))
 ```
