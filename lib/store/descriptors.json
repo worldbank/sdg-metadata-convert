@@ -19,6 +19,37 @@
         ]
     },
     {
+        "id": "LANGUAGE",
+        "name": "Metadata language",
+        "templateTag": "ddLanguage",
+        "options": [
+            {
+                "key": "en",
+                "value": "English"
+            },
+            {
+                "key": "ar",
+                "value": "Arabic"
+            },
+            {
+                "key": "zh",
+                "value": "Chinese"
+            },
+            {
+                "key": "fr",
+                "value": "French"
+            },
+            {
+                "key": "ru",
+                "value": "Russian"
+            },
+            {
+                "key": "es",
+                "value": "Spanish"
+            }
+        ]
+    },
+    {
         "id": "SERIES",
         "name": "SDG series",
         "templateTag": "ddSeries",
