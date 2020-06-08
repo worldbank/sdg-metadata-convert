@@ -34,12 +34,13 @@ The above example could be changed to use any of the available inputs/outputs.
 * All inputs have a `read` method, which returns a Promise containing the metadata.
 * All outputs have a `write` method, which returns a Promise containing the metadata.
 
-The metadata which is returned from the inputs, and written by the outputs, is an instance of the Metadata class, which has two methods:
+The metadata which is returned from the inputs, and written by the outputs, is an instance of the Metadata class, which has three methods:
 
 * `getConcepts()`
 * `getDescriptors()`
+* `getMessages()`
 
-The "concepts" are the actual metadata about the SDG indicator, while the "descriptors" are metadata about the concepts.
+The "concepts" are the actual metadata about the SDG indicator, while the "descriptors" are metadata about the concepts. The "messages" are a list of any warnings generated during the import process.
 
 ## Looping
 
