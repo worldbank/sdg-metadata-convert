@@ -5,7 +5,7 @@ A library in Node.js for converting SDG indicator metadata between formats.
 ## Installation
 
 ```
-npm install --save brockfanning/sdg-metadata-convert#master
+npm install --save worldbank/sdg-metadata-convert#master
 ```
 
 ## Usage
