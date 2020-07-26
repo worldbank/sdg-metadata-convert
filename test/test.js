@@ -1,20 +1,20 @@
 const path = require('path')
 const WordTemplateInput = require('../lib/input/WordTemplateInput')
 const { expect } = require('chai')
-const input = new WordTemplateInput()
-const inputFiles = [
-  path.join('test', 'inputs', 'SDG_Metadata_Authoring_Tool__Word_v2__detail_only.docx'),
-  path.join('test', 'inputs', 'SDG_Metadata_Authoring_Tool__Word_v2.1.docx'),
-  path.join('test', 'inputs', 'SDG_Metadata_Authoring_Tool__Word_v2.2.docx'),
-  path.join('test', 'inputs', 'SDG_Metadata_Authoring_Tool__Word_v2.3.docx'),
-  path.join('test', 'inputs', 'SDG_Metadata_Authoring_Tool__Word_v2.4.docx'),
-  path.join('test', 'inputs', 'SDG_Metadata_Authoring_Tool__Word_v2.5.docx'),
-]
 
-for (const inputFile of inputFiles) {
-  describe(inputFile, function() {
+const wordInput = new WordTemplateInput()
+const wordInputFiles = [
+  'SDG_Metadata_Authoring_Tool__Word_v2__detail_only.docx',
+  'SDG_Metadata_Authoring_Tool__Word_v2.1.docx',
+  'SDG_Metadata_Authoring_Tool__Word_v2.2.docx',
+  'SDG_Metadata_Authoring_Tool__Word_v2.3.docx',
+  'SDG_Metadata_Authoring_Tool__Word_v2.4.docx',
+  'SDG_Metadata_Authoring_Tool__Word_v2.5.docx',
+]
+for (const wordInputFile of wordInputFiles) {
+  describe(wordInputFile, function() {
     it('should import the required and expected metadata', async () => {
-      const metadata = await input.read(inputFile)
+      const metadata = await wordInput.read(path.join('test', 'inputs', wordInputFile))
       expect(testMetadata(metadata)).to.be.true
     })
   })
