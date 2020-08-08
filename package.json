@@ -13,6 +13,7 @@
     "cheerio": "1.0.0-rc.3",
     "diff2html": "3.1.11",
     "gettext-parser": "4.0.2",
+    "htmldiff-js": "1.0.5",
     "jsdiff": "1.1.1",
     "jsondiffpatch": "0.4.1",
     "mammoth": "1.4.9",
