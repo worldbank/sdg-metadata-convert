@@ -12,6 +12,7 @@
     "chai": "4.2.0",
     "cheerio": "1.0.0-rc.3",
     "gettext-parser": "4.0.2",
+    "jsondiffpatch": "0.4.1",
     "mammoth": "1.4.9",
     "mocha": "7.1.1",
     "nunjucks": "3.2.1",

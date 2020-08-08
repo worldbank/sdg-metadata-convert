@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>{{ title }}</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsondiffpatch@0.4.1/dist/formatters-styles/html.css">
+        <style>
+            .jsondiffpatch-property-name:after,
+            .jsondiffpatch-child-node-type-array > .jsondiffpatch-property-name:after,
+            .jsondiffpatch-child-node-type-array:after,
+            div.jsondiffpatch-child-node-type-array:before,
+            div.jsondiffpatch-child-node-type-array:after,
+            .jsondiffpatch-child-node-type-object > .jsondiffpatch-property-name:after,
+            .jsondiffpatch-child-node-type-object:after,
+            div.jsondiffpatch-child-node-type-object:before,
+            div.jsondiffpatch-child-node-type-object:after,
+            .jsondiffpatch-value pre:after {
+                content: '';
+            }
+            .jsondiffpatch-textdiff-location {
+                display: none;
+            }
+            .jsondiffpatch-delta ul {
+                padding-left: 0;
+            }
+            .jsondiffpatch-value {
+                margin: 20px;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>{{ title }}</h1>
+        <h3>{{ date }}</h3>
+        {{ diff }}
+    </body>
+</html>
