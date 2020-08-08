@@ -3,29 +3,11 @@
     <head>
         <meta charset="utf-8" />
         <title>{{ title }}</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsondiffpatch@0.4.1/dist/formatters-styles/html.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/diff2html/bundles/css/diff2html.min.css" />
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/diff2html/bundles/js/diff2html.min.js"></script>
         <style>
-            .jsondiffpatch-property-name:after,
-            .jsondiffpatch-child-node-type-array > .jsondiffpatch-property-name:after,
-            .jsondiffpatch-child-node-type-array:after,
-            div.jsondiffpatch-child-node-type-array:before,
-            div.jsondiffpatch-child-node-type-array:after,
-            .jsondiffpatch-child-node-type-object > .jsondiffpatch-property-name:after,
-            .jsondiffpatch-child-node-type-object:after,
-            div.jsondiffpatch-child-node-type-object:before,
-            div.jsondiffpatch-child-node-type-object:after,
-            .jsondiffpatch-value pre:after {
-                content: '';
-            }
-            .jsondiffpatch-textdiff-location {
-                display: none;
-            }
-            .jsondiffpatch-delta ul {
-                padding-left: 0;
-            }
-            .jsondiffpatch-value {
-                margin: 20px;
-                display: block;
+            .d2h-code-line-ctn {
+                white-space: normal;
             }
         </style>
     </head>
