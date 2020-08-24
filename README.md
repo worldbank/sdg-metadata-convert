@@ -2,6 +2,18 @@
 
 A library in Node.js for converting SDG indicator metadata between formats.
 
+Inputs available:
+
+* Gettext translation files
+* Metadata authoring template (Microsoft Word)
+
+Outputs available:
+
+* Gettext translation files
+* HTML
+* PDF
+* SDMX
+
 ## Installation
 
 ```
