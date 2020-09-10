@@ -12,10 +12,13 @@
             ins, del, h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
                 display: inline;
             }
+            ins.mod, ins.diffmod + li {
+                background: khaki;
+            }
             ins.diffmod {
                 background: lightgreen;
             }
-            del.diffmod {
+            del.diffmod, del.diffdel {
                 background: salmon;
             }
             ins.diffins {
