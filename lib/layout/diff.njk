@@ -30,7 +30,10 @@
     </head>
     <body>
         <h1>{{ title }}</h1>
-        <h3>{{ date }}</h3>
+        <p>
+            <ins class="diffmod">{{ afterDate }}</ins><br>
+            <del class="diffmod">{{ beforeDate }}</del>
+        </p>
         {{ htmlDiff }}
     </body>
 </html>
