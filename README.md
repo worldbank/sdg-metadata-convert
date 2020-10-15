@@ -133,3 +133,28 @@ input.read('3-8-2.docx')
   .then(() => console.log('Succeeded in converting 3-8-2 to PDF and Gettext.'))
   .catch(err => console.log(err))
 ```
+
+## Comparison reports
+
+This library can also produce comparison reports between versions of the same metadata. Two different types of reports are available: "source" and "rendered".
+
+* **Source**: This reports the precise changes in the metadata, displayed at the source-code level. This is more useful for technical audiences as it will include HTML code.
+* **Rendered**: This reports the changes in the metadata in a more human-readable way, as the metadata would be rendered in final form. This is more useful for non-technical audiences.
+
+You can produce a comparison report by first reading in the "old" metadata using an input, and then using an input's `diff` method to compare it with the "new" metadata. Here is an example of how to do this, showing an example produce these comparison reports:
+
+```
+const { WordTemplateInput } = require('sdg-metadata-convert')
+const input = new WordTemplateInput()
+
+input.read('3-8-2-old.docx')
+  .then(metadata => input.diff('3-8-2-new.docx', metadata))
+  .then(diff => diff.writeSourcePdf('3-8-2-source-changes.pdf'))
+  .then(diff => diff.writeRenderedPdf('3-8-2-rendered-changes.pdf'))
+  .then(() => console.log('Succeeded in generating comparison reports.'))
+  .catch(err => console.log(err))
+```
+
+Note that the two inputs need not be the same. For example, you can compare the metadata contained in a Word template with the metadata contained in an SDMX file.
+
+These reports can be written as HTML files (`writeSourceHtml` and `writeRenderedHtml`) or PDF files (`writeSourcePdf` and `writeRenderedPdf`).
