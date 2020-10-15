@@ -11,6 +11,8 @@ const wordInputFiles = [
   'SDG_Metadata_Authoring_Tool__Word_v2.4.docx',
   'SDG_Metadata_Authoring_Tool__Word_v2.5.docx',
   'SDG_Metadata_Authoring_Tool__Word_v3.0.docm',
+  'SDG_Metadata_Authoring_Tool__Word_v3.1.docm',
+  'SDG_Metadata_Authoring_Tool__Word_v3.2.docm',
 ]
 for (const wordInputFile of wordInputFiles) {
   describe(wordInputFile, function() {
