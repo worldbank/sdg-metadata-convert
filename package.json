@@ -22,6 +22,7 @@
     "pdf-puppeteer": "1.1.10",
     "pretty": "2.0.0",
     "xmlbuilder2": "2.1.2",
+    "xmldom": "^0.3.0",
     "xpath": "0.0.27",
     "yauzl": "2.10.0"
   }
