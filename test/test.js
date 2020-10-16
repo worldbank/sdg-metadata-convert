@@ -1,5 +1,5 @@
 const path = require('path')
-const WordTemplateInput = require('../lib/input/WordTemplateInput')
+const { WordTemplateInput, SdmxInput } = require('../lib/index.js')
 const { expect } = require('chai')
 
 const wordInput = new WordTemplateInput()
@@ -16,6 +16,19 @@ for (const wordInputFile of wordInputFiles) {
   describe(wordInputFile, function() {
     it('should import the required and expected metadata', async () => {
       const metadata = await wordInput.read(path.join('test', 'inputs', wordInputFile))
+      expect(testMetadata(metadata)).to.be.true
+    })
+  })
+}
+
+const sdmxInput = new SdmxInput()
+const sdmxInputFiles = [
+  'sdmx_mds1.xml'
+]
+for (const sdmxInputFile of sdmxInputFiles) {
+  describe(sdmxInputFile, function() {
+    it('should import the required and expected metadata', async () => {
+      const metadata = await sdmxInput.read(path.join('test', 'inputs', sdmxInputFile))
       expect(testMetadata(metadata)).to.be.true
     })
   })
