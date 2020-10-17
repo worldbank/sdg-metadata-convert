@@ -94,6 +94,12 @@ async function convert() {
 convert()
 ```
 
+## Dynamic filenames
+
+When using the `write` method of any output, the second parameter is optional. If provided it will control the filename of the output. If omitted, the filename will be dynamically created from the descriptors of the metadata set (reporting type, series, reference area).
+
+Alternatively this parameter can be a callback function instead of a string. This callback function takes the Metadata object as a parameter, and should return a string. That returned string will be used as the filename.
+
 ## Synchronous reading
 
 Some inputs may provide a `readSync` method, for easier use.
