@@ -56,1863 +56,1863 @@
         "options": [
             {
                 "key": "SI_POV_DAY1",
-                "value": "1.1.1  Proportion of population below international poverty line"
+                "value": "Proportion of population below international poverty line"
             },
             {
                 "key": "SI_POV_EMP1",
-                "value": "1.1.1  Employed population below international poverty line"
+                "value": "Employed population below international poverty line"
             },
             {
                 "key": "SI_POV_NAHC",
-                "value": "1.2.1  Proportion of population living below the national poverty line"
+                "value": "Proportion of population living below the national poverty line"
             },
             {
                 "key": "SI_POV_NMPI",
-                "value": "1.2.2  Proportion of population living in poverty in all its dimensions according to national definitions"
+                "value": "Proportion of population living in poverty in all its dimensions according to national definitions"
             },
             {
                 "key": "SI_COV_BENFTS",
-                "value": "1.3.1  Proportion of population covered by at least one social protection benefit"
+                "value": "Proportion of population covered by at least one social protection benefit"
             },
             {
                 "key": "SI_COV_CHLD",
-                "value": "1.3.1  Proportion of children/households receiving child/family cash benefit"
+                "value": "Proportion of children/households receiving child/family cash benefit"
             },
             {
                 "key": "SI_COV_DISAB",
-                "value": "1.3.1  Proportion of population with severe disabilities receiving disability cash benefit"
+                "value": "Proportion of population with severe disabilities receiving disability cash benefit"
             },
             {
                 "key": "SI_COV_LMKT",
-                "value": "1.3.1  Proportion of population covered by labour market programs"
+                "value": "Proportion of population covered by labour market programs"
             },
             {
                 "key": "SI_COV_MATNL",
-                "value": "1.3.1  Proportion of mothers with newborns receiving maternity cash benefit"
+                "value": "Proportion of mothers with newborns receiving maternity cash benefit"
             },
             {
                 "key": "SI_COV_PENSN",
-                "value": "1.3.1  Proportion of population above statutory pensionable age receiving a pension"
+                "value": "Proportion of population above statutory pensionable age receiving a pension"
             },
             {
                 "key": "SI_COV_POOR",
-                "value": "1.3.1  Proportion of poor population receiving social assistance cash benefit"
+                "value": "Proportion of poor population receiving social assistance cash benefit"
             },
             {
                 "key": "SI_COV_SOCAST",
-                "value": "1.3.1  Proportion of population covered by social assistance programs"
+                "value": "Proportion of population covered by social assistance programs"
             },
             {
                 "key": "SI_COV_SOCINS",
-                "value": "1.3.1  Proportion of population covered by social insurance programs"
+                "value": "Proportion of population covered by social insurance programs"
             },
             {
                 "key": "SI_COV_UEMP",
-                "value": "1.3.1  Proportion of unemployed persons receiving unemployment cash benefit"
+                "value": "Proportion of unemployed persons receiving unemployment cash benefit"
             },
             {
                 "key": "SI_COV_VULN",
-                "value": "1.3.1  Proportion of vulnerable population receiving social assistance cash benefit"
+                "value": "Proportion of vulnerable population receiving social assistance cash benefit"
             },
             {
                 "key": "SI_COV_WKINJRY",
-                "value": "1.3.1  Proportion of employed population covered in the event of work injury"
+                "value": "Proportion of employed population covered in the event of work injury"
             },
             {
                 "key": "SP_ACS_BSRV",
-                "value": "1.4.1  Proportion of population living in households with access to basic services"
+                "value": "Proportion of population living in households with access to basic services"
             },
             {
                 "key": "SP_LGL_LNDDOC",
-                "value": "1.4.2  Proportion of total adult population with secure tenure rights to land,  with legally recognized documentation"
+                "value": "Proportion of total adult population with secure tenure rights to land,  with legally recognized documentation"
             },
             {
                 "key": "SP_LGL_LNDSEC",
-                "value": "1.4.2  Proportion of total adult population with secure tenure rights to land who perceive their rights to land as secure"
+                "value": "Proportion of total adult population with secure tenure rights to land who perceive their rights to land as secure"
             },
             {
                 "key": "VC_DSR_MISS",
-                "value": "1.5.1, 11.5.1, 13.1.1 Number of missing persons due to disaster"
+                "value": "Number of missing persons due to disaster"
             },
             {
                 "key": "VC_DSR_AFFCT",
-                "value": "1.5.1, 11.5.1, 13.1.1 Number of people affected by disaster"
+                "value": "Number of people affected by disaster"
             },
             {
                 "key": "VC_DSR_MORT",
-                "value": "1.5.1, 11.5.1, 13.1.1 Number of deaths due to disaster"
+                "value": "Number of deaths due to disaster"
             },
             {
                 "key": "VC_DSR_MTMP",
-                "value": "1.5.1, 11.5.1, 13.1.1 Number of deaths and missing persons attributed to disasters per 100,000 population"
+                "value": "Number of deaths and missing persons attributed to disasters per 100,000 population"
             },
             {
                 "key": "VC_DSR_MMHN",
-                "value": "1.5.1, 11.5.1, 13.1.1 Number of deaths and missing persons attributed to disasters"
+                "value": "Number of deaths and missing persons attributed to disasters"
             },
             {
                 "key": "VC_DSR_DAFF",
-                "value": "1.5.1, 11.5.1, 13.1.1 Number of directly affected persons attributed to disasters per 100,000 population"
+                "value": "Number of directly affected persons attributed to disasters per 100,000 population"
             },
             {
                 "key": "VC_DSR_IJILN",
-                "value": "1.5.1, 11.5.1, 13.1.1 Number of injured or ill people attributed to disasters"
+                "value": "Number of injured or ill people attributed to disasters"
             },
             {
                 "key": "VC_DSR_PDAN",
-                "value": "1.5.1, 11.5.1, 13.1.1 Number of people whose damaged dwellings were attributed to disasters"
+                "value": "Number of people whose damaged dwellings were attributed to disasters"
             },
             {
                 "key": "VC_DSR_DDHN",
-                "value": "1.5.1, 11.5.1, 13.1.1 Number damaged dwellings attributed to disasters"
+                "value": "Number damaged dwellings attributed to disasters"
             },
             {
                 "key": "VC_DSR_PDYN",
-                "value": "1.5.1, 11.5.1, 13.1.1 Number of people whose destroyed dwellings were attributed to disasters"
+                "value": "Number of people whose destroyed dwellings were attributed to disasters"
             },
             {
                 "key": "VC_DSR_DYDN",
-                "value": "1.5.1, 11.5.1, 13.1.1 Number of destroyed dwellings attributed to disasters"
+                "value": "Number of destroyed dwellings attributed to disasters"
             },
             {
                 "key": "VC_DSR_PDLN",
-                "value": "1.5.1, 11.5.1, 13.1.1 Number of people whose livelihoods were disrupted or destroyed, attributed to disasters"
+                "value": "Number of people whose livelihoods were disrupted or destroyed, attributed to disasters"
             },
             {
                 "key": "VC_DSR_DYHN",
-                "value": "1.5.1, 11.5.1, 13.1.1 Number destroyed dwellings attributed to disasters, by hazard type"
+                "value": "Number destroyed dwellings attributed to disasters, by hazard type"
             },
             {
                 "key": "VC_DSR_GDPLS",
-                "value": "1.5.2  Direct economic loss attributed to disasters"
+                "value": "Direct economic loss attributed to disasters"
             },
             {
                 "key": "VC_DSR_LSGP",
-                "value": "1.5.2, 11.5.2 Direct economic loss attributed to disasters relative to GDP"
+                "value": "Direct economic loss attributed to disasters relative to GDP"
             },
             {
                 "key": "VC_DSR_AGLH",
-                "value": "1.5.2, 11.5.2 Direct agriculture loss attributed to disasters"
+                "value": "Direct agriculture loss attributed to disasters"
             },
             {
                 "key": "VC_DSR_HOLH",
-                "value": "1.5.2, 11.5.2 Direct economic loss in the housing sector attributed to disasters, by hazard type (millions of current United States dollars)"
+                "value": "Direct economic loss in the housing sector attributed to disasters, by hazard type (millions of current United States dollars)"
             },
             {
                 "key": "VC_DSR_CILN",
-                "value": "1.5.2, 11.5.2 Direct economic loss resulting from damaged or destroyed critical infrastructure attributed to disasters"
+                "value": "Direct economic loss resulting from damaged or destroyed critical infrastructure attributed to disasters"
             },
             {
                 "key": "VC_DSR_CHLN",
-                "value": "1.5.2, 11.5.2 Direct economic loss to cultural heritage damaged or destroyed attributed to disasters"
+                "value": "Direct economic loss to cultural heritage damaged or destroyed attributed to disasters"
             },
             {
                 "key": "VC_DSR_DDPA",
-                "value": "1.5.2, 11.5.2 Direct economic loss to other damaged or destroyed productive assets attributed to disasters"
+                "value": "Direct economic loss to other damaged or destroyed productive assets attributed to disasters"
             },
             {
                 "key": "SG_DSR_LEGREG",
-                "value": "1.5.3  Countries with legislative and/or regulatory provisions been made for managing disaster risk (1 = YES; 0 = NO)"
+                "value": "Countries with legislative and/or regulatory provisions been made for managing disaster risk (1 = YES; 0 = NO)"
             },
             {
                 "key": "SG_DSR_LGRGSR",
-                "value": "1.5.3, 11.b.1, 13.1.2 Score of adoption and implementation of national DRR strategies in line with the Sendai Framework"
+                "value": "Score of adoption and implementation of national DRR strategies in line with the Sendai Framework"
             },
             {
                 "key": "SG_DSR_SILS",
-                "value": "1.5.4, 11.b.2, 13.1.3 Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies"
+                "value": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies"
             },
             {
                 "key": "SG_DSR_SILN",
-                "value": "1.5.4, 11.b.2, 13.1.3 Number of local governments that adopt and implement local DRR strategies in line with national strategies"
+                "value": "Number of local governments that adopt and implement local DRR strategies in line with national strategies"
             },
             {
                 "key": "SG_GOV_LOGV",
-                "value": "1.5.4, 11.b.2, 13.1.3 Number of local governments"
+                "value": "Number of local governments"
             },
             {
                 "key": "SG_POV_DOM",
-                "value": "1.a.1  Proportion of domestically generated resources allocated by the government directly to poverty reduction programmes"
+                "value": "Proportion of domestically generated resources allocated by the government directly to poverty reduction programmes"
             },
             {
                 "key": "SG_XPD_HLTH",
-                "value": "1.a.2 Proportion of total government spending on health"
+                "value": "Proportion of total government spending on health"
             },
             {
                 "key": "SG_XPD_PROT",
-                "value": "1.a.2 Proportion of total government spending on social protection"
+                "value": "Proportion of total government spending on social protection"
             },
             {
                 "key": "SD_XPD_ESED",
-                "value": "1.a.2 Proportion of total government spending on essential services, education"
+                "value": "Proportion of total government spending on essential services, education"
             },
             {
                 "key": "SG_POV_TOTL",
-                "value": "1.a.3  Sum of total grants and non-debt-creating inflows directly allocated to poverty reduction programmes as a proportion of GDP"
+                "value": "Sum of total grants and non-debt-creating inflows directly allocated to poverty reduction programmes as a proportion of GDP"
             },
             {
                 "key": "SG_XPD_VULN",
-                "value": "1.b.1  Proportion of government recurrent and capital spending to sectors that disproportionately benefit women, the poor and vulnerable groups"
+                "value": "Proportion of government recurrent and capital spending to sectors that disproportionately benefit women, the poor and vulnerable groups"
             },
             {
                 "key": "SN_ITK_DEFC",
-                "value": "2.1.1  Prevalence of undernourishment"
+                "value": "Prevalence of undernourishment"
             },
             {
                 "key": "SN_ITK_DEFCN",
-                "value": "2.1.1 Number of undernourish people"
+                "value": "Number of undernourish people"
             },
             {
                 "key": "AG_PRD_FIESMS",
-                "value": "2.1.2  Prevalence of moderate or severe food insecurity in the population"
+                "value": "Prevalence of moderate or severe food insecurity in the population"
             },
             {
                 "key": "AG_PRD_FIESMSN",
-                "value": "2.1.2  Population in moderate or severe food insecurity (number)"
+                "value": "Population in moderate or severe food insecurity (number)"
             },
             {
                 "key": "AG_PRD_FIESMSTN",
-                "value": "2.1.2  Population living in households where at least one adult experienced moderate or severe food insecurity (number)"
+                "value": "Population living in households where at least one adult experienced moderate or severe food insecurity (number)"
             },
             {
                 "key": "AG_PRD_FIESS",
-                "value": "2.1.2  Prevalence of severe food insecurity in the population"
+                "value": "Prevalence of severe food insecurity in the population"
             },
             {
                 "key": "AG_PRD_FIESSN",
-                "value": "2.1.2  Population in severe food insecurity (number)"
+                "value": "Population in severe food insecurity (number)"
             },
             {
                 "key": "AG_PRD_FIESSTN",
-                "value": "2.1.2  Population living in households where at least one adult experienced severe food insecurity (number)"
+                "value": "Population living in households where at least one adult experienced severe food insecurity (number)"
             },
             {
                 "key": "SH_STA_STNT",
-                "value": "2.2.1  Proportion of children moderately or severely stunted"
+                "value": "Proportion of children moderately or severely stunted"
             },
             {
                 "key": "SH_STA_STNTN",
-                "value": "2.2.1  Children moderately or severely stunted (number)"
+                "value": "Children moderately or severely stunted (number)"
             },
             {
                 "key": "SH_STA_WAST",
-                "value": "2.2.2  Proportion of children moderately or severely wasted"
+                "value": "Proportion of children moderately or severely wasted"
             },
             {
                 "key": "SH_STA_WASTN",
-                "value": "2.2.2  Children moderately or severely wasted (number)"
+                "value": "Children moderately or severely wasted (number)"
             },
             {
                 "key": "SN_STA_OVWGT",
-                "value": "2.2.2  Proportion of children moderately or severely overweight"
+                "value": "Proportion of children moderately or severely overweight"
             },
             {
                 "key": "SN_STA_OVWGTN",
-                "value": "2.2.2  Children moderately or severely overweight (number)"
+                "value": "Children moderately or severely overweight (number)"
             },
             {
                 "key": "PD_AGR_SSFP",
-                "value": "2.3.1 Productivity of small-scale food producers"
+                "value": "Productivity of small-scale food producers"
             },
             {
                 "key": "SI_AGR_SSFP",
-                "value": "2.3.2 Average income of small-scale food producers"
+                "value": "Average income of small-scale food producers"
             },
             {
                 "key": "AG_LND_SUST",
-                "value": "2.4.1 Proportion of agricultural area under productive and sustainable agriculture"
+                "value": "Proportion of agricultural area under productive and sustainable agriculture"
             },
             {
                 "key": "ER_GRF_ANIMKPT",
-                "value": "2.5.1  Number of local breeds kept in the country"
+                "value": "Number of local breeds kept in the country"
             },
             {
                 "key": "ER_GRF_ANIMRCNT",
-                "value": "2.5.1  Proportion of local breeds for which sufficient genetic resources are stored for reconstitution"
+                "value": "Proportion of local breeds for which sufficient genetic resources are stored for reconstitution"
             },
             {
                 "key": "ER_GRF_ANIMRCNTN",
-                "value": "2.5.1  Number of local breeds for which sufficient genetic resources are stored for reconstitution"
+                "value": "Number of local breeds for which sufficient genetic resources are stored for reconstitution"
             },
             {
                 "key": "ER_GRF_ANIMSTOR",
-                "value": "2.5.1  Proportion of local breeds with genetic material stored"
+                "value": "Proportion of local breeds with genetic material stored"
             },
             {
                 "key": "ER_GRF_ANIMSTORN",
-                "value": "2.5.1  Number of local breeds with genetic material stored"
+                "value": "Number of local breeds with genetic material stored"
             },
             {
                 "key": "ER_GRF_GENEBNK",
-                "value": "2.5.1  Operational in vitro gene bank for animal genetic resources"
+                "value": "Operational in vitro gene bank for animal genetic resources"
             },
             {
                 "key": "ER_GRF_PLNTSTOR",
-                "value": "2.5.1  Plant breeds for which sufficient genetic resources are stored (number)"
+                "value": "Plant breeds for which sufficient genetic resources are stored (number)"
             },
             {
                 "key": "ER_RSK_LBREDS",
-                "value": "2.5.2  Proportion of local breeds classified as being at risk as a percentage of local breeds with known level of extinction risk"
+                "value": "Proportion of local breeds classified as being at risk as a percentage of local breeds with known level of extinction risk"
             },
             {
                 "key": "AG_PRD_ORTIND",
-                "value": "2.a.1  Agriculture orientation index for government expenditures"
+                "value": "Agriculture orientation index for government expenditures"
             },
             {
                 "key": "AG_XPD_AGSGB",
-                "value": "2.a.1 Agriculture share of Government Expenditure"
+                "value": "Agriculture share of Government Expenditure"
             },
             {
                 "key": "AG_PRD_AGVAS",
-                "value": "2.a.1 Agriculture value added share of GDP"
+                "value": "Agriculture value added share of GDP"
             },
             {
                 "key": "DC_TOF_AGRL",
-                "value": "2.a.2  Total official flows (disbursements) for agriculture, by recipient countries"
+                "value": "Total official flows (disbursements) for agriculture, by recipient countries"
             },
             {
                 "key": "AG_PRD_XSUBDY",
-                "value": "2.b.1  Agricultural export subsidies"
+                "value": "Agricultural export subsidies"
             },
             {
                 "key": "AG_FPA_COMM",
-                "value": "2.c.1 Indicator of Food Price Anomalies (IFPA)"
+                "value": "Indicator of Food Price Anomalies (IFPA)"
             },
             {
                 "key": "AG_FPA_CFPI",
-                "value": "2.c.1 Consumer Food Price Index"
+                "value": "Consumer Food Price Index"
             },
             {
                 "key": "SH_STA_MORT",
-                "value": "3.1.1  Maternal mortality ratio"
+                "value": "Maternal mortality ratio"
             },
             {
                 "key": "SH_STA_BRTC",
-                "value": "3.1.2  Proportion of births attended by skilled health personnel"
+                "value": "Proportion of births attended by skilled health personnel"
             },
             {
                 "key": "SH_DYN_IMRT",
-                "value": "3.2.1  Infant mortality rate"
+                "value": "Infant mortality rate"
             },
             {
                 "key": "SH_DYN_IMRTN",
-                "value": "3.2.1  Infant deaths (number)"
+                "value": "Infant deaths (number)"
             },
             {
                 "key": "SH_DYN_MORT",
-                "value": "3.2.1  Under-five mortality rate"
+                "value": "Under-five mortality rate"
             },
             {
                 "key": "SH_DYN_MORTN",
-                "value": "3.2.1  Under-five deaths (number)"
+                "value": "Under-five deaths (number)"
             },
             {
                 "key": "SH_DYN_NMRT",
-                "value": "3.2.2  Neonatal mortality rate"
+                "value": "Neonatal mortality rate"
             },
             {
                 "key": "SH_DYN_NMRTN",
-                "value": "3.2.2  Neonatal deaths (number)"
+                "value": "Neonatal deaths (number)"
             },
             {
                 "key": "SH_HIV_INCD",
-                "value": "3.3.1  Number of new HIV infections per 1,000 uninfected population"
+                "value": "Number of new HIV infections per 1,000 uninfected population"
             },
             {
                 "key": "SH_TBS_INCD",
-                "value": "3.3.2  Tuberculosis incidence"
+                "value": "Tuberculosis incidence"
             },
             {
                 "key": "SH_STA_MALR",
-                "value": "3.3.3  Malaria incidence per 1,000 population at risk"
+                "value": "Malaria incidence per 1,000 population at risk"
             },
             {
                 "key": "SH_HAP_HBSAG",
-                "value": "3.3.4 Prevalence of hepatitis B surface antigen (HBsAg)"
+                "value": "Prevalence of hepatitis B surface antigen (HBsAg)"
             },
             {
                 "key": "SH_TRP_INTVN",
-                "value": "3.3.5  Number of people requiring interventions against neglected tropical diseases"
+                "value": "Number of people requiring interventions against neglected tropical diseases"
             },
             {
                 "key": "SH_DTH_NCD",
-                "value": "3.4.1  Deaths attributed non-communicable diseases (number)"
+                "value": "Deaths attributed non-communicable diseases (number)"
             },
             {
                 "key": "SH_DTH_NCOM",
-                "value": "3.4.1 Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease"
+                "value": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease"
             },
             {
                 "key": "SH_STA_SCIDE",
-                "value": "3.4.2  Suicide mortality rate"
+                "value": "Suicide mortality rate"
             },
             {
                 "key": "SH_STA_SCIDEN",
-                "value": "3.4.2  Number of deaths attributed to suicide"
+                "value": "Number of deaths attributed to suicide"
             },
             {
                 "key": "SH_ALC_CONSPT",
-                "value": "3.5.2  Alcohol consumption per capita (aged 15 years and older) within a calendar year"
+                "value": "Alcohol consumption per capita (aged 15 years and older) within a calendar year"
             },
             {
                 "key": "SH_STA_TRAF",
-                "value": "3.6.1  Death rate due to road traffic injuries"
+                "value": "Death rate due to road traffic injuries"
             },
             {
                 "key": "SH_STA_TRAFN",
-                "value": "3.6.1  Number of deaths rate due to road traffic injuries"
+                "value": "Number of deaths rate due to road traffic injuries"
             },
             {
                 "key": "SH_FPL_MTMM",
-                "value": "3.7.1  Proportion of women married or in a union of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods"
+                "value": "Proportion of women married or in a union of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods"
             },
             {
                 "key": "SP_DYN_ADKL",
-                "value": "3.7.2  Adolescent birth rate (per 1,000 women aged 15-19 years)"
+                "value": "Adolescent birth rate (per 1,000 women aged 15-19 years)"
             },
             {
                 "key": "SH_ACS_UNHC",
-                "value": "3.8.1 Universal health coverage (UHC) service coverage index"
+                "value": "Universal health coverage (UHC) service coverage index"
             },
             {
                 "key": "SH_XPD_EARN25",
-                "value": "3.8.2 Proportion of population with large household expenditures on health (greater than 25%) as a share of total household expenditure or income"
+                "value": "Proportion of population with large household expenditures on health (greater than 25%) as a share of total household expenditure or income"
             },
             {
                 "key": "SH_XPD_EARN10",
-                "value": "3.8.2 Proportion of population with large household expenditures on health (greater than 10%) as a share of total household expenditure or income"
+                "value": "Proportion of population with large household expenditures on health (greater than 10%) as a share of total household expenditure or income"
             },
             {
                 "key": "SH_AAP_ASMORT",
-                "value": "3.9.1  Age-standardized mortality rate attributed to ambient air pollution"
+                "value": "Age-standardized mortality rate attributed to ambient air pollution"
             },
             {
                 "key": "SH_AAP_MORT",
-                "value": "3.9.1  Crude death rate attributed to ambient air pollution"
+                "value": "Crude death rate attributed to ambient air pollution"
             },
             {
                 "key": "SH_HAP_ASMORT",
-                "value": "3.9.1  Age-standardized mortality rate attributed to household air pollution"
+                "value": "Age-standardized mortality rate attributed to household air pollution"
             },
             {
                 "key": "SH_HAP_MORT",
-                "value": "3.9.1  Crude death rate attributed to household air pollution"
+                "value": "Crude death rate attributed to household air pollution"
             },
             {
                 "key": "SH_STA_AIRP",
-                "value": "3.9.1  Crude death rate attributed to household and ambient air pollution"
+                "value": "Crude death rate attributed to household and ambient air pollution"
             },
             {
                 "key": "SH_STA_ASAIRP",
-                "value": "3.9.1  Age-standardized mortality rate attributed to household and ambient air pollution"
+                "value": "Age-standardized mortality rate attributed to household and ambient air pollution"
             },
             {
                 "key": "SH_STA_WASH",
-                "value": "3.9.2  Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene"
+                "value": "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene"
             },
             {
                 "key": "SH_STA_POISN",
-                "value": "3.9.3  Mortality rate attributed to unintentional poisonings"
+                "value": "Mortality rate attributed to unintentional poisonings"
             },
             {
                 "key": "SH_PRV_SMOK",
-                "value": "3.a.1  Age-standardized prevalence of current tobacco use among persons aged 15 years and older"
+                "value": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older"
             },
             {
                 "key": "SH_ACS_DTP3",
-                "value": "3.b.1 Proportion of the target population with access to 3 doses of diphtheria-tetanus-pertussis (DTP3)"
+                "value": "Proportion of the target population with access to 3 doses of diphtheria-tetanus-pertussis (DTP3)"
             },
             {
                 "key": "SH_ACS_MCV2",
-                "value": "3.b.1 Proportion of the target population with access to measles-containing-vaccine second-dose (MCV2)"
+                "value": "Proportion of the target population with access to measles-containing-vaccine second-dose (MCV2)"
             },
             {
                 "key": "SH_ACS_PCV3",
-                "value": "3.b.1 Proportion of the target population with access to pneumococcal conjugate 3rd dose (PCV3)"
+                "value": "Proportion of the target population with access to pneumococcal conjugate 3rd dose (PCV3)"
             },
             {
                 "key": "SH_ACS_VACN",
-                "value": "3.b.1  Proportion of the target population covered by all vaccines included in their national programme"
+                "value": "Proportion of the target population covered by all vaccines included in their national programme"
             },
             {
                 "key": "DC_TOF_HLTHL",
-                "value": "3.b.2  Total official development assistance to medical research and basic heath sectors, gross disbursement, by recipient countries"
+                "value": "Total official development assistance to medical research and basic heath sectors, gross disbursement, by recipient countries"
             },
             {
                 "key": "DC_TOF_HLTHNT",
-                "value": "3.b.2  Total official development assistance to medical research and basic heath sectors, net disbursement, by recipient countries"
+                "value": "Total official development assistance to medical research and basic heath sectors, net disbursement, by recipient countries"
             },
             {
                 "key": "SH_MED_DEN",
-                "value": "3.c.1  Health workder density"
+                "value": "Health workder density"
             },
             {
                 "key": "SH_IHR_CAPPRD",
-                "value": "3.d.1  Average of 13 International Health Regulations (IHR) core capacities"
+                "value": "Average of 13 International Health Regulations (IHR) core capacities"
             },
             {
                 "key": "SH_IHR_CAPS",
-                "value": "3.d.1 International Health Regulations (IHR) capacity, by type of IHR capacity"
+                "value": "International Health Regulations (IHR) capacity, by type of IHR capacity"
             },
             {
                 "key": "SE_TOT_PRFL",
-                "value": "4.1.1  Proportion of children and young people achieving a minimum proficiency level in reading and mathematics"
+                "value": "Proportion of children and young people achieving a minimum proficiency level in reading and mathematics"
             },
             {
                 "key": "SE_DEV_ONTRK",
-                "value": "4.2.1  Proportion of children aged 36-59 months who are developmentally on track in at least three of the following domains: literacy-numeracy, physical development, social-emotional development, and learning"
+                "value": "Proportion of children aged 36-59 months who are developmentally on track in at least three of the following domains: literacy-numeracy, physical development, social-emotional development, and learning"
             },
             {
                 "key": "SE_PRE_PARTN",
-                "value": "4.2.2  Participation rate in organized learning (one year before the official primary entry age)"
+                "value": "Participation rate in organized learning (one year before the official primary entry age)"
             },
             {
                 "key": "SE_ADT_EDUCTRN",
-                "value": "4.3.1  Participation rate in formal and non-formal education and training"
+                "value": "Participation rate in formal and non-formal education and training"
             },
             {
                 "key": "SE_ADT_ACTS",
-                "value": "4.4.1 Proportion of youth and adults with information and communications technology (ICT) skills"
+                "value": "Proportion of youth and adults with information and communications technology (ICT) skills"
             },
             {
                 "key": "SE_GPI_PART",
-                "value": "4.5.1 Gender parity index for participation rate in formal and non-formal education and training"
+                "value": "Gender parity index for participation rate in formal and non-formal education and training"
             },
             {
                 "key": "SE_GPI_ICTS",
-                "value": "4.5.1 Gender parity index for youth/adults with information and communications technology (ICT) skills"
+                "value": "Gender parity index for youth/adults with information and communications technology (ICT) skills"
             },
             {
                 "key": "SE_NAP_ACHI",
-                "value": "4.5.1 Native parity index for achievement"
+                "value": "Native parity index for achievement"
             },
             {
                 "key": "SE_LGP_ACHI",
-                "value": "4.5.1 Language test parity index for achievement"
+                "value": "Language test parity index for achievement"
             },
             {
                 "key": "SE_IMP_FPOF",
-                "value": "4.5.1 Immigration status parity index for achieving at least a fixed level of proficiency in functional skills, by numeracy/literacy skills"
+                "value": "Immigration status parity index for achieving at least a fixed level of proficiency in functional skills, by numeracy/literacy skills"
             },
             {
                 "key": "SE_TOT_GPI",
-                "value": "4.5.1  Gender parity index for achievement"
+                "value": "Gender parity index for achievement"
             },
             {
                 "key": "SE_TOT_SESPI",
-                "value": "4.5.1  Low to high socio-economic parity status index for achievement"
+                "value": "Low to high socio-economic parity status index for achievement"
             },
             {
                 "key": "SE_TOT_RUPI",
-                "value": "4.5.1  Rural to urban parity index for achievement"
+                "value": "Rural to urban parity index for achievement"
             },
             {
                 "key": "SE_GPI_TCAQ",
-                "value": "4.5.1  Gender parity index of trained teachers"
+                "value": "Gender parity index of trained teachers"
             },
             {
                 "key": "SE_GPI_PTNPRE",
-                "value": "4.5.1  Gender parity index for participation rate in organized learning (one year before the official primary entry age)"
+                "value": "Gender parity index for participation rate in organized learning (one year before the official primary entry age)"
             },
             {
                 "key": "SE_ADT_FUNS",
-                "value": "4.6.1 Proportion of population achieving at least a fixed level of proficiency in functional skills"
+                "value": "Proportion of population achieving at least a fixed level of proficiency in functional skills"
             },
             {
                 "key": "SE_ACS_ELECT",
-                "value": "4.a.1  Proportion of schools with access to electricity"
+                "value": "Proportion of schools with access to electricity"
             },
             {
                 "key": "SE_ACS_CMPTR",
-                "value": "4.a.1  Proportion of schools with access to computers for pedagogical purposes"
+                "value": "Proportion of schools with access to computers for pedagogical purposes"
             },
             {
                 "key": "SE_ACS_H2O",
-                "value": "4.a.1  Proportion of schools with access to basic drinking water"
+                "value": "Proportion of schools with access to basic drinking water"
             },
             {
                 "key": "SE_ACC_HNDWSH",
-                "value": "4.a.1  Proportion of schools with basic handwashing facilities"
+                "value": "Proportion of schools with basic handwashing facilities"
             },
             {
                 "key": "SE_ACS_INTNT",
-                "value": "4.a.1  Proportion of schools with access to the internet for pedagogical purposes"
+                "value": "Proportion of schools with access to the internet for pedagogical purposes"
             },
             {
                 "key": "SE_ACS_SANIT",
-                "value": "4.a.1  Proportion of schools with access to access to single-sex basic sanitation"
+                "value": "Proportion of schools with access to access to single-sex basic sanitation"
             },
             {
                 "key": "SE_INF_DSBL",
-                "value": "4.a.1 Proportion of schools with access to adapted infrastructure and materials for students with disabilities"
+                "value": "Proportion of schools with access to adapted infrastructure and materials for students with disabilities"
             },
             {
                 "key": "DC_TOF_SCHIPSL",
-                "value": "4.b.1  Total official flows for scholarships, by recipient countries"
+                "value": "Total official flows for scholarships, by recipient countries"
             },
             {
                 "key": "SE_TRA_GRDL",
-                "value": "4.c.1 Proportion of teachers who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country"
+                "value": "Proportion of teachers who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country"
             },
             {
                 "key": "SG_LGL_GENEQLFP",
-                "value": "5.1.1 Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 1: overarching legal frameworks and public life."
+                "value": "Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 1: overarching legal frameworks and public life."
             },
             {
                 "key": "SG_LGL_GENEQVAW",
-                "value": "5.1.1 Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 2: violence against women."
+                "value": "Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 2: violence against women."
             },
             {
                 "key": "SG_LGL_GENEQEMP",
-                "value": "5.1.1 Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 3: employment and economic benefits."
+                "value": "Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 3: employment and economic benefits."
             },
             {
                 "key": "SG_LGL_GENEQMAR",
-                "value": "5.1.1 Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 4: marriage and family."
+                "value": "Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 4: marriage and family."
             },
             {
                 "key": "VC_VAW_MARR",
-                "value": "5.2.1  Proportion of ever-partnered women and girls subjected to physical and sexual violence by a current or former intimate partner in the previous 12 months"
+                "value": "Proportion of ever-partnered women and girls subjected to physical and sexual violence by a current or former intimate partner in the previous 12 months"
             },
             {
                 "key": "VC_VAW_PHYV",
-                "value": "5.2.1  Proportion of ever-partnered women and girls subjected to physical violence by a current or former intimate partner in the previous 12 months"
+                "value": "Proportion of ever-partnered women and girls subjected to physical violence by a current or former intimate partner in the previous 12 months"
             },
             {
                 "key": "VC_VAW_SEXV",
-                "value": "5.2.1  Proportion of ever-partnered women and girls subjected to sexual violence by a current or former intimate partner in the previous 12 months"
+                "value": "Proportion of ever-partnered women and girls subjected to sexual violence by a current or former intimate partner in the previous 12 months"
             },
             {
                 "key": "VC_VAW_PSYV",
-                "value": "5.2.1  Proportion of ever-partnered women and girls subjected to psychological violence by a current or former intimate partner in the previous 12 months"
+                "value": "Proportion of ever-partnered women and girls subjected to psychological violence by a current or former intimate partner in the previous 12 months"
             },
             {
                 "key": "VC_VAW_NONMARR",
-                "value": "5.2.2  Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months"
+                "value": "Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months"
             },
             {
                 "key": "SP_DYN_MRBF15",
-                "value": "5.3.1  Proportion of women aged 20-24 years who were married or in a union before age 15"
+                "value": "Proportion of women aged 20-24 years who were married or in a union before age 15"
             },
             {
                 "key": "SP_DYN_MRBF18",
-                "value": "5.3.1  Proportion of women aged 20-24 years who were married or in a union before age 18"
+                "value": "Proportion of women aged 20-24 years who were married or in a union before age 18"
             },
             {
                 "key": "SH_STA_FGMS",
-                "value": "5.3.2  Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting"
+                "value": "Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting"
             },
             {
                 "key": "SL_DOM_TSPD",
-                "value": "5.4.1  Proportion of time spent on unpaid domestic chores and care work"
+                "value": "Proportion of time spent on unpaid domestic chores and care work"
             },
             {
                 "key": "SL_DOM_TSPDCW",
-                "value": "5.4.1  Proportion of time spent on unpaid care work"
+                "value": "Proportion of time spent on unpaid care work"
             },
             {
                 "key": "SL_DOM_TSPDDC",
-                "value": "5.4.1  Proportion of time spent on unpaid domestic chores"
+                "value": "Proportion of time spent on unpaid domestic chores"
             },
             {
                 "key": "SG_GEN_LOCGELS",
-                "value": "5.5.1 Proportion of elected seats held by women in deliberative bodies of local government"
+                "value": "Proportion of elected seats held by women in deliberative bodies of local government"
             },
             {
                 "key": "SG_GEN_PARL",
-                "value": "5.5.1  Proportion of seats held by women in national parliaments (% of total number of seats)"
+                "value": "Proportion of seats held by women in national parliaments (% of total number of seats)"
             },
             {
                 "key": "SG_GEN_PARLN",
-                "value": "5.5.1  Number of seats held by women in national parliaments"
+                "value": "Number of seats held by women in national parliaments"
             },
             {
                 "key": "SG_GEN_PARLNT",
-                "value": "5.5.1  Number of seats in national parliaments"
+                "value": "Number of seats in national parliaments"
             },
             {
                 "key": "SG_GEN_LOCG",
-                "value": "5.5.1  Proportion of seats held by women in local governments (% of total number of seats)"
+                "value": "Proportion of seats held by women in local governments (% of total number of seats)"
             },
             {
                 "key": "IC_GEN_MGTL",
-                "value": "5.5.2  Proportion of women in managerial positions"
+                "value": "Proportion of women in managerial positions"
             },
             {
                 "key": "IC_GEN_MGTN",
-                "value": "5.5.2  Proportion of women in senior and middle management positions"
+                "value": "Proportion of women in senior and middle management positions"
             },
             {
                 "key": "SH_FPL_INFM",
-                "value": "5.6.1  Proportion of women who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care (% of women aged 15-49 years)"
+                "value": "Proportion of women who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care (% of women aged 15-49 years)"
             },
             {
                 "key": "SH_FPL_INFMSR",
-                "value": "5.6.1 Proportion of women who make their own informed decisions regarding sexual relations (% of women aged 15-49 years)"
+                "value": "Proportion of women who make their own informed decisions regarding sexual relations (% of women aged 15-49 years)"
             },
             {
                 "key": "SH_FPL_INFMCU",
-                "value": "5.6.1 Proportion of women who make their own informed decisions regarding contraceptive use (% of women aged 15-49 years)"
+                "value": "Proportion of women who make their own informed decisions regarding contraceptive use (% of women aged 15-49 years)"
             },
             {
                 "key": "SH_FPL_INFMRH",
-                "value": "5.6.1 Proportion of women who make their own informed decisions regarding reproductive health care (% of women aged 15-49 years)"
+                "value": "Proportion of women who make their own informed decisions regarding reproductive health care (% of women aged 15-49 years)"
             },
             {
                 "key": "SG_RHC_ACCS",
-                "value": "5.6.2  Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education"
+                "value": "Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education"
             },
             {
                 "key": "SP_LGL_LNDAGSEC",
-                "value": "5.a.1  Proportion of total agricultural population with ownership or secure rights over agricultural land"
+                "value": "Proportion of total agricultural population with ownership or secure rights over agricultural land"
             },
             {
                 "key": "SG_LGL_LNDWMN",
-                "value": "5.a.2  Proportion of countries where the legal framework (including customary law) guarantees women's equal rights to land ownership and/or control"
+                "value": "Proportion of countries where the legal framework (including customary law) guarantees women's equal rights to land ownership and/or control"
             },
             {
                 "key": "IT_MOB_OWN",
-                "value": "5.b.1  Proportion of individuals who own a mobile telephone"
+                "value": "Proportion of individuals who own a mobile telephone"
             },
             {
                 "key": "SG_GEN_EQPWN",
-                "value": "5.c.1  Proportion of countries with systems to track and make public allocations for gender equality and women's empowerment"
+                "value": "Proportion of countries with systems to track and make public allocations for gender equality and women's empowerment"
             },
             {
                 "key": "SH_H2O_SAFE",
-                "value": "6.1.1  Proportion of population using safely managed drinking water services"
+                "value": "Proportion of population using safely managed drinking water services"
             },
             {
                 "key": "SH_SAN_DEFECT",
-                "value": "6.2.1  Proportion of population practicing open defecation"
+                "value": "Proportion of population practicing open defecation"
             },
             {
                 "key": "SH_SAN_HNDWSH",
-                "value": "6.2.1  Proportion of population with basic handwashing facilities on premises"
+                "value": "Proportion of population with basic handwashing facilities on premises"
             },
             {
                 "key": "SH_SAN_SAFE",
-                "value": "6.2.1  Proportion of population using safely managed sanitation services"
+                "value": "Proportion of population using safely managed sanitation services"
             },
             {
                 "key": "EN_WWT_WWDS",
-                "value": "6.3.1 Proportion of safely treated domestic wastewater flows"
+                "value": "Proportion of safely treated domestic wastewater flows"
             },
             {
                 "key": "EN_H2O_OPAMBQ",
-                "value": "6.3.2 Proportion of open water bodies with good ambient water quality"
+                "value": "Proportion of open water bodies with good ambient water quality"
             },
             {
                 "key": "EN_H2O_RVAMBQ",
-                "value": "6.3.2 Proportion of river water bodies with good ambient water quality"
+                "value": "Proportion of river water bodies with good ambient water quality"
             },
             {
                 "key": "EN_H2O_GRAMBQ",
-                "value": "6.3.2 Proportion of groundwater bodies with good ambient water quality"
+                "value": "Proportion of groundwater bodies with good ambient water quality"
             },
             {
                 "key": "EN_H2O_WBAMBQ",
-                "value": "6.3.2 Proportion of bodies of water with good ambient water quality"
+                "value": "Proportion of bodies of water with good ambient water quality"
             },
             {
                 "key": "ER_H2O_WUEYST",
-                "value": "6.4.1 Water Use Efficiency (United States dollars per cubic meter)"
+                "value": "Water Use Efficiency (United States dollars per cubic meter)"
             },
             {
                 "key": "ER_H2O_STRESS",
-                "value": "6.4.2  Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+                "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
             },
             {
                 "key": "ER_H2O_IWRMD",
-                "value": "6.5.1 Degree of integrated water resources management implementation"
+                "value": "Degree of integrated water resources management implementation"
             },
             {
                 "key": "ER_H2O_IWRMP",
-                "value": "6.5.1 Proportion of countries by IWRM implementation category"
+                "value": "Proportion of countries by IWRM implementation category"
             },
             {
                 "key": "EG_TBA_H2CO",
-                "value": "6.5.2 Proportion of transboundary basins (river and lake basins and aquifers) with an operational arrangement for water cooperation"
+                "value": "Proportion of transboundary basins (river and lake basins and aquifers) with an operational arrangement for water cooperation"
             },
             {
                 "key": "EG_TBA_H2COAQ",
-                "value": "6.5.2 Proportion of transboundary aquifers with an operational arrangement for water cooperation"
+                "value": "Proportion of transboundary aquifers with an operational arrangement for water cooperation"
             },
             {
                 "key": "EG_TBA_H2CORL",
-                "value": "6.5.2 Proportion of transboundary river and lake basins with an operational arrangement for water cooperation"
+                "value": "Proportion of transboundary river and lake basins with an operational arrangement for water cooperation"
             },
             {
                 "key": "EN_WBE_PMPR",
-                "value": "6.6.1 Water body extent (permanent) (% of total land area)"
+                "value": "Water body extent (permanent) (% of total land area)"
             },
             {
                 "key": "EN_WBE_PMNR",
-                "value": "6.6.1 Water body extent (permanent) (square kilometres)"
+                "value": "Water body extent (permanent) (square kilometres)"
             },
             {
                 "key": "EN_WBE_PMPP",
-                "value": "6.6.1 Water body extent (permanent and maybe permanent) (% of total land area)"
+                "value": "Water body extent (permanent and maybe permanent) (% of total land area)"
             },
             {
                 "key": "EN_WBE_PMPN",
-                "value": "6.6.1 Water body extent (permanent and maybe permanent) (square kilometres)"
+                "value": "Water body extent (permanent and maybe permanent) (square kilometres)"
             },
             {
                 "key": "EN_WBE_NDETOT",
-                "value": "6.6.1 Nationally derived total extent (square kilometres)"
+                "value": "Nationally derived total extent (square kilometres)"
             },
             {
                 "key": "EN_WBE_NDOPW",
-                "value": "6.6.1 Nationally derived extent of open water bodies (square kilometres)"
+                "value": "Nationally derived extent of open water bodies (square kilometres)"
             },
             {
                 "key": "EN_WBE_NDQLGRW",
-                "value": "6.6.1 Nationally derived quality of groundwater (%)"
+                "value": "Nationally derived quality of groundwater (%)"
             },
             {
                 "key": "EN_WBE_NDQLOPW",
-                "value": "6.6.1 Nationally derived quality of open water bodies  (%)"
+                "value": "Nationally derived quality of open water bodies  (%)"
             },
             {
                 "key": "EN_WBE_NDQLRVR",
-                "value": "6.6.1 Nationally derived quality of river  (%)"
+                "value": "Nationally derived quality of river  (%)"
             },
             {
                 "key": "EN_WBE_NDQLTOT",
-                "value": "6.6.1 Nationally derived proportion of water bodies with good quality (%)"
+                "value": "Nationally derived proportion of water bodies with good quality (%)"
             },
             {
                 "key": "EN_WBE_NDQTGRW",
-                "value": "6.6.1 Nationally derived quantity of groundwater (millions of cubic metres per annum)"
+                "value": "Nationally derived quantity of groundwater (millions of cubic metres per annum)"
             },
             {
                 "key": "EN_WBE_NDQTOPW",
-                "value": "6.6.1 Nationally derived quantity of open water bodies (million of cubic metres per annum)"
+                "value": "Nationally derived quantity of open water bodies (million of cubic metres per annum)"
             },
             {
                 "key": "EN_WBE_NDQTRVR",
-                "value": "6.6.1 Nationally derived quantity of rivers (million of cubic metres per annum)"
+                "value": "Nationally derived quantity of rivers (million of cubic metres per annum)"
             },
             {
                 "key": "EN_WBE_NDQTTOT",
-                "value": "6.6.1 Nationally derived total quantity (millions of cubic metres per annum)"
+                "value": "Nationally derived total quantity (millions of cubic metres per annum)"
             },
             {
                 "key": "EN_WBE_NDRV",
-                "value": "6.6.1 Nationally derived extend of rivers (square kilometres)"
+                "value": "Nationally derived extend of rivers (square kilometres)"
             },
             {
                 "key": "EN_WBE_NDWTL",
-                "value": "6.6.1 Nationally derived extent of wetlands (square kilometres)"
+                "value": "Nationally derived extent of wetlands (square kilometres)"
             },
             {
                 "key": "DC_TOF_WASHL",
-                "value": "6.a.1  Total official development assistance (gross disbursement) for water supply and sanitation, by recipient countries"
+                "value": "Total official development assistance (gross disbursement) for water supply and sanitation, by recipient countries"
             },
             {
                 "key": "ER_H20_LCMGM",
-                "value": "6.b.1 Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management"
+                "value": "Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management"
             },
             {
                 "key": "ER_WAT_PROCED",
-                "value": "6.b.1 Proportion of countries with clearly defined procedures in law or policy for participation by service users/communities in planning program in water resources planning and management"
+                "value": "Proportion of countries with clearly defined procedures in law or policy for participation by service users/communities in planning program in water resources planning and management"
             },
             {
                 "key": "ER_H2O_PARTIC",
-                "value": "6.b.1 Proportion of countries with high level of users/communities participating in planning programs in rural drinking-water supply"
+                "value": "Proportion of countries with high level of users/communities participating in planning programs in rural drinking-water supply"
             },
             {
                 "key": "ER_H2O_PROCED",
-                "value": "6.b.1 Proportion of countries with clearly defined procedures in law or policy for participation by service users/communities in planning program in rural drinking-water supply"
+                "value": "Proportion of countries with clearly defined procedures in law or policy for participation by service users/communities in planning program in rural drinking-water supply"
             },
             {
                 "key": "ER_WAT_PARTIC",
-                "value": "6.b.1 Proportion of countries with high level of users/communities participating in planning programs in water resources planning and management"
+                "value": "Proportion of countries with high level of users/communities participating in planning programs in water resources planning and management"
             },
             {
                 "key": "ER_H2O_RURP",
-                "value": "6.b.1 Countries with users/communities participating in planning programs in rural drinking-water supply, by level of participation (3 = High; 2 = Moderate; 1 = Low; 0 = NA)"
+                "value": "Countries with users/communities participating in planning programs in rural drinking-water supply, by level of participation (3 = High; 2 = Moderate; 1 = Low; 0 = NA)"
             },
             {
                 "key": "ER_H2O_PRDU",
-                "value": "6.b.1 Countries with procedures in law or policy for participation by service users/communities in planning program in rural drinking-water supply, by level of definition in procedures (10 = Clearly defined; 5 = Not clearly defined ; 0 = NA)"
+                "value": "Countries with procedures in law or policy for participation by service users/communities in planning program in rural drinking-water supply, by level of definition in procedures (10 = Clearly defined; 5 = Not clearly defined ; 0 = NA)"
             },
             {
                 "key": "ER_WAT_PART",
-                "value": "6.b.1 Countries with users/communities participating in planning programs in water resources planning and management, by level of participation (3 = High; 2 = Moderate; 1 = Low; 0 = NA)"
+                "value": "Countries with users/communities participating in planning programs in water resources planning and management, by level of participation (3 = High; 2 = Moderate; 1 = Low; 0 = NA)"
             },
             {
                 "key": "ER_WAT_PRDU",
-                "value": "6.b.1 Countries with procedures in law or policy for participation by service users/communities in planning program in water resources planning and management, by level of definition in procedures (10 = Clearly defined; 5 = Not clearly defined ; 0 = NA)"
+                "value": "Countries with procedures in law or policy for participation by service users/communities in planning program in water resources planning and management, by level of definition in procedures (10 = Clearly defined; 5 = Not clearly defined ; 0 = NA)"
             },
             {
                 "key": "EG_ACS_ELEC",
-                "value": "7.1.1  Proportion of population with access to electricity"
+                "value": "Proportion of population with access to electricity"
             },
             {
                 "key": "EG_EGY_CLEAN",
-                "value": "7.1.2  Proportion of population with primary reliance on clean fuels and technology"
+                "value": "Proportion of population with primary reliance on clean fuels and technology"
             },
             {
                 "key": "EG_CFT_COOK",
-                "value": "7.1.2  Proportion of population with primary reliance on clean fuels and technology for cooking"
+                "value": "Proportion of population with primary reliance on clean fuels and technology for cooking"
             },
             {
                 "key": "EG_CFT_LIGHT",
-                "value": "7.1.2  Proportion of population with primary reliance on clean fuels and technology for lighting"
+                "value": "Proportion of population with primary reliance on clean fuels and technology for lighting"
             },
             {
                 "key": "EG_FEC_RNEW",
-                "value": "7.2.1  Renewable energy share in the total final energy consumption"
+                "value": "Renewable energy share in the total final energy consumption"
             },
             {
                 "key": "EG_EGY_PRIM",
-                "value": "7.3.1  Energy intensity level of primary energy (megajoules per constant purchasing power parity GDP)"
+                "value": "Energy intensity level of primary energy (megajoules per constant purchasing power parity GDP)"
             },
             {
                 "key": "EG_IFF_RANDN",
-                "value": "7.a.1  International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems"
+                "value": "International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems"
             },
             {
                 "key": "NY_GDP_PCAP",
-                "value": "8.1.1  Annual growth rate of real GDP per capita"
+                "value": "Annual growth rate of real GDP per capita"
             },
             {
                 "key": "SL_EMP_PCAP",
-                "value": "8.2.1  Annual growth rate of real GDP per employed person"
+                "value": "Annual growth rate of real GDP per employed person"
             },
             {
                 "key": "SL_ISV_IFRM",
-                "value": "8.3.1  Proportion of informal employment in non-agriculture employment"
+                "value": "Proportion of informal employment in non-agriculture employment"
             },
             {
                 "key": "EN_MAT_FTPRPC",
-                "value": "8.4.1, 12.2.1 Material footprint per capita"
+                "value": "Material footprint per capita"
             },
             {
                 "key": "EN_MAT_FTPRPG",
-                "value": "8.4.1, 12.2.1 Material footprint per unit of GDP"
+                "value": "Material footprint per unit of GDP"
             },
             {
                 "key": "EN_MAT_FTPRTN",
-                "value": "8.4.1, 12.2.1 Material footprint"
+                "value": "Material footprint"
             },
             {
                 "key": "EN_MAT_DOMCMPC",
-                "value": "8.4.2  Domestic material consumption per capita, by type of raw material"
+                "value": "Domestic material consumption per capita, by type of raw material"
             },
             {
                 "key": "EN_MAT_DOMCMPG",
-                "value": "8.4.2  Domestic material consumption per unit of GDP"
+                "value": "Domestic material consumption per unit of GDP"
             },
             {
                 "key": "EN_MAT_DOMCMPT",
-                "value": "8.4.2  Domestic material consumption"
+                "value": "Domestic material consumption"
             },
             {
                 "key": "SL_EMP_EARN",
-                "value": "8.5.1  Average hourly earnings"
+                "value": "Average hourly earnings"
             },
             {
                 "key": "SL_TLF_UEM",
-                "value": "8.5.2  Unemployment rate"
+                "value": "Unemployment rate"
             },
             {
                 "key": "SL_TLF_UEMDIS",
-                "value": "8.5.2  Unemployment rate, by disability"
+                "value": "Unemployment rate, by disability"
             },
             {
                 "key": "SL_TLF_NEET",
-                "value": "8.6.1  Proportion of youth not in education, employment or training"
+                "value": "Proportion of youth not in education, employment or training"
             },
             {
                 "key": "SL_TLF_CHLDEC",
-                "value": "8.7.1 Proportion of children engaged in economic activity and household chores"
+                "value": "Proportion of children engaged in economic activity and household chores"
             },
             {
                 "key": "SL_TLF_CHLDECN",
-                "value": "8.7.1 Number of children engaged in economic activity and household chores"
+                "value": "Number of children engaged in economic activity and household chores"
             },
             {
                 "key": "SL_TLF_CHLDEA",
-                "value": "8.7.1 Proportion of children engaged in economic activity"
+                "value": "Proportion of children engaged in economic activity"
             },
             {
                 "key": "SL_TLF_CHLDEAN",
-                "value": "8.7.1 Number of children engaged in economic activity"
+                "value": "Number of children engaged in economic activity"
             },
             {
                 "key": "SL_EMP_FTLINJUR",
-                "value": "8.8.1  Fatal occupational injuries among employees (rate)"
+                "value": "Fatal occupational injuries among employees (rate)"
             },
             {
                 "key": "SL_EMP_INJUR",
-                "value": "8.8.1  Non-fatal occupational injuries among employees (rate)"
+                "value": "Non-fatal occupational injuries among employees (rate)"
             },
             {
                 "key": "ST_GDP_ZS",
-                "value": "8.9.1  Tourism direct GDP as a proportion of total GDP"
+                "value": "Tourism direct GDP as a proportion of total GDP"
             },
             {
                 "key": "ST_EMP_SUST",
-                "value": "8.9.2  Proportion of jobs in sustainable tourism industries out of total tourism jobs"
+                "value": "Proportion of jobs in sustainable tourism industries out of total tourism jobs"
             },
             {
                 "key": "FB_ATM_TOTL",
-                "value": "8.10.1  Number of automated teller machines (ATMs) per 100,000 adults"
+                "value": "Number of automated teller machines (ATMs) per 100,000 adults"
             },
             {
                 "key": "FB_CBK_BRCH",
-                "value": "8.10.1  Number of commercial bank branches per 100,000 adults"
+                "value": "Number of commercial bank branches per 100,000 adults"
             },
             {
                 "key": "FB_BNK_ACCSS",
-                "value": "8.10.2  Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider (% of adults aged 15 years and older)"
+                "value": "Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider (% of adults aged 15 years and older)"
             },
             {
                 "key": "DC_TOF_TRDCMDL",
-                "value": "8.a.1  Total official flows (commitments) for Aid for Trade, by donor countries"
+                "value": "Total official flows (commitments) for Aid for Trade, by donor countries"
             },
             {
                 "key": "DC_TOF_TRDCML",
-                "value": "8.a.1  Total official flows (commitments) for Aid for Trade, by recipient countries"
+                "value": "Total official flows (commitments) for Aid for Trade, by recipient countries"
             },
             {
                 "key": "DC_TOF_TRDDBMDL",
-                "value": "8.a.1  Total official flows (disbursement) for Aid for Trade, by donor countries"
+                "value": "Total official flows (disbursement) for Aid for Trade, by donor countries"
             },
             {
                 "key": "DC_TOF_TRDDBML",
-                "value": "8.a.1  Total official flows (disbursement) for Aid for Trade, by recipient countries"
+                "value": "Total official flows (disbursement) for Aid for Trade, by recipient countries"
             },
             {
                 "key": "SL_CPA_YEMP",
-                "value": "8.b.1  Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy"
+                "value": "Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy"
             },
             {
                 "key": "SP_ROD_R2KM",
-                "value": "9.1.1  Proportion of the rural population who live within 2 km of an all-season road"
+                "value": "Proportion of the rural population who live within 2 km of an all-season road"
             },
             {
                 "key": "IS_TRP_MAILTKM",
-                "value": "9.1.2 Mail volume (tonne kilometres)"
+                "value": "Mail volume (tonne kilometres)"
             },
             {
                 "key": "IS_RDP_FRGVOL",
-                "value": "9.1.2 Freight volume (tonne kilometres)"
+                "value": "Freight volume (tonne kilometres)"
             },
             {
                 "key": "IS_RDP_PFVOL",
-                "value": "9.1.2 Passenger volume (passenger kilometres)"
+                "value": "Passenger volume (passenger kilometres)"
             },
             {
                 "key": "NV_IND_MANF",
-                "value": "9.2.1  Manufacturing value added as a proportion of GDP"
+                "value": "Manufacturing value added as a proportion of GDP"
             },
             {
                 "key": "NV_IND_MANFPC",
-                "value": "9.2.1  Manufacturing value added per capita"
+                "value": "Manufacturing value added per capita"
             },
             {
                 "key": "SL_TLF_MANF",
-                "value": "9.2.2  Manufacturing employment as a proportion of total employment"
+                "value": "Manufacturing employment as a proportion of total employment"
             },
             {
                 "key": "NV_IND_SSIS",
-                "value": "9.3.1 Proportion of small-scale industries in total industry value added"
+                "value": "Proportion of small-scale industries in total industry value added"
             },
             {
                 "key": "FC_ACC_SSID",
-                "value": "9.3.2 Proportion of small-scale industries with a loan or line of credit"
+                "value": "Proportion of small-scale industries with a loan or line of credit"
             },
             {
                 "key": "EN_ATM_CO2",
-                "value": "9.4.1  Carbon dioxide emissions from fuel combustion"
+                "value": "Carbon dioxide emissions from fuel combustion"
             },
             {
                 "key": "EN_ATM_CO2GDP",
-                "value": "9.4.1  Carbon dioxide emissions per unit of GDP"
+                "value": "Carbon dioxide emissions per unit of GDP"
             },
             {
                 "key": "EN_ATM_CO2MVA",
-                "value": "9.4.1  Carbon dioxide emissions per unit of manufacturing value added"
+                "value": "Carbon dioxide emissions per unit of manufacturing value added"
             },
             {
                 "key": "GB_XPD_RSDV",
-                "value": "9.5.1  Research and development expenditure as a proportion of GDP"
+                "value": "Research and development expenditure as a proportion of GDP"
             },
             {
                 "key": "GB_POP_SCIERD",
-                "value": "9.5.2  Researchers (in full-time equivalent) per million inhabitants"
+                "value": "Researchers (in full-time equivalent) per million inhabitants"
             },
             {
                 "key": "DC_TOF_INFRAL",
-                "value": "9.a.1  Total official flows for infrastructure, by recipient countries"
+                "value": "Total official flows for infrastructure, by recipient countries"
             },
             {
                 "key": "NV_IND_TECH",
-                "value": "9.b.1  Proportion of medium and high-tech industry value added in total value added"
+                "value": "Proportion of medium and high-tech industry value added in total value added"
             },
             {
                 "key": "IT_MOB_2GNTWK",
-                "value": "9.c.1  Proportion of population covered by at least a 2G mobile network"
+                "value": "Proportion of population covered by at least a 2G mobile network"
             },
             {
                 "key": "IT_MOB_3GNTWK",
-                "value": "9.c.1  Proportion of population covered by at least a 3G mobile network"
+                "value": "Proportion of population covered by at least a 3G mobile network"
             },
             {
                 "key": "IT_MOB_4GNTWK",
-                "value": "9.c.1  Proportion of population covered by at least a 4G mobile network"
+                "value": "Proportion of population covered by at least a 4G mobile network"
             },
             {
                 "key": "SI_HEI_TOTL",
-                "value": "10.1.1  Growth rates of household expenditure or income per capita"
+                "value": "Growth rates of household expenditure or income per capita"
             },
             {
                 "key": "SI_POV_50MI",
-                "value": "10.2.1  Proportion of people living below 50 percent of median income"
+                "value": "Proportion of people living below 50 percent of median income"
             },
             {
                 "key": "VC_VOV_DCMN",
-                "value": "16.b.1  Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law"
+                "value": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law"
             },
             {
                 "key": "SL_EMP_GTOTL",
-                "value": "10.4.1  Labour share of GDP, comprising wages and social protection transfers"
+                "value": "Labour share of GDP, comprising wages and social protection transfers"
             },
             {
                 "key": "FI_FSI_FSANL",
-                "value": "10.5.1 Non-performing loans to total gross loans (%)"
+                "value": "Non-performing loans to total gross loans (%)"
             },
             {
                 "key": "FI_FSI_FSERA",
-                "value": "10.5.1 Return on assets (%)"
+                "value": "Return on assets (%)"
             },
             {
                 "key": "FI_FSI_FSKA",
-                "value": "10.5.1 Regulatory capital to assets (%)"
+                "value": "Regulatory capital to assets (%)"
             },
             {
                 "key": "FI_FSI_FSKNL",
-                "value": "10.5.1 Non-performing loans net of provisions to capital (%)"
+                "value": "Non-performing loans net of provisions to capital (%)"
             },
             {
                 "key": "FI_FSI_FSKRTC",
-                "value": "10.5.1 Regulatory Tier 1 capital to risk-weighted assets (%)"
+                "value": "Regulatory Tier 1 capital to risk-weighted assets (%)"
             },
             {
                 "key": "FI_FSI_FSLS",
-                "value": "10.5.1 Liquid assets to short term liabilities (%)"
+                "value": "Liquid assets to short term liabilities (%)"
             },
             {
                 "key": "FI_FSI_FSSNO",
-                "value": "10.5.1 Net open position in foreign exchange to capital (%)"
+                "value": "Net open position in foreign exchange to capital (%)"
             },
             {
                 "key": "SG_INT_MBRDEV",
-                "value": "10.6.1, 16.8.1 Proportion of members of developing countries in international organizations, by organization"
+                "value": "Proportion of members of developing countries in international organizations, by organization"
             },
             {
                 "key": "SG_INT_VRTDEV",
-                "value": "10.6.1, 16.8.1 Proportion of voting rights of developing countries in international organizations, by organization"
+                "value": "Proportion of voting rights of developing countries in international organizations, by organization"
             },
             {
                 "key": "SL_EMP_RCOST",
-                "value": "10.7.1  Recruitment cost borne by employee as a proportion of yearly income earned in country of destination"
+                "value": "Recruitment cost borne by employee as a proportion of yearly income earned in country of destination"
             },
             {
                 "key": "SG_CPA_MIGR",
-                "value": "10.7.2  Number of countries that have implemented well-managed migration policies"
+                "value": "Number of countries that have implemented well-managed migration policies"
             },
             {
                 "key": "TM_TRF_ZERO",
-                "value": "10.a.1  Proportion of tariff lines applied to imports with zero-tariff"
+                "value": "Proportion of tariff lines applied to imports with zero-tariff"
             },
             {
                 "key": "DC_TRF_TOTDL",
-                "value": "10.b.1  Total assistance for development, by donor countries"
+                "value": "Total assistance for development, by donor countries"
             },
             {
                 "key": "DC_TRF_TOTL",
-                "value": "10.b.1  Total assistance for development, by recipient countries"
+                "value": "Total assistance for development, by recipient countries"
             },
             {
                 "key": "DC_TRF_TFDV",
-                "value": "10.b.1 Total resource flows for development, by recipient and donor countries"
+                "value": "Total resource flows for development, by recipient and donor countries"
             },
             {
                 "key": "SI_RMT_COST",
-                "value": "10.c.1  Remittance costs as a proportion of the amount remitted"
+                "value": "Remittance costs as a proportion of the amount remitted"
             },
             {
                 "key": "EN_LND_SLUM",
-                "value": "11.1.1  Proportion of urban population living in slums"
+                "value": "Proportion of urban population living in slums"
             },
             {
                 "key": "EN_LND_SLUMN",
-                "value": "11.1.1  Urban population living in slums (number)"
+                "value": "Urban population living in slums (number)"
             },
             {
                 "key": "SP_TRN_PUBL",
-                "value": "11.2.1  Proportion of population that has convenient access to public transport"
+                "value": "Proportion of population that has convenient access to public transport"
             },
             {
                 "key": "EN_LND_CNSPOP",
-                "value": "11.3.1  Ratio of land consumption rate to population growth rate"
+                "value": "Ratio of land consumption rate to population growth rate"
             },
             {
                 "key": "SG_URB_CSPART",
-                "value": "11.3.2  Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically"
+                "value": "Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically"
             },
             {
                 "key": "VC_DSR_CDAN",
-                "value": "11.5.2 Number of damaged critical infrastructure attributed to disasters"
+                "value": "Number of damaged critical infrastructure attributed to disasters"
             },
             {
                 "key": "VC_DSR_HFDN",
-                "value": "11.5.2 Number of destroyed or damaged health facilities attributed to disasters"
+                "value": "Number of destroyed or damaged health facilities attributed to disasters"
             },
             {
                 "key": "VC_DSR_EFDN",
-                "value": "11.5.2 Number of destroyed or damaged educational facilities attributed to disasters"
+                "value": "Number of destroyed or damaged educational facilities attributed to disasters"
             },
             {
                 "key": "VC_DSR_CDYN",
-                "value": "11.5.2 Number of other destroyed or damaged critical infrastructure units and facilities attributed to disasters"
+                "value": "Number of other destroyed or damaged critical infrastructure units and facilities attributed to disasters"
             },
             {
                 "key": "VC_DSR_BSDN",
-                "value": "11.5.2 Number of disruptions to basic services attributed to disasters"
+                "value": "Number of disruptions to basic services attributed to disasters"
             },
             {
                 "key": "VC_DSR_ESDN",
-                "value": "11.5.2 Number of disruptions to educational services attributed to disasters"
+                "value": "Number of disruptions to educational services attributed to disasters"
             },
             {
                 "key": "VC_DSR_HSDN",
-                "value": "11.5.2 Number of disruptions to health services attributed to disasters"
+                "value": "Number of disruptions to health services attributed to disasters"
             },
             {
                 "key": "VC_DSR_OBDN",
-                "value": "11.5.2 Number of disruptions to other basic services attributed to disasters"
+                "value": "Number of disruptions to other basic services attributed to disasters"
             },
             {
                 "key": "EN_REF_COLDIS",
-                "value": "11.6.1  Proportion of population served by municipal waste collection"
+                "value": "Proportion of population served by municipal waste collection"
             },
             {
                 "key": "EN_REF_WASCOL",
-                "value": "11.6.1 Municipal Solid Waste collection coverage, by cities (%)"
+                "value": "Municipal Solid Waste collection coverage, by cities (%)"
             },
             {
                 "key": "EN_ATM_PM25",
-                "value": "11.6.2  Annual mean levels of fine particulate matter in cities, urban population"
+                "value": "Annual mean levels of fine particulate matter in cities, urban population"
             },
             {
                 "key": "EN_URB_OPENSP",
-                "value": "11.7.1  Average share of the built-up area of cities that is open space for public use for all"
+                "value": "Average share of the built-up area of cities that is open space for public use for all"
             },
             {
                 "key": "VC_VOH_SXPH",
-                "value": "11.7.2  Proportion of persons victim of physical or sexual harassment, in the previous 12 months"
+                "value": "Proportion of persons victim of physical or sexual harassment, in the previous 12 months"
             },
             {
                 "key": "SG_URB_PLAN",
-                "value": "11.a.1  Proportion of population living in cities that implement urban and regional development plans integrating population projections and resource needs"
+                "value": "Proportion of population living in cities that implement urban and regional development plans integrating population projections and resource needs"
             },
             {
                 "key": "DC_CST_EFICP",
-                "value": "11.c.1  Proportion of financial support to the least developed countries that is allocated to the construction and retrofitting of sustainable, resilient and resource-efficient buildings utilizing local materials"
+                "value": "Proportion of financial support to the least developed countries that is allocated to the construction and retrofitting of sustainable, resilient and resource-efficient buildings utilizing local materials"
             },
             {
                 "key": "SG_SCP_CNTRY",
-                "value": "12.1.1 Countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or target into national policies (1 = YES; 0 = NO)"
+                "value": "Countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or target into national policies (1 = YES; 0 = NO)"
             },
             {
                 "key": "SG_SCP_CORMEC",
-                "value": "12.1.1 Countries with coordination mechanism for sustainable consumption and production (1 = YES; 0 = NO)"
+                "value": "Countries with coordination mechanism for sustainable consumption and production (1 = YES; 0 = NO)"
             },
             {
                 "key": "SG_SCP_MACPOL",
-                "value": "12.1.1 Countries with macro policy for sustainable consumption and production (1 = YES; 0 = NO)"
+                "value": "Countries with macro policy for sustainable consumption and production (1 = YES; 0 = NO)"
             },
             {
                 "key": "SG_SCP_POLINS",
-                "value": "12.1.1 Countries with policy instrument for sustainable consumption and production (1 = YES; 0 = NO)"
+                "value": "Countries with policy instrument for sustainable consumption and production (1 = YES; 0 = NO)"
             },
             {
                 "key": "AG_FLS_IDX",
-                "value": "12.3.1  Global food loss index"
+                "value": "Global food loss index"
             },
             {
                 "key": "SG_HAZ_CMRBASEL",
-                "value": "12.4.1  Compliance with the Basel Convention on hazardous waste and other chemicals"
+                "value": "Compliance with the Basel Convention on hazardous waste and other chemicals"
             },
             {
                 "key": "SG_HAZ_CMRMNTRL",
-                "value": "12.4.1  Compliance with the Montreal Protocol on hazardous waste and other chemicals"
+                "value": "Compliance with the Montreal Protocol on hazardous waste and other chemicals"
             },
             {
                 "key": "SG_HAZ_CMRROTDAM",
-                "value": "12.4.1  Compliance with the Rotterdam Convention on hazardous waste and other chemicals"
+                "value": "Compliance with the Rotterdam Convention on hazardous waste and other chemicals"
             },
             {
                 "key": "SG_HAZ_CMRSTHOLM",
-                "value": "12.4.1  Compliance with the Stockholm Convention on hazardous waste and other chemicals"
+                "value": "Compliance with the Stockholm Convention on hazardous waste and other chemicals"
             },
             {
                 "key": "EN_HAZ_PCAP",
-                "value": "12.4.2  Hazardous waste generated per capita"
+                "value": "Hazardous waste generated per capita"
             },
             {
                 "key": "EN_HAZ_TREAT",
-                "value": "12.4.2  Proportion of hazardous waste treated"
+                "value": "Proportion of hazardous waste treated"
             },
             {
                 "key": "EN_SCP_FRMN",
-                "value": "12.6.1  Number of companies publishing sustainability reports"
+                "value": "Number of companies publishing sustainability reports"
             },
             {
                 "key": "SG_SCP_PROCN",
-                "value": "12.7.1  Number of countries implementing sustainable public procurement policies and action plans"
+                "value": "Number of countries implementing sustainable public procurement policies and action plans"
             },
             {
                 "key": "DC_SCP_RANDN",
-                "value": "12.a.1  Amount of support to developing countries on research and development for sustainable consumption and production and environmentally sound technologies"
+                "value": "Amount of support to developing countries on research and development for sustainable consumption and production and environmentally sound technologies"
             },
             {
                 "key": "ER_FFS_PRTSST",
-                "value": "12.c.1 Fossil-fuel pre-tax subsidies (consumption and production)"
+                "value": "Fossil-fuel pre-tax subsidies (consumption and production)"
             },
             {
                 "key": "ER_FFS_PRTSPC",
-                "value": "12.c.1 Fossil-fuel pre-tax subsidies (consumption and production) per capita"
+                "value": "Fossil-fuel pre-tax subsidies (consumption and production) per capita"
             },
             {
                 "key": "ER_FFS_PRTSPR",
-                "value": "12.c.1 Fossil-fuel pre-tax subsidies (consumption and production) as a proportion of total GDP"
+                "value": "Fossil-fuel pre-tax subsidies (consumption and production) as a proportion of total GDP"
             },
             {
                 "key": "DC_CLC_100B",
-                "value": "13.a.1  Mobilized amount of United States dollars per year between 2020 and 2025 accountable towards the $100 billion commitment"
+                "value": "Mobilized amount of United States dollars per year between 2020 and 2025 accountable towards the $100 billion commitment"
             },
             {
                 "key": "EN_SCP_EZECO",
-                "value": "14.2.1  Proportion of national exclusive economic zones managed using ecosystem-based approaches"
+                "value": "Proportion of national exclusive economic zones managed using ecosystem-based approaches"
             },
             {
                 "key": "ER_H2O_FISHFEXP",
-                "value": "14.4.1  Proportion of fish stocks that are fully exploited"
+                "value": "Proportion of fish stocks that are fully exploited"
             },
             {
                 "key": "ER_H2O_FISHNFEXP",
-                "value": "14.4.1  Proportion of fish stocks that are not fully exploited"
+                "value": "Proportion of fish stocks that are not fully exploited"
             },
             {
                 "key": "ER_H2O_FISHOVEXP",
-                "value": "14.4.1  Proportion of fish stocks that are overexploited"
+                "value": "Proportion of fish stocks that are overexploited"
             },
             {
                 "key": "ER_H2O_FWTL",
-                "value": "14.4.1  Proportion of fish stocks within biologically sustainable levels (not overexploited)"
+                "value": "Proportion of fish stocks within biologically sustainable levels (not overexploited)"
             },
             {
                 "key": "ER_MRN_MARIN",
-                "value": "14.5.1  Coverage of protected areas in relation to marine areas (Exclusive Economic Zones)"
+                "value": "Coverage of protected areas in relation to marine areas (Exclusive Economic Zones)"
             },
             {
                 "key": "ER_MRN_MARINT",
-                "value": "14.5.1  Protected marine area (Exclusive Economic Zones) (square kilometres)"
+                "value": "Protected marine area (Exclusive Economic Zones) (square kilometres)"
             },
             {
                 "key": "ER_MRN_TOTL",
-                "value": "14.5.1  Marine area (Economic Exclusion Zones)"
+                "value": "Marine area (Economic Exclusion Zones)"
             },
             {
                 "key": "ER_MRN_MPA",
-                "value": "14.5.1 Average proportion of Marine Key Biodiversity Areas (KBAs) covered by protected areas"
+                "value": "Average proportion of Marine Key Biodiversity Areas (KBAs) covered by protected areas"
             },
             {
                 "key": "ER_REG_UNFCIM",
-                "value": "14.6.1 Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing (level of implementation: 1 lowest to 5 highest)"
+                "value": "Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing (level of implementation: 1 lowest to 5 highest)"
             },
             {
                 "key": "EN_SCP_FSHGDP",
-                "value": "14.7.1  Sustainable fisheries as a proportion of GDP"
+                "value": "Sustainable fisheries as a proportion of GDP"
             },
             {
                 "key": "ER_RDE_OSEX",
-                "value": "14.a.1 National ocean science expenditure as a share of total research and development funding"
+                "value": "National ocean science expenditure as a share of total research and development funding"
             },
             {
                 "key": "ER_REG_SSFRAR",
-                "value": "14.b.1 Degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries (level of implementation: 1 lowest to 5 highest)"
+                "value": "Degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries (level of implementation: 1 lowest to 5 highest)"
             },
             {
                 "key": "AG_LND_FRST",
-                "value": "15.1.1  Forest area as a proportion of total land area"
+                "value": "Forest area as a proportion of total land area"
             },
             {
                 "key": "AG_LND_FRSTN",
-                "value": "15.1.1  Forest area (hectares)"
+                "value": "Forest area (hectares)"
             },
             {
                 "key": "AG_LND_TOTL",
-                "value": "15.1.1  Land area (hectares)"
+                "value": "Land area (hectares)"
             },
             {
                 "key": "ER_PTD_FRHWTR",
-                "value": "15.1.2  Average proportion of Freshwater Key Biodiversity Areas (KBAs) covered by protected areas"
+                "value": "Average proportion of Freshwater Key Biodiversity Areas (KBAs) covered by protected areas"
             },
             {
                 "key": "ER_PTD_TERR",
-                "value": "15.1.2  Average proportion of Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas"
+                "value": "Average proportion of Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas"
             },
             {
                 "key": "AG_LND_FRSTBIOM",
-                "value": "15.2.1  Above-ground biomass in forest (tonnes)"
+                "value": "Above-ground biomass in forest (tonnes)"
             },
             {
                 "key": "AG_LND_FRSTBIOPHA",
-                "value": "15.2.1  Above-ground biomass in forest per hectare (tonnes per hectare)"
+                "value": "Above-ground biomass in forest per hectare (tonnes per hectare)"
             },
             {
                 "key": "AG_LND_FRSTCERT",
-                "value": "15.2.1  Forest area certified under an independently verified certification scheme (hectares)"
+                "value": "Forest area certified under an independently verified certification scheme (hectares)"
             },
             {
                 "key": "AG_LND_FRSTCHG",
-                "value": "15.2.1  Forest area net change rate (%)"
+                "value": "Forest area net change rate (%)"
             },
             {
                 "key": "AG_LND_FRSTMGT",
-                "value": "15.2.1  Proportion of forest area with a long-term management plan"
+                "value": "Proportion of forest area with a long-term management plan"
             },
             {
                 "key": "AG_LND_FRSTPRCT",
-                "value": "15.2.1  Proportion of forest area within legally established protected areas"
+                "value": "Proportion of forest area within legally established protected areas"
             },
             {
                 "key": "AG_LND_FRSTPRCTN",
-                "value": "15.2.1  Forest area within legally established protected areas"
+                "value": "Forest area within legally established protected areas"
             },
             {
                 "key": "AG_LND_DGRD",
-                "value": "15.3.1  Proportion of land that is degraded over total land area"
+                "value": "Proportion of land that is degraded over total land area"
             },
             {
                 "key": "ER_PTD_MTN",
-                "value": "15.4.1  Average proportion of Mountain Key Biodiversity Areas (KBAs) covered by protected areas"
+                "value": "Average proportion of Mountain Key Biodiversity Areas (KBAs) covered by protected areas"
             },
             {
                 "key": "ER_MTN_GRNCOV",
-                "value": "15.4.2  Mountain green cover area (square kilometres)"
+                "value": "Mountain green cover area (square kilometres)"
             },
             {
                 "key": "ER_MTN_GRNCVI",
-                "value": "15.4.2  Mountain Green Cover Index"
+                "value": "Mountain Green Cover Index"
             },
             {
                 "key": "ER_MTN_TOTL",
-                "value": "15.4.2  Mountain area (square kilometres)"
+                "value": "Mountain area (square kilometres)"
             },
             {
                 "key": "ER_RSK_LST",
-                "value": "15.5.1  Red List Index"
+                "value": "Red List Index"
             },
             {
                 "key": "ER_CBD_ABSCLRHS",
-                "value": "15.6.1  Countries that have legislative, administrative and policy framework or measures reported to the Access and Benefit-Sharing Clearing-House (1 = YES; 0 = NO)"
+                "value": "Countries that have legislative, administrative and policy framework or measures reported to the Access and Benefit-Sharing Clearing-House (1 = YES; 0 = NO)"
             },
             {
                 "key": "ER_CBD_NAGOYA",
-                "value": "15.6.1  Countries that are parties to the Nagoya Protocol (1 = YES; 0 = NO)"
+                "value": "Countries that are parties to the Nagoya Protocol (1 = YES; 0 = NO)"
             },
             {
                 "key": "ER_CBD_ORSPGRFA",
-                "value": "15.6.1  Countries that have legislative, administrative and policy framework or measures reported through the Online Reporting System on Compliance  of the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)"
+                "value": "Countries that have legislative, administrative and policy framework or measures reported through the Online Reporting System on Compliance  of the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)"
             },
             {
                 "key": "ER_CBD_PTYPGRFA",
-                "value": "15.6.1  Countries that are contracting Parties to the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)"
+                "value": "Countries that are contracting Parties to the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)"
             },
             {
                 "key": "ER_CBD_SMTA",
-                "value": "15.6.1  Total reported number of Standard Material Transfer Agreements (SMTAs) transferring plant genetic resources for food and agriculture to the country"
+                "value": "Total reported number of Standard Material Transfer Agreements (SMTAs) transferring plant genetic resources for food and agriculture to the country"
             },
             {
                 "key": "ER_WLD_TRPOACH",
-                "value": "15.7.1  Proportion of traded wildlife that was poached or illicitly trafficked"
+                "value": "Proportion of traded wildlife that was poached or illicitly trafficked"
             },
             {
                 "key": "DC_ODA_BDVDL",
-                "value": "15.a.1  Total official development assistance for biodiversity, by donor countries"
+                "value": "Total official development assistance for biodiversity, by donor countries"
             },
             {
                 "key": "DC_ODA_BDVL",
-                "value": "15.a.1  Total official development assistance for biodiversity, by recipient countries"
+                "value": "Total official development assistance for biodiversity, by recipient countries"
             },
             {
                 "key": "VC_IHR_PSRC",
-                "value": "16.1.1  Number of victims of intentional homicide per 100,000 population"
+                "value": "Number of victims of intentional homicide per 100,000 population"
             },
             {
                 "key": "VC_IHR_PSRCN",
-                "value": "16.1.1  Number of victims of intentional homicide"
+                "value": "Number of victims of intentional homicide"
             },
             {
                 "key": "VC_DTH_TOCV",
-                "value": "16.1.2  Conflict-related deaths per 100,000 population"
+                "value": "Conflict-related deaths per 100,000 population"
             },
             {
                 "key": "VC_VOV_PHYL",
-                "value": "16.1.3 Proportion of population subjected to physical violence in the previous 12 months"
+                "value": "Proportion of population subjected to physical violence in the previous 12 months"
             },
             {
                 "key": "VC_VOV_ROBB",
-                "value": "16.1.3 Proportion of population subjected to robbery in the previous 12 months"
+                "value": "Proportion of population subjected to robbery in the previous 12 months"
             },
             {
                 "key": "VC_VOV_SEXL",
-                "value": "16.1.3 Proportion of population subjected to sexual violence in the previous 12 months"
+                "value": "Proportion of population subjected to sexual violence in the previous 12 months"
             },
             {
                 "key": "VC_SNS_WALN",
-                "value": "16.1.4  Proportion of population that feel safe walking alone around the area they live in"
+                "value": "Proportion of population that feel safe walking alone around the area they live in"
             },
             {
                 "key": "VC_VAW_PHYPYV",
-                "value": "16.2.1  Proportion of children aged 1-14 years who experienced physical punishment and/or psychological aggression by caregivers in last month"
+                "value": "Proportion of children aged 1-14 years who experienced physical punishment and/or psychological aggression by caregivers in last month"
             },
             {
                 "key": "VC_VAW_DIST",
-                "value": "16.2.2 Age and sex distribution of detected victims of trafficking in persons (%)"
+                "value": "Age and sex distribution of detected victims of trafficking in persons (%)"
             },
             {
                 "key": "VC_HTF_DETVFL",
-                "value": "16.2.2 Detected victims of human trafficking for forced labour, servitude and slavery (number)"
+                "value": "Detected victims of human trafficking for forced labour, servitude and slavery (number)"
             },
             {
                 "key": "VC_HTF_DETVOP",
-                "value": "16.2.2 Detected victims of human trafficking for other purposes (number)"
+                "value": "Detected victims of human trafficking for other purposes (number)"
             },
             {
                 "key": "VC_HTF_DETVOG",
-                "value": "16.2.2 Detected victims of human trafficking for removal of organ (number)"
+                "value": "Detected victims of human trafficking for removal of organ (number)"
             },
             {
                 "key": "VC_HTF_DETVSX",
-                "value": "16.2.2 Detected victims of human trafficking for sexual exploitaton (number)"
+                "value": "Detected victims of human trafficking for sexual exploitaton (number)"
             },
             {
                 "key": "VC_HTF_DETV",
-                "value": "16.2.2 Detected victims of human trafficking (number)"
+                "value": "Detected victims of human trafficking (number)"
             },
             {
                 "key": "VC_VAW_SXVLN",
-                "value": "16.2.3  Proportion of population aged 18-29 years who experienced sexual violence by age 18"
+                "value": "Proportion of population aged 18-29 years who experienced sexual violence by age 18"
             },
             {
                 "key": "VC_PRR_PHYV",
-                "value": "16.3.1 Police reporting rate for physical assault, by sex (%)"
+                "value": "Police reporting rate for physical assault, by sex (%)"
             },
             {
                 "key": "VC_PRR_SEXV",
-                "value": "16.3.1 Police reporting rate for sexual assault, by sex (%)"
+                "value": "Police reporting rate for sexual assault, by sex (%)"
             },
             {
                 "key": "VC_PRR_ROBB",
-                "value": "16.3.1 Police reporting rate for robbery, by sex (%)"
+                "value": "Police reporting rate for robbery, by sex (%)"
             },
             {
                 "key": "VC_PRS_UNSNT",
-                "value": "16.3.2  Unsentenced detainees as a proportion of overall prison population"
+                "value": "Unsentenced detainees as a proportion of overall prison population"
             },
             {
                 "key": "VC_PRS_UNSNTN",
-                "value": "16.3.2  Unsentenced detainees (number)"
+                "value": "Unsentenced detainees (number)"
             },
             {
                 "key": "DI_ILL_IN",
-                "value": "16.4.1  Total value of inward illicit financial flows"
+                "value": "Total value of inward illicit financial flows"
             },
             {
                 "key": "DI_ILL_OUT",
-                "value": "16.4.1  Total value of outward illicit financial flows"
+                "value": "Total value of outward illicit financial flows"
             },
             {
                 "key": "VC_ARM_SZTRACE",
-                "value": "16.4.2  Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments"
+                "value": "Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments"
             },
             {
                 "key": "IU_COR_BRIB",
-                "value": "16.5.1  Prevalence rate of bribery"
+                "value": "Prevalence rate of bribery"
             },
             {
                 "key": "IC_FRM_BRIB",
-                "value": "16.5.2  Bribery incidence (% of firms experiencing at least one bribe payment request)"
+                "value": "Bribery incidence (% of firms experiencing at least one bribe payment request)"
             },
             {
                 "key": "GF_XPD_GBPC",
-                "value": "16.6.1 Primary government expenditures as a proportion of original approved budget"
+                "value": "Primary government expenditures as a proportion of original approved budget"
             },
             {
                 "key": "SP_PSR_SATIS",
-                "value": "16.6.2  Proportion of population satisfied with their last experience of public services"
+                "value": "Proportion of population satisfied with their last experience of public services"
             },
             {
                 "key": "IU_DMK_ICRS",
-                "value": "16.7.2  Proportion of population who believe decision-making is inclusive and responsive"
+                "value": "Proportion of population who believe decision-making is inclusive and responsive"
             },
             {
                 "key": "SG_REG_BRTH",
-                "value": "16.9.1  Proportion of children under 5 years of age whose births have been registered with a civil authority"
+                "value": "Proportion of children under 5 years of age whose births have been registered with a civil authority"
             },
             {
                 "key": "VC_VAW_MTUHRA",
-                "value": "16.10.1  Number of cases of killings of human rights defenders, journalists and trade unionists"
+                "value": "Number of cases of killings of human rights defenders, journalists and trade unionists"
             },
             {
                 "key": "SG_INF_ACCSS",
-                "value": "16.10.2  Countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information"
+                "value": "Countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information"
             },
             {
                 "key": "SG_NHR_IMPL",
-                "value": "16.a.1  Proportion of countries with independent National Human Rights Institutions in compliance with the Paris Principles (%)"
+                "value": "Proportion of countries with independent National Human Rights Institutions in compliance with the Paris Principles (%)"
             },
             {
                 "key": "SG_NHR_IMPLN",
-                "value": "16.a.1  Countries with National Human Rights Institutions in compliance with the Paris Principles, A status (1 = YES; 0 = NO)"
+                "value": "Countries with National Human Rights Institutions in compliance with the Paris Principles, A status (1 = YES; 0 = NO)"
             },
             {
                 "key": "SG_NHR_INTEXST",
-                "value": "16.a.1  Proportion of countries that applied for accreditation as independent National Human Rights Institutions in compliance with the Paris Principles"
+                "value": "Proportion of countries that applied for accreditation as independent National Human Rights Institutions in compliance with the Paris Principles"
             },
             {
                 "key": "SG_NHR_INTEXSTN",
-                "value": "16.a.1  Countries with National Human Rights Institutions not fully compliant with the Paris Principles, B status (1 = YES; 0 = NO)"
+                "value": "Countries with National Human Rights Institutions not fully compliant with the Paris Principles, B status (1 = YES; 0 = NO)"
             },
             {
                 "key": "SG_NHR_NOAPPLN",
-                "value": "16.a.1  Countries with no application for accreditation with the Paris Principles, D status  (1 = YES; 0 = NO)"
+                "value": "Countries with no application for accreditation with the Paris Principles, D status  (1 = YES; 0 = NO)"
             },
             {
                 "key": "SG_NHR_NOSTUSN",
-                "value": "16.a.1  Countries with National Human Rights Institutions and no status with the Paris Principles, C status (1 = YES; 0 = NO)"
+                "value": "Countries with National Human Rights Institutions and no status with the Paris Principles, C status (1 = YES; 0 = NO)"
             },
             {
                 "key": "GR_G14_GDP",
-                "value": "17.1.1  Total government revenue as a proportion of GDP"
+                "value": "Total government revenue as a proportion of GDP"
             },
             {
                 "key": "GR_G14_XDC",
-                "value": "17.1.1  Total government revenue, in local currency"
+                "value": "Total government revenue, in local currency"
             },
             {
                 "key": "GC_GOB_TAXD",
-                "value": "17.1.2  Proportion of domestic budget funded by domestic taxes"
+                "value": "Proportion of domestic budget funded by domestic taxes"
             },
             {
                 "key": "DC_ODA_LDCG",
-                "value": "17.2.1  Net official development assistance (ODA) to LDCs as a percentage of OECD-DAC donors' GNI, by donor countries"
+                "value": "Net official development assistance (ODA) to LDCs as a percentage of OECD-DAC donors' GNI, by donor countries"
             },
             {
                 "key": "DC_ODA_LDCS",
-                "value": "17.2.1  Net official development assistance (ODA) to LDCs from OECD-DAC countries, by donor countries"
+                "value": "Net official development assistance (ODA) to LDCs from OECD-DAC countries, by donor countries"
             },
             {
                 "key": "DC_ODA_LLDC",
-                "value": "17.2.1  Net official development assistance (ODA) to landlocked developing countries from OECD-DAC countries, by donor countries"
+                "value": "Net official development assistance (ODA) to landlocked developing countries from OECD-DAC countries, by donor countries"
             },
             {
                 "key": "DC_ODA_LLDCG",
-                "value": "17.2.1  Net official development assistance (ODA) to landlocked developing countries as a percentage of OECD-DAC donors' GNI, by donor countries"
+                "value": "Net official development assistance (ODA) to landlocked developing countries as a percentage of OECD-DAC donors' GNI, by donor countries"
             },
             {
                 "key": "DC_ODA_SIDS",
-                "value": "17.2.1  Net official development assistance (ODA) to small island states (SIDS) from OECD-DAC countries, by donor countries"
+                "value": "Net official development assistance (ODA) to small island states (SIDS) from OECD-DAC countries, by donor countries"
             },
             {
                 "key": "DC_ODA_SIDSG",
-                "value": "17.2.1  Net official development assistance (ODA) to small island states (SIDS) as a percentage of OECD-DAC donors' GNI, by donor countries"
+                "value": "Net official development assistance (ODA) to small island states (SIDS) as a percentage of OECD-DAC donors' GNI, by donor countries"
             },
             {
                 "key": "DC_ODA_TOTG",
-                "value": "17.2.1  Net official development assistance (ODA) as a percentage of OECD-DAC donors' GNI, by donor countries"
+                "value": "Net official development assistance (ODA) as a percentage of OECD-DAC donors' GNI, by donor countries"
             },
             {
                 "key": "DC_ODA_TOTL",
-                "value": "17.2.1  Net official development assistance (ODA) from OECD-DAC countries, by donor countries"
+                "value": "Net official development assistance (ODA) from OECD-DAC countries, by donor countries"
             },
             {
                 "key": "GF_FRN_FDIODASS",
-                "value": "17.3.1  Foreign direct investment (FDI), official development assistance and South-South cooperation as a proportion of total domestic budget"
+                "value": "Foreign direct investment (FDI), official development assistance and South-South cooperation as a proportion of total domestic budget"
             },
             {
                 "key": "BX_TRF_PWKR",
-                "value": "17.3.2  Volume of remittances (in United States dollars) as a proportion of total GDP"
+                "value": "Volume of remittances (in United States dollars) as a proportion of total GDP"
             },
             {
                 "key": "DT_TDS_DECT",
-                "value": "17.4.1  Debt service as a proportion of exports of goods and services"
+                "value": "Debt service as a proportion of exports of goods and services"
             },
             {
                 "key": "SG_CPA_INVPRMLDC",
-                "value": "17.5.1  Number of countries that adopt and implement investment promotion regimes for least developed countries"
+                "value": "Number of countries that adopt and implement investment promotion regimes for least developed countries"
             },
             {
                 "key": "IT_NET_BBND",
-                "value": "17.6.2  Fixed broadband subscriptions per 100 inhabitants"
+                "value": "Fixed broadband subscriptions per 100 inhabitants"
             },
             {
                 "key": "IT_NET_BBNDN",
-                "value": "17.6.2  Fixed broadband subscriptions (number)"
+                "value": "Fixed broadband subscriptions (number)"
             },
             {
                 "key": "DC_TOF_ENVTECH",
-                "value": "17.7.1  Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies"
+                "value": "Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies"
             },
             {
                 "key": "IT_USE_II99",
-                "value": "17.8.1  Internet users per 100 inhabitants"
+                "value": "Internet users per 100 inhabitants"
             },
             {
                 "key": "DC_FTA_TOTAL",
-                "value": "17.9.1  Total official development assistance (gross disbursement) for technical cooperation"
+                "value": "Total official development assistance (gross disbursement) for technical cooperation"
             },
             {
                 "key": "TM_TAX_WMFN",
-                "value": "17.10.1  Worldwide weighted tariff-average, most-favoured-nation status"
+                "value": "Worldwide weighted tariff-average, most-favoured-nation status"
             },
             {
                 "key": "TM_TAX_WMPS",
-                "value": "17.10.1  Worldwide weighted tariff-average, preferential status"
+                "value": "Worldwide weighted tariff-average, preferential status"
             },
             {
                 "key": "TX_EXP_GBMRCH",
-                "value": "17.11.1  Developing countries’ and least developed countries’ share of global merchandise exports"
+                "value": "Developing countries’ and least developed countries’ share of global merchandise exports"
             },
             {
                 "key": "TX_EXP_GBSVR",
-                "value": "17.11.1  Developing countries’ and least developed countries’ share of global services exports"
+                "value": "Developing countries’ and least developed countries’ share of global services exports"
             },
             {
                 "key": "TX_IMP_GBMRCH",
-                "value": "17.11.1  Developing countries’ and least developed countries’ share of global merchandise imports"
+                "value": "Developing countries’ and least developed countries’ share of global merchandise imports"
             },
             {
                 "key": "TX_IMP_GBSVR",
-                "value": "17.11.1  Developing countries’ and least developed countries’ share of global services imports"
+                "value": "Developing countries’ and least developed countries’ share of global services imports"
             },
             {
                 "key": "TM_TAX_WM",
-                "value": "17.12.1  Average tariff applied by developed countries"
+                "value": "Average tariff applied by developed countries"
             },
             {
                 "key": "SG_CPA_SDEV",
-                "value": "17.14.1  Number of countries with mechanisms in place to enhance policy coherence of sustainable development"
+                "value": "Number of countries with mechanisms in place to enhance policy coherence of sustainable development"
             },
             {
                 "key": "SG_PLN_PRVNDI",
-                "value": "17.15.1  Proportion of new development interventions drawn from country-led result frameworks - data by provider (%)"
+                "value": "Proportion of new development interventions drawn from country-led result frameworks - data by provider (%)"
             },
             {
                 "key": "SG_PLN_PRVRICTRY",
-                "value": "17.15.1  Proportion of results indicators drawn from country-led results frameworks - data by provider (%)"
+                "value": "Proportion of results indicators drawn from country-led results frameworks - data by provider (%)"
             },
             {
                 "key": "SG_PLN_PRVRIMON",
-                "value": "17.15.1  Proportion of results indicators which will be monitored using government sources and monitoring systems - data by provider (%)"
+                "value": "Proportion of results indicators which will be monitored using government sources and monitoring systems - data by provider (%)"
             },
             {
                 "key": "SG_PLN_RECNDI",
-                "value": "17.15.1  Proportion of new development interventions drawn from country-led result frameworks - data by recipient (%)"
+                "value": "Proportion of new development interventions drawn from country-led result frameworks - data by recipient (%)"
             },
             {
                 "key": "SG_PLN_RECRICTRY",
-                "value": "17.15.1  Proportion of results indicators drawn from country-led results frameworks - data by recipient (%)"
+                "value": "Proportion of results indicators drawn from country-led results frameworks - data by recipient (%)"
             },
             {
                 "key": "SG_PLN_RECRIMON",
-                "value": "17.15.1  Proportion of results indicators which will be monitored using government sources and monitoring systems - data by recipient (%)"
+                "value": "Proportion of results indicators which will be monitored using government sources and monitoring systems - data by recipient (%)"
             },
             {
                 "key": "SG_PLN_PRPOLRES",
-                "value": "17.15.1 Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - data by provider (%)"
+                "value": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - data by provider (%)"
             },
             {
                 "key": "SG_PLN_REPOLRES",
-                "value": "17.15.1 Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - data by recipient (%)"
+                "value": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - data by recipient (%)"
             },
             {
                 "key": "SG_PLN_MSTKSDG",
-                "value": "17.16.1  Progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals (1 = YES; 0 = NO)"
+                "value": "Progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals (1 = YES; 0 = NO)"
             },
             {
                 "key": "GF_COM_PPP",
-                "value": "17.17.1  Amount of United States dollars committed to public-private partnerships"
+                "value": "Amount of United States dollars committed to public-private partnerships"
             },
             {
                 "key": "GF_COM_CSP",
-                "value": "17.17.1  Amount of United States dollars committed to civil society partnerships"
+                "value": "Amount of United States dollars committed to civil society partnerships"
             },
             {
                 "key": "SD_SDG_AVLB",
-                "value": "17.18.1  Proportion of sustainable development indicators produced at the national level with full disaggregation when relevant to the target, in accordance with the Fundamental Principles of Official Statistics"
+                "value": "Proportion of sustainable development indicators produced at the national level with full disaggregation when relevant to the target, in accordance with the Fundamental Principles of Official Statistics"
             },
             {
                 "key": "SG_STT_FPOS",
-                "value": "17.18.2  Countries with national statistical legislation exists that complies with the Fundamental Principles of Official Statistics (1 = YES; 0 = NO)"
+                "value": "Countries with national statistical legislation exists that complies with the Fundamental Principles of Official Statistics (1 = YES; 0 = NO)"
             },
             {
                 "key": "SG_STT_NSDSFDDNR",
-                "value": "17.18.3  Countries with national statistical plans with funding from donors (1 = YES; 0 = NO)"
+                "value": "Countries with national statistical plans with funding from donors (1 = YES; 0 = NO)"
             },
             {
                 "key": "SG_STT_NSDSFDGVT",
-                "value": "17.18.3  Countries with national statistical plans with funding from Government (1 = YES; 0 = NO)"
+                "value": "Countries with national statistical plans with funding from Government (1 = YES; 0 = NO)"
             },
             {
                 "key": "SG_STT_NSDSFDOTHR",
-                "value": "17.18.3  Countries with national statistical plans with funding from others (1 = YES; 0 = NO)"
+                "value": "Countries with national statistical plans with funding from others (1 = YES; 0 = NO)"
             },
             {
                 "key": "SG_STT_NSDSFND",
-                "value": "17.18.3  Countries with national statistical plans that are fully funded (1 = YES; 0 = NO)"
+                "value": "Countries with national statistical plans that are fully funded (1 = YES; 0 = NO)"
             },
             {
                 "key": "SG_STT_NSDSIMPL",
-                "value": "17.18.3  Countries with national statistical plans that are under implementation (1 = YES; 0 = NO)"
+                "value": "Countries with national statistical plans that are under implementation (1 = YES; 0 = NO)"
             },
             {
                 "key": "SG_STT_CAPTY",
-                "value": "17.19.1  Dollar value of all resources made available to strengthen statistical capacity in developing countries"
+                "value": "Dollar value of all resources made available to strengthen statistical capacity in developing countries"
             },
             {
                 "key": "SG_REG_BRTH90",
-                "value": "17.19.2  Proportion of countries with birth registration data that are at least 90 percent complete"
+                "value": "Proportion of countries with birth registration data that are at least 90 percent complete"
             },
             {
                 "key": "SG_REG_BRTH90N",
-                "value": "17.19.2  Countries with birth registration data that are at least 90 percent complete (1 = YES; 0 = NO)"
+                "value": "Countries with birth registration data that are at least 90 percent complete (1 = YES; 0 = NO)"
             },
             {
                 "key": "SG_REG_CENSUS",
-                "value": "17.19.2  Proportion of countries that have conducted at least one population and housing census in the last 10 years"
+                "value": "Proportion of countries that have conducted at least one population and housing census in the last 10 years"
             },
             {
                 "key": "SG_REG_CENSUSN",
-                "value": "17.19.2  Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO)"
+                "value": "Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO)"
             },
             {
                 "key": "SG_REG_DETH75",
-                "value": "17.19.2  Proportion of countries with death registration data that are at least 75 percent complete"
+                "value": "Proportion of countries with death registration data that are at least 75 percent complete"
             },
             {
                 "key": "SG_REG_DETH75N",
-                "value": "17.19.2  Countries with death registration data that are at least 75 percent complete (1 = YES; 0 = NO)"
+                "value": "Countries with death registration data that are at least 75 percent complete (1 = YES; 0 = NO)"
             }
         ]
     },
