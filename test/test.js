@@ -42,8 +42,21 @@ function testMetadata(metadata) {
   const expectedConcepts = getExpectedConcepts()
 
   for (const descriptorId in expectedDescriptors) {
-    const descriptor = metadata.getDescriptor(descriptorId)
-    if (descriptor !== '' && descriptor !== expectedDescriptors[descriptorId]) {
+    let descriptor = metadata.getDescriptor(descriptorId)
+    if (descriptorId === 'SERIES') {
+      if (!Array.isArray(descriptor)) {
+        descriptor = [descriptor]
+      }
+      for (const series of expectedDescriptors['SERIES']) {
+        if (!descriptor.includes(series)) {
+          throw Error('Descriptor SERIES missing: ' + series + '.')
+        }
+      }
+      if (descriptor.length != expectedDescriptors['SERIES'].length) {
+        throw Error('Descriptor SERIES has the wrong number of items.')
+      }
+    }
+    else if (descriptor !== '' && descriptor !== expectedDescriptors[descriptorId]) {
       throw Error('Descriptor ' + descriptorId + ' incorrect or missing.')
     }
   }
@@ -108,7 +121,7 @@ function getExpectedConcepts() {
 function getExpectedDescriptors() {
   return {
     REPORTING_TYPE: 'G',
-    SERIES: 'SI_POV_DAY1',
+    SERIES: ['SI_POV_DAY1'],
     REF_AREA: '1',
     LANGUAGE: 'en'
   }
