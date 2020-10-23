@@ -154,11 +154,19 @@ const { WordTemplateInput } = require('sdg-metadata-convert')
 const input = new WordTemplateInput()
 
 input.read('3-8-2-old.docx')
-  .then(metadata => input.diff('3-8-2-new.docx', metadata))
+  .then(metadata => input.compareWithNewVersion('3-8-2-new.docx', metadata))
   .then(diff => diff.writeSourcePdf('3-8-2-source-changes.pdf'))
   .then(diff => diff.writeRenderedPdf('3-8-2-rendered-changes.pdf'))
   .then(() => console.log('Succeeded in generating comparison reports.'))
   .catch(err => console.log(err))
+```
+
+Or if you want to start with the new metadata and then compare with the old:
+
+```
+input.read('3-8-2-new.docx')
+  .then(metadata => input.compareWithOldVersion('3-8-2-old.docx', metadata))
+  ...
 ```
 
 Note that the two inputs need not be the same. For example, you can compare the metadata contained in a Word template with the metadata contained in an SDMX file.
