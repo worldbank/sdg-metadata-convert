@@ -6,6 +6,7 @@ Inputs available:
 
 * Gettext translation files
 * Metadata authoring template (Microsoft Word)
+* SDMX
 
 Outputs available:
 
