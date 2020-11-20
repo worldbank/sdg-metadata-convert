@@ -37,8 +37,12 @@
     <body>
         <h1>{{ title }}</h1>
         <p>
+        {% if afterDate != beforeData %}
             <ins class="diffmod">{{ afterDate }}</ins><br>
             <del class="diffmod">{{ beforeDate }}</del>
+        {% else %}
+            {{ afterDate }}
+        {% endif %}
         </p>
         {{ htmlDiff }}
     </body>
