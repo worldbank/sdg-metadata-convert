@@ -36,6 +36,11 @@
     </head>
     <body>
         <h1>{{ title }}</h1>
+        {% if header %}
+        <header>
+            {{ header }}
+        </header>
+        {% endif %}
         <p>
         {% if afterDate != beforeData %}
             <ins class="diffmod">{{ afterDate }}</ins><br>
@@ -45,5 +50,10 @@
         {% endif %}
         </p>
         {{ htmlDiff }}
+        {% if footer %}
+        <footer>
+            {{ footer }}
+        </footer>
+        {% endif %}
     </body>
 </html>
