@@ -35,7 +35,9 @@
             header {
                 font-size: 1.2em;
             }
+            {{ style }}
         </style>
+        {{ head }}
     </head>
     <body>
         <h1>{{ title }}</h1>
@@ -58,5 +60,6 @@
             {{ footer }}
         </footer>
         {% endif %}
+        {{ scripts }}
     </body>
 </html>
