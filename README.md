@@ -7,6 +7,7 @@ Inputs available:
 * Gettext translation files
 * Metadata authoring template (Microsoft Word)
 * SDMX
+* YAML
 
 Outputs available:
 
@@ -14,6 +15,7 @@ Outputs available:
 * HTML
 * PDF
 * SDMX
+* YAML
 
 ## Installation
 
