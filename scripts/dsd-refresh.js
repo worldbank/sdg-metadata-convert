@@ -27,8 +27,13 @@ async function refreshFromDsd(source) {
         const seriesName = select('./com:Name', code)[0].firstChild.nodeValue
         let indicatorId = null
         for (const annotation of select('./com:Annotations/com:Annotation', code)) {
-            const annotationTitle = select('./com:AnnotationTitle', annotation)[0].firstChild.nodeValue
-            const annotationText = select('./com:AnnotationText', annotation)[0].firstChild.nodeValue
+            const annotationTitleNode = select('./com:AnnotationTitle', annotation)
+            const annotationTextNode = select('./com:AnnotationText', annotation)
+            if (annotationTitleNode.length == 0 || annotationTextNode.length == 0) {
+                continue
+            }
+            const annotationTitle = annotationTitleNode[0].firstChild.nodeValue
+            const annotationText = annotationTextNode[0].firstChild.nodeValue
             if (annotationTitle == 'Indicator') {
                 indicatorId = annotationText
             }
