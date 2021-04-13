@@ -450,8 +450,18 @@
                 "indicatorId": "2.3.1"
             },
             {
+                "key": "PD_AGR_LSFP",
+                "value": "Productivity of large-scale food producers [2.3.1]",
+                "indicatorId": "2.3.1"
+            },
+            {
                 "key": "SI_AGR_SSFP",
                 "value": "Average income of small-scale food producers [2.3.2]",
+                "indicatorId": "2.3.2"
+            },
+            {
+                "key": "SI_AGR_LSFP",
+                "value": "Average income of large-scale food producers [2.3.2]",
                 "indicatorId": "2.3.2"
             },
             {
@@ -1215,6 +1225,21 @@
                 "indicatorId": "6.3.1"
             },
             {
+                "key": "EN_WWT_GEN",
+                "value": "Total wastewater generated (million m3/year) [6.3.1]",
+                "indicatorId": "6.3.1"
+            },
+            {
+                "key": "EN_WWT_TREAT",
+                "value": "Total wastewater treated (million m3/year) [6.3.1]",
+                "indicatorId": "6.3.1"
+            },
+            {
+                "key": "EN_WWT_TREATR",
+                "value": "Proportion of wastewater treated [6.3.1]",
+                "indicatorId": "6.3.1"
+            },
+            {
                 "key": "EN_H2O_OPAMBQ",
                 "value": "Proportion of open water bodies with good ambient water quality [6.3.2]",
                 "indicatorId": "6.3.2"
@@ -1645,6 +1670,11 @@
                 "indicatorId": "9.2.1"
             },
             {
+                "key": "NV_IND_MANF_CD",
+                "value": "Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1]",
+                "indicatorId": "9.2.1"
+            },
+            {
                 "key": "SL_TLF_MANF",
                 "value": "Manufacturing employment as a proportion of total employment [9.2.2]",
                 "indicatorId": "9.2.2"
@@ -1733,6 +1763,11 @@
                 "key": "SL_EMP_GTOTL",
                 "value": "Labour share of GDP [10.4.1]",
                 "indicatorId": "10.4.1"
+            },
+            {
+                "key": "SI_DST_FISP",
+                "value": "Redistributive impact of fiscal policy, Gini index (%) [10.4.2]",
+                "indicatorId": "10.4.2"
             },
             {
                 "key": "FI_FSI_FSANL",
@@ -1832,6 +1867,16 @@
             {
                 "key": "SI_RMT_COST",
                 "value": "Remittance costs as a proportion of the amount remitted [10.c.1]",
+                "indicatorId": "10.c.1"
+            },
+            {
+                "key": "SI_RMT_COST_BC",
+                "value": "Corridor remittance costs as a proportion of the amount remitted [10.c.1]",
+                "indicatorId": "10.c.1"
+            },
+            {
+                "key": "SI_RMT_COST_SC",
+                "value": "SmaRT corridor remittance costs as a proportion of the amount remitted [10.c.1]",
                 "indicatorId": "10.c.1"
             },
             {
@@ -2070,6 +2115,41 @@
                 "indicatorId": "12.5.1"
             },
             {
+                "key": "EN_MWT_COLLV",
+                "value": "Municipal waste collected (Tonnes) [12.4.2]",
+                "indicatorId": "12.4.2"
+            },
+            {
+                "key": "EN_MWT_TREATR",
+                "value": "Municipal waste treated, by type of treatment (%) [12.4.2]",
+                "indicatorId": "12.4.2"
+            },
+            {
+                "key": "EN_MWT_GENV",
+                "value": "Municipal waste generated (Tonnes) [12.4.2]",
+                "indicatorId": "12.4.2"
+            },
+            {
+                "key": "EN_EWT_COLLV",
+                "value": "Electronic waste collected (Tonnes) [12.4.2]",
+                "indicatorId": "12.4.2"
+            },
+            {
+                "key": "EN_EWT_COLLPCAP",
+                "value": "Electronic waste collected, per capita (KG) [12.4.2]",
+                "indicatorId": "12.4.2"
+            },
+            {
+                "key": "EN_EWT_COLLR",
+                "value": "Electronic waste collection rate (%) [12.4.2]",
+                "indicatorId": "12.4.2"
+            },
+            {
+                "key": "EN_MWT_RCYV",
+                "value": "Municipal waste recycled (Tonnes) [12.4.2,12.5.1]",
+                "indicatorId": "12.5.1"
+            },
+            {
                 "key": "EN_SCP_FRMN",
                 "value": "Number of companies publishing sustainability reports [12.6.1]",
                 "indicatorId": "12.6.1"
@@ -2125,6 +2205,56 @@
                 "indicatorId": "12.c.1"
             },
             {
+                "key": "ER_FFS_CMPT",
+                "value": "Fossil-fuel subsidies (consumption and production) (millions of constant United States dollars) [12.c.1]",
+                "indicatorId": "12.c.1"
+            },
+            {
+                "key": "ER_FFS_CMPT_PC",
+                "value": "Fossil-fuel subsidies (consumption and production) per capita (constant United States dollars) [12.c.1]",
+                "indicatorId": "12.c.1"
+            },
+            {
+                "key": "ER_FFS_CMPT_GDP",
+                "value": "Fossil-fuel subsidies (consumption and production) as a proportion of total GDP [12.c.1]",
+                "indicatorId": "12.c.1"
+            },
+            {
+                "key": "EN_NACOM_AIP",
+                "value": "Number of countries with national communications, Annex I Parties [13.2.1]",
+                "indicatorId": "13.2.1"
+            },
+            {
+                "key": "EN_BIUREP_AIP",
+                "value": "Number of countries with biennial reports, Annex I Parties [13.2.1]",
+                "indicatorId": "13.2.1"
+            },
+            {
+                "key": "EN_NACOM_NAIP",
+                "value": "Number of countries with national communications, non-Annex I Parties [13.2.1,13.b.1]",
+                "indicatorId": "13.b.1"
+            },
+            {
+                "key": "EN_BIUREP_NAIP",
+                "value": "Number of countries with biennial update reports, non-Annex I Parties [13.2.1,13.b.1]",
+                "indicatorId": "13.b.1"
+            },
+            {
+                "key": "EN_ADAP_COM",
+                "value": "Number of countries with adaptation communications [13.2.1,13.b.1]",
+                "indicatorId": "13.b.1"
+            },
+            {
+                "key": "EN_NAD_CONTR",
+                "value": "Number of countries with nationally determined contributions [13.2.1,13.b.1]",
+                "indicatorId": "13.b.1"
+            },
+            {
+                "key": "EN_NAA_PLAN",
+                "value": "Number of countries with national adaptation plans [13.2.1,13.b.1]",
+                "indicatorId": "13.b.1"
+            },
+            {
                 "key": "EN_ATM_GHGT_AIP",
                 "value": "Total greenhouse gas emissions without LULUCF for Annex I Parties (CO₂ equivalent) [13.2.2]",
                 "indicatorId": "13.2.2"
@@ -2137,6 +2267,31 @@
             {
                 "key": "DC_CLC_100B",
                 "value": "Mobilized amount of United States dollars per year between 2020 and 2025 accountable towards the $100 billion commitment [13.a.1]",
+                "indicatorId": "13.a.1"
+            },
+            {
+                "key": "DC_FIN_CLIMB",
+                "value": "Climate-specific financial support provided via bilateral, regional and other channels, by type of support (Billions of current United States dollars) [13.a.1]",
+                "indicatorId": "13.a.1"
+            },
+            {
+                "key": "DC_FIN_CLIMM",
+                "value": "Climate-specific financial support provided via multilateral channels, by type of support (Billions of current United States dollars) [13.a.1]",
+                "indicatorId": "13.a.1"
+            },
+            {
+                "key": "DC_FIN_CLIMT",
+                "value": "Total climate-specific financial support provided (Billions of current United States dollars) [13.a.1]",
+                "indicatorId": "13.a.1"
+            },
+            {
+                "key": "DC_FIN_GEN",
+                "value": "Core/general contributions provided to multilateral institutions (Billions of current United States dollars) [13.a.1]",
+                "indicatorId": "13.a.1"
+            },
+            {
+                "key": "DC_FIN_TOT",
+                "value": "Total financial support provided (Billions of current United States dollars) [13.a.1]",
                 "indicatorId": "13.a.1"
             },
             {
@@ -2243,6 +2398,16 @@
                 "key": "ER_REG_SSFRAR",
                 "value": "Degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries (level of implementation: 1 lowest to 5 highest) [14.b.1]",
                 "indicatorId": "14.b.1"
+            },
+            {
+                "key": "ER_UNCLOS_RATACC",
+                "value": "Score for the ratification of and accession to UNCLOS and its two implementing agreements (%) [14.c.1]",
+                "indicatorId": "14.c.1"
+            },
+            {
+                "key": "ER_UNCLOS_IMPLE",
+                "value": "Score for the implementation of UNCLOS and its two implementing agreements (%) [14.c.1]",
+                "indicatorId": "14.c.1"
             },
             {
                 "key": "AG_LND_FRST",
@@ -2372,6 +2537,16 @@
             {
                 "key": "ER_IAS_NBSAP",
                 "value": "National Biodiversity Strategy and Action Plan (NBSAP) targets alignment to Aichi Biodiversity target 9 set out in the Strategic Plan for Biodiversity 2011-2020 (1 = YES, 0 = NO) [15.8.1]",
+                "indicatorId": "15.8.1"
+            },
+            {
+                "key": "ER_IAS_NATBUD",
+                "value": "Countries with an allocation from the national budget to manage the threat of invasive alien species (1 = YES, 0 = NO) [15.8.1]",
+                "indicatorId": "15.8.1"
+            },
+            {
+                "key": "ER_IAS_GLOFUN",
+                "value": "Recipient countries of global funding with access to any funding from global financial mechanisms for projects related to invasive alien species  management (1 = YES, 0 = NO) [15.8.1]",
                 "indicatorId": "15.8.1"
             },
             {
@@ -2580,6 +2755,41 @@
                 "indicatorId": "16.7.1"
             },
             {
+                "key": "SG_DMK_PARLCC_JC",
+                "value": "Number of chairs of permanent committees, by age sex and focus of the committee, Joint Committees [16.7.1]",
+                "indicatorId": "16.7.1"
+            },
+            {
+                "key": "SG_DMK_PARLYR_LC",
+                "value": "Ratio of young members in parliament (Ratio of the proportion of young members in parliament (age 45 or below) in the proportion of the national population (age 45 or below) with the age of eligibility as a lower bound boundary), Lower Chamber or Unicameral [16.7.1]",
+                "indicatorId": "16.7.1"
+            },
+            {
+                "key": "SG_DMK_PARLYP_LC",
+                "value": "Proportion of youth in parliament (age 45 or below), Lower Chamber or Unicameral [16.7.1]",
+                "indicatorId": "16.7.1"
+            },
+            {
+                "key": "SG_DMK_PARLYN_LC",
+                "value": "Number of youth in parliament (age 45 or below), Lower Chamber or Unicameral [16.7.1]",
+                "indicatorId": "16.7.1"
+            },
+            {
+                "key": "SG_DMK_PARLYR_UC",
+                "value": "Ratio of young members in parliament (Ratio of the proportion of young members in parliament (age 45 or below) in the proportion of the national population (age 45 or below) with the age of eligibility as a lower bound boundary), Upper Chamber [16.7.1]",
+                "indicatorId": "16.7.1"
+            },
+            {
+                "key": "SG_DMK_PARLYP_UC",
+                "value": "Proportion of youth in parliament (age 45 or below), Upper Chamber [16.7.1]",
+                "indicatorId": "16.7.1"
+            },
+            {
+                "key": "SG_DMK_PARLYN_UC",
+                "value": "Number of youth in parliament (age 45 or below), Upper Chamber [16.7.1]",
+                "indicatorId": "16.7.1"
+            },
+            {
                 "key": "IU_DMK_ICRS",
                 "value": "Proportion of population who believe decision-making is inclusive and responsive [16.7.2]",
                 "indicatorId": "16.7.2"
@@ -2725,6 +2935,16 @@
                 "indicatorId": "17.5.1"
             },
             {
+                "key": "SG_PLN_MSTKSDG_P",
+                "value": "Progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals, Provider (1 = YES; 0 = NO) [17.16.1]",
+                "indicatorId": "17.16.1"
+            },
+            {
+                "key": "SG_PLN_MSTKSDG_R",
+                "value": "Progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals, Recipient (1 = YES; 0 = NO) [17.16.1]",
+                "indicatorId": "17.16.1"
+            },
+            {
                 "key": "IT_NET_BBND",
                 "value": "Fixed broadband subscriptions per 100 inhabitants [17.6.1]",
                 "indicatorId": "17.6.1"
@@ -2848,6 +3068,16 @@
                 "key": "SG_PLN_MSTKSDG",
                 "value": "Progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals (1 = YES; 0 = NO) [17.16.1]",
                 "indicatorId": "17.16.1"
+            },
+            {
+                "key": "SG_CPA_SIGN_BIT",
+                "value": "Number of countries with a signed bilateral investment treaty (BIT) [17.5.1]",
+                "indicatorId": "17.5.1"
+            },
+            {
+                "key": "SG_CPA_INFORCE_BIT",
+                "value": "Number of countries with an inforce bilateral investment treaty (BIT) [17.5.1]",
+                "indicatorId": "17.5.1"
             },
             {
                 "key": "GF_COM_PPP",
@@ -4313,6 +4543,10 @@
             {
                 "key": "922",
                 "value": "Custom groupings of data providers"
+            },
+            {
+                "key": "951",
+                "value": "Other Africa (IEA)"
             },
             {
                 "key": "99018",
