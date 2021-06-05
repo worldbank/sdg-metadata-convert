@@ -25,18 +25,20 @@ async function refreshFromDsd(source) {
     for (const code of select('.//str:Codelist[@id="CL_SERIES"]/str:Code', doc)) {
         const seriesId = code.getAttribute('id')
         const seriesName = select('./com:Name', code)[0].firstChild.nodeValue
-        let indicatorId = null
+        let indicatorIds = []
         for (const annotation of select('./com:Annotations/com:Annotation', code)) {
-            const annotationTitle = select('./com:AnnotationTitle', annotation)[0].firstChild.nodeValue
-            const annotationText = select('./com:AnnotationText', annotation)[0].firstChild.nodeValue
-            if (annotationTitle == 'Indicator') {
-                indicatorId = annotationText
+            const annotationTitle = select('./com:AnnotationTitle', annotation)[0]
+            const annotationText = select('./com:AnnotationText', annotation)[0]
+            if (annotationTitle && annotationTitle.firstChild.nodeValue == 'Indicator') {
+                indicatorIds.push(annotationText.firstChild.nodeValue)
             }
         }
         seriesOptions.push({
             key: seriesId,
             value: seriesName,
-            indicatorId: indicatorId,
+            // For backwards compatibility, supply the first indicator id.
+            indicatorId: indicatorIds[0],
+            indicatorIds: indicatorIds,
         })
     }
 
