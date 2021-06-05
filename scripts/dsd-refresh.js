@@ -10,6 +10,19 @@ if (args.length < 1) {
 }
 refreshFromDsd(args[0])
 
+function normalizeSeriesName(name) {
+    // Historically the series names in this library do not include the
+    // indicator ids. Recent versions of the DSD include the indicator
+    // id in brackets at the end of the name.
+    const words = name.split(' ')
+    const lastWord = words[words.length - 1]
+    if (lastWord.startsWith('[') && lastWord.endsWith(']')) {
+        words.pop()
+        return words.join(' ')
+    }
+    return name
+}
+
 async function refreshFromDsd(source) {
     const getString = bent('string')
     xmlString = await getString(source)
@@ -35,7 +48,7 @@ async function refreshFromDsd(source) {
         }
         seriesOptions.push({
             key: seriesId,
-            value: seriesName,
+            value: normalizeSeriesName(seriesName),
             // For backwards compatibility, supply the first indicator id.
             indicatorId: indicatorIds[0],
             indicatorIds: indicatorIds,
