@@ -7,13 +7,16 @@ Inputs available:
 * Gettext translation files
 * Metadata authoring template (Microsoft Word)
 * SDMX
+* YAML
 
 Outputs available:
 
 * Gettext translation files
+* Metadata authoring template (Microsoft Word)
 * HTML
 * PDF
 * SDMX
+* YAML
 
 ## Installation
 
@@ -39,6 +42,10 @@ input.read(inputFile)
   .then(() => console.log(`Succeeded in converting ${inputFile} to ${outputFile}.`))
   .catch(err => console.log(err))
 ```
+
+## Known limitations
+
+* The WordTemplateOutput is not capable of creating Word-style footnotes.
 
 ## How it works
 

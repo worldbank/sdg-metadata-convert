@@ -32,14 +32,34 @@
                 margin: 20px 0;
                 background: #EEE;
             }
+            header {
+                font-size: 1.2em;
+            }
+            {{ style }}
         </style>
+        {{ head }}
     </head>
     <body>
         <h1>{{ title }}</h1>
+        {% if header %}
+        <header>
+            {{ header }}
+        </header>
+        {% endif %}
         <p>
+        {% if afterDate != beforeDate %}
             <ins class="diffmod">{{ afterDate }}</ins><br>
             <del class="diffmod">{{ beforeDate }}</del>
+        {% else %}
+            {{ afterDate }}
+        {% endif %}
         </p>
         {{ htmlDiff }}
+        {% if footer %}
+        <footer>
+            {{ footer }}
+        </footer>
+        {% endif %}
+        {{ scripts }}
     </body>
 </html>
