@@ -119,6 +119,14 @@
                 ]
             },
             {
+                "key": "SD_MDP_ANDIHH",
+                "value": "Average share of weighted deprivations of total households (intensity) (%)",
+                "indicatorId": "1.2.2",
+                "indicatorIds": [
+                    "1.2.2"
+                ]
+            },
+            {
                 "key": "SI_COV_BENFTS",
                 "value": "Proportion of population covered by at least one social protection benefit",
                 "indicatorId": "1.3.1",
@@ -407,7 +415,8 @@
                 "value": "Direct economic loss attributed to disasters",
                 "indicatorId": "1.5.2",
                 "indicatorIds": [
-                    "1.5.2"
+                    "1.5.2",
+                    "11.5.2"
                 ]
             },
             {
@@ -543,7 +552,7 @@
             },
             {
                 "key": "SG_XPD_HLTH",
-                "value": "Proportion of total government spending on health",
+                "value": "Proportion of total government spending on essential services, health",
                 "indicatorId": "1.a.2",
                 "indicatorIds": [
                     "1.a.2"
@@ -551,7 +560,7 @@
             },
             {
                 "key": "SG_XPD_PROT",
-                "value": "Proportion of total government spending on social protection",
+                "value": "Proportion of total government spending on essential services, social protection",
                 "indicatorId": "1.a.2",
                 "indicatorIds": [
                     "1.a.2"
@@ -801,7 +810,7 @@
             },
             {
                 "key": "ER_GRF_PLNTSTOR",
-                "value": "Plant breeds for which sufficient genetic resources are stored (number)",
+                "value": "Plant genetic resources accessions stored ex situ (number)",
                 "indicatorId": "2.5.1",
                 "indicatorIds": [
                     "2.5.1"
@@ -1329,7 +1338,7 @@
             },
             {
                 "key": "SE_GPI_PART",
-                "value": "Gender parity index for participation rate in formal and non-formal education and training",
+                "value": "Adjusted gender parity index for participation rate in formal and non-formal education and training (ratio)",
                 "indicatorId": "4.5.1",
                 "indicatorIds": [
                     "4.5.1"
@@ -1345,7 +1354,7 @@
             },
             {
                 "key": "SE_NAP_ACHI",
-                "value": "Native parity index for achievement",
+                "value": "Adjusted immigration status parity index for achieving a minimum proficiency level in reading and mathematics",
                 "indicatorId": "4.5.1",
                 "indicatorIds": [
                     "4.5.1"
@@ -1353,7 +1362,7 @@
             },
             {
                 "key": "SE_LGP_ACHI",
-                "value": "Language test parity index for achievement",
+                "value": "Adjusted language test parity index for achieving a minimum proficiency level in reading and mathematics (ratio)",
                 "indicatorId": "4.5.1",
                 "indicatorIds": [
                     "4.5.1"
@@ -1361,7 +1370,7 @@
             },
             {
                 "key": "SE_IMP_FPOF",
-                "value": "Immigration status parity index for achieving at least a fixed level of proficiency in functional skills, by numeracy/literacy skills",
+                "value": "Adjusted immigration status parity index for achieving at least a fixed level of proficiency in functional skills, by numeracy/literacy skills (ratio)",
                 "indicatorId": "4.5.1",
                 "indicatorIds": [
                     "4.5.1"
@@ -1369,7 +1378,7 @@
             },
             {
                 "key": "SE_TOT_GPI",
-                "value": "Gender parity index for achievement",
+                "value": "Adjusted gender parity index for achieving a minimum proficiency level in reading and mathematics (ratio)",
                 "indicatorId": "4.5.1",
                 "indicatorIds": [
                     "4.5.1"
@@ -1377,7 +1386,7 @@
             },
             {
                 "key": "SE_TOT_SESPI",
-                "value": "Low to high socio-economic parity status index for achievement",
+                "value": "Adjusted low to high socio-economic parity index for achieving a minimum proficiency level in reading and mathematics (ratio)",
                 "indicatorId": "4.5.1",
                 "indicatorIds": [
                     "4.5.1"
@@ -1385,7 +1394,7 @@
             },
             {
                 "key": "SE_TOT_RUPI",
-                "value": "Rural to urban parity index for achievement",
+                "value": "Adjusted rural to urban parity index for achieving a minimum proficiency level in reading and mathematics (ratio)",
                 "indicatorId": "4.5.1",
                 "indicatorIds": [
                     "4.5.1"
@@ -1393,7 +1402,7 @@
             },
             {
                 "key": "SE_GPI_TCAQ",
-                "value": "Gender parity index of trained teachers",
+                "value": "Adjusted gender parity index for the proportion of teachers with the minimum required qualifications, by education level (ratio)",
                 "indicatorId": "4.5.1",
                 "indicatorIds": [
                     "4.5.1"
@@ -1401,7 +1410,7 @@
             },
             {
                 "key": "SE_GPI_PTNPRE",
-                "value": "Gender parity index for participation rate in organized learning (one year before the official primary entry age)",
+                "value": "Adjusted gender parity index for participation rate in organized learning (one year before the official primary entry age), (ratio)",
                 "indicatorId": "4.5.1",
                 "indicatorIds": [
                     "4.5.1"
@@ -1432,6 +1441,22 @@
                 ]
             },
             {
+                "key": "SE_TOT_GPI_FS",
+                "value": "Adjusted gender parity index for achieving at least a fixed level of proficiency in functional skills, by numeracy/literacy skills (ratio)",
+                "indicatorId": "4.5.1",
+                "indicatorIds": [
+                    "4.5.1"
+                ]
+            },
+            {
+                "key": "SE_TOT_SESPI_FS",
+                "value": "Adjusted low to high socio-economic parity status index for achieving at least a fixed level of proficiency in functional skills, by numeracy/literacy skills (ratio)",
+                "indicatorId": "4.5.1",
+                "indicatorIds": [
+                    "4.5.1"
+                ]
+            },
+            {
                 "key": "SE_ADT_FUNS",
                 "value": "Proportion of population achieving at least a fixed level of proficiency in functional skills",
                 "indicatorId": "4.6.1",
@@ -1440,8 +1465,48 @@
                 ]
             },
             {
+                "key": "SE_GCEDESD_NEP",
+                "value": "Extent to which global citizenship education and education for sustainable development are mainstreamed in national education policies",
+                "indicatorId": "4.7.1",
+                "indicatorIds": [
+                    "4.7.1",
+                    "12.8.1",
+                    "13.3.1"
+                ]
+            },
+            {
+                "key": "SE_GCEDESD_CUR",
+                "value": "Extent to which global citizenship education and education for sustainable development are mainstreamed in curricula",
+                "indicatorId": "4.7.1",
+                "indicatorIds": [
+                    "4.7.1",
+                    "12.8.1",
+                    "13.3.1"
+                ]
+            },
+            {
+                "key": "SE_GCEDESD_TED",
+                "value": "Extent to which global citizenship education and education for sustainable development are mainstreamed in teacher education",
+                "indicatorId": "4.7.1",
+                "indicatorIds": [
+                    "4.7.1",
+                    "12.8.1",
+                    "13.3.1"
+                ]
+            },
+            {
+                "key": "SE_GCEDESD_SAS",
+                "value": "Extent to which global citizenship education and education for sustainable development are mainstreamed in student assessment",
+                "indicatorId": "4.7.1",
+                "indicatorIds": [
+                    "4.7.1",
+                    "12.8.1",
+                    "13.3.1"
+                ]
+            },
+            {
                 "key": "SE_ACS_ELECT",
-                "value": "Proportion of schools with access to electricity",
+                "value": "Proportion of schools with access to electricity, by education level",
                 "indicatorId": "4.a.1",
                 "indicatorIds": [
                     "4.a.1"
@@ -1449,7 +1514,7 @@
             },
             {
                 "key": "SE_ACS_CMPTR",
-                "value": "Proportion of schools with access to computers for pedagogical purposes",
+                "value": "Proportion of schools with access to computers for pedagogical purposes, by education level",
                 "indicatorId": "4.a.1",
                 "indicatorIds": [
                     "4.a.1"
@@ -1457,7 +1522,7 @@
             },
             {
                 "key": "SE_ACS_H2O",
-                "value": "Proportion of schools with access to basic drinking water",
+                "value": "Proportion of schools with access to basic drinking water, by education level",
                 "indicatorId": "4.a.1",
                 "indicatorIds": [
                     "4.a.1"
@@ -1465,7 +1530,7 @@
             },
             {
                 "key": "SE_ACC_HNDWSH",
-                "value": "Proportion of schools with basic handwashing facilities",
+                "value": "Proportion of schools with basic handwashing facilities, by education level",
                 "indicatorId": "4.a.1",
                 "indicatorIds": [
                     "4.a.1"
@@ -1473,7 +1538,7 @@
             },
             {
                 "key": "SE_ACS_INTNT",
-                "value": "Proportion of schools with access to the internet for pedagogical purposes",
+                "value": "Proportion of schools with access to the internet for pedagogical purposes, by education level",
                 "indicatorId": "4.a.1",
                 "indicatorIds": [
                     "4.a.1"
@@ -1481,7 +1546,7 @@
             },
             {
                 "key": "SE_ACS_SANIT",
-                "value": "Proportion of schools with access to access to single-sex basic sanitation",
+                "value": "Proportion of schools with access to access to single-sex basic sanitation, by education level",
                 "indicatorId": "4.a.1",
                 "indicatorIds": [
                     "4.a.1"
@@ -1505,7 +1570,7 @@
             },
             {
                 "key": "SE_TRA_GRDL",
-                "value": "Proportion of teachers who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country",
+                "value": "Proportion of teachers with the minimum required qualifications, by education level and sex",
                 "indicatorId": "4.c.1",
                 "indicatorIds": [
                     "4.c.1"
@@ -2216,6 +2281,174 @@
                 ]
             },
             {
+                "key": "EN_LKRV_PWAN",
+                "value": "Lakes and rivers permanent water area (square kilometres)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_LKRV_PWAP",
+                "value": "Lakes and rivers permanent water area (% of total land area)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_LKRV_SWAN",
+                "value": "Lakes and rivers seasonal water area (square kilometres)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_LKRV_SWAP",
+                "value": "Lakes and rivers seasonal water area (% of total land area)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_LKRV_PWAC",
+                "value": "Lakes and rivers permanent water area change (%)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_LKRV_SWAC",
+                "value": "Lakes and rivers seasonal water area change (%)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_RSRV_MNWAN",
+                "value": "Reservoir minimum water area (square kilometres)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_RSRV_MNWAP",
+                "value": "Reservoir minimum water area (% of total land area)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_RSRV_MXWAN",
+                "value": "Reservoir maximum water area (square kilometres)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_RSRV_MXWAP",
+                "value": "Reservoir maximum water area (% of total land area)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_WBE_WTLN",
+                "value": "Wetlands area (square kilometres)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_WBE_WTLP",
+                "value": "Wetlands area (% of total land area)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_LKW_QLTRB",
+                "value": "Lake water quality turbidity (%)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_LKW_QLTRST",
+                "value": "Lake water quality trophic state (%)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_WBE_MANGN",
+                "value": "Mangrove area (square kilometres)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_WBE_MANGBN",
+                "value": "Mangrove area baseline (square kilometres)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_WBE_MANGGN",
+                "value": "Mangrove area gain (square kilometres)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_WBE_MANGGP",
+                "value": "Mangrove area gain (%)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_WBE_MANGLN",
+                "value": "Mangrove area loss (square kilometres)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_WBE_MANGLP",
+                "value": "Mangrove area loss (%)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
+                "key": "EN_WBE_MANGC",
+                "value": "Mangrove total area change (%)",
+                "indicatorId": "6.6.1",
+                "indicatorIds": [
+                    "6.6.1"
+                ]
+            },
+            {
                 "key": "DC_TOF_WASHL",
                 "value": "Total official development assistance (gross disbursement) for water supply and sanitation, by recipient countries",
                 "indicatorId": "6.a.1",
@@ -2421,7 +2654,8 @@
                 "value": "Domestic material consumption per capita, by type of raw material",
                 "indicatorId": "8.4.2",
                 "indicatorIds": [
-                    "8.4.2"
+                    "8.4.2",
+                    "12.2.2"
                 ]
             },
             {
@@ -2429,7 +2663,8 @@
                 "value": "Domestic material consumption per unit of GDP",
                 "indicatorId": "8.4.2",
                 "indicatorIds": [
-                    "8.4.2"
+                    "8.4.2",
+                    "12.2.2"
                 ]
             },
             {
@@ -2437,7 +2672,8 @@
                 "value": "Domestic material consumption",
                 "indicatorId": "8.4.2",
                 "indicatorIds": [
-                    "8.4.2"
+                    "8.4.2",
+                    "12.2.2"
                 ]
             },
             {
@@ -2751,7 +2987,7 @@
             },
             {
                 "key": "NV_IND_TECH",
-                "value": "Proportion of medium and high-tech industry value added in total value added",
+                "value": "Proportion of medium and high-tech manufacturing value added in total value added",
                 "indicatorId": "9.b.1",
                 "indicatorIds": [
                     "9.b.1"
@@ -3131,7 +3367,7 @@
             },
             {
                 "key": "EN_ATM_PM25",
-                "value": "Annual mean levels of fine particulate matter in cities, urban population",
+                "value": "Annual mean levels of fine particulate matter (population-weighted), by location",
                 "indicatorId": "11.6.2",
                 "indicatorIds": [
                     "11.6.2"
@@ -3214,6 +3450,14 @@
             {
                 "key": "SG_SCP_TOTL",
                 "value": "Countries with policies, instruments and mechanism in place for sustainable consumption and production (1 = YES; 0 = NO)",
+                "indicatorId": "12.1.1",
+                "indicatorIds": [
+                    "12.1.1"
+                ]
+            },
+            {
+                "key": "SG_SCP_TOTLN",
+                "value": "Number of policies, instruments and mechanism in place for sustainable consumption and production",
                 "indicatorId": "12.1.1",
                 "indicatorIds": [
                     "12.1.1"
@@ -3356,29 +3600,50 @@
                 ]
             },
             {
-                "key": "EN_EWT_RCYPCAP",
-                "value": "Electronic waste recycling, per capita (Kg)",
+                "key": "EN_TWT_GENV",
+                "value": "Total waste generation, by activity (Tonnes)",
                 "indicatorId": "12.4.2",
                 "indicatorIds": [
-                    "12.4.2",
+                    "12.4.2"
+                ]
+            },
+            {
+                "key": "EN_HAZ_EXP",
+                "value": "Hazardous waste exported, (Tonnes)",
+                "indicatorId": "12.4.2",
+                "indicatorIds": [
+                    "12.4.2"
+                ]
+            },
+            {
+                "key": "EN_HAZ_IMP",
+                "value": "Hazardous waste imported, (Tonnes)",
+                "indicatorId": "12.4.2",
+                "indicatorIds": [
+                    "12.4.2"
+                ]
+            },
+            {
+                "key": "EN_EWT_RCYPCAP",
+                "value": "Electronic waste recycling, per capita (Kg)",
+                "indicatorId": "12.5.1",
+                "indicatorIds": [
                     "12.5.1"
                 ]
             },
             {
                 "key": "EN_EWT_RCYR",
                 "value": "Electronic waste recycling, rate (%)",
-                "indicatorId": "12.4.2",
+                "indicatorId": "12.5.1",
                 "indicatorIds": [
-                    "12.4.2",
                     "12.5.1"
                 ]
             },
             {
                 "key": "EN_EWT_RCYV",
                 "value": "Electronic waste recycling (Tonnes)",
-                "indicatorId": "12.4.2",
+                "indicatorId": "12.5.1",
                 "indicatorIds": [
-                    "12.4.2",
                     "12.5.1"
                 ]
             },
@@ -3433,9 +3698,8 @@
             {
                 "key": "EN_MWT_RCYV",
                 "value": "Municipal waste recycled (Tonnes)",
-                "indicatorId": "12.4.2",
+                "indicatorId": "12.5.1",
                 "indicatorIds": [
-                    "12.4.2",
                     "12.5.1"
                 ]
             },
@@ -3466,6 +3730,22 @@
             {
                 "key": "SG_SCP_PROCN",
                 "value": "Countries implementing sustainable public procurement policies and action plans  (1 = YES; 0 = NO)",
+                "indicatorId": "12.7.1",
+                "indicatorIds": [
+                    "12.7.1"
+                ]
+            },
+            {
+                "key": "SG_SCP_PROCN_HS",
+                "value": "Number of countries implementing sustainable public procurement policies and action plans at higher subnational level by level of implementation (1 = YES; 0 = NO)",
+                "indicatorId": "12.7.1",
+                "indicatorIds": [
+                    "12.7.1"
+                ]
+            },
+            {
+                "key": "SG_SCP_PROCN_LS",
+                "value": "Number of countries implementing sustainable public procurement policies and action plans at lower subnational level by level of implementation (1 = YES; 0 = NO)",
                 "indicatorId": "12.7.1",
                 "indicatorIds": [
                     "12.7.1"
@@ -3569,8 +3849,7 @@
                 "value": "Number of countries with national communications, non-Annex I Parties",
                 "indicatorId": "13.2.1",
                 "indicatorIds": [
-                    "13.2.1",
-                    "13.b.1"
+                    "13.2.1"
                 ]
             },
             {
@@ -3578,8 +3857,7 @@
                 "value": "Number of countries with biennial update reports, non-Annex I Parties",
                 "indicatorId": "13.2.1",
                 "indicatorIds": [
-                    "13.2.1",
-                    "13.b.1"
+                    "13.2.1"
                 ]
             },
             {
@@ -3587,8 +3865,7 @@
                 "value": "Number of countries with adaptation communications",
                 "indicatorId": "13.2.1",
                 "indicatorIds": [
-                    "13.2.1",
-                    "13.b.1"
+                    "13.2.1"
                 ]
             },
             {
@@ -3596,8 +3873,7 @@
                 "value": "Number of countries with nationally determined contributions",
                 "indicatorId": "13.2.1",
                 "indicatorIds": [
-                    "13.2.1",
-                    "13.b.1"
+                    "13.2.1"
                 ]
             },
             {
@@ -3605,8 +3881,7 @@
                 "value": "Number of countries with national adaptation plans",
                 "indicatorId": "13.2.1",
                 "indicatorIds": [
-                    "13.2.1",
-                    "13.b.1"
+                    "13.2.1"
                 ]
             },
             {
@@ -3671,6 +3946,46 @@
                 "indicatorId": "13.a.1",
                 "indicatorIds": [
                     "13.a.1"
+                ]
+            },
+            {
+                "key": "EN_NACOM_NAIP_DV",
+                "value": "Number of least developed countries and small island developing States with national communications, non-Annex I Parties (Number)",
+                "indicatorId": "13.b.1",
+                "indicatorIds": [
+                    "13.b.1"
+                ]
+            },
+            {
+                "key": "EN_BIUREP_NAIP_DV",
+                "value": "Number of least developed countries and small island developing States with biennial update reports, non-Annex I Parties (Number)",
+                "indicatorId": "13.b.1",
+                "indicatorIds": [
+                    "13.b.1"
+                ]
+            },
+            {
+                "key": "EN_ADAP_COM_DV",
+                "value": "Number of least developed countries and small island developing States with adaptation communications (Number)",
+                "indicatorId": "13.b.1",
+                "indicatorIds": [
+                    "13.b.1"
+                ]
+            },
+            {
+                "key": "EN_NAD_CONTR_DV",
+                "value": "Number of least developed countries and small island developing States with nationally determined contributions (Number)",
+                "indicatorId": "13.b.1",
+                "indicatorIds": [
+                    "13.b.1"
+                ]
+            },
+            {
+                "key": "EN_NAA_PLAN_DV",
+                "value": "Number of least developed countries and small island developing States with national adaptation plans (Number)",
+                "indicatorId": "13.b.1",
+                "indicatorIds": [
+                    "13.b.1"
                 ]
             },
             {
@@ -4076,6 +4391,30 @@
             {
                 "key": "ER_IAS_GLOFUN",
                 "value": "Recipient countries of global funding with access to any funding from global financial mechanisms for projects related to invasive alien species  management (1 = YES, 0 = NO)",
+                "indicatorId": "15.8.1",
+                "indicatorIds": [
+                    "15.8.1"
+                ]
+            },
+            {
+                "key": "ER_IAS_NBSAPP",
+                "value": "Proportion of countries with National Biodiversity Strategy and Action Plan (NBSAP) targets alignment to Aichi Biodiversity target 9 set out in the Strategic Plan for Biodiversity 2011-2020 (%)",
+                "indicatorId": "15.8.1",
+                "indicatorIds": [
+                    "15.8.1"
+                ]
+            },
+            {
+                "key": "ER_IAS_NATBUDP",
+                "value": "Proportion of countries with allocation from the national budget to manage the threat of invasive alien species (%)",
+                "indicatorId": "15.8.1",
+                "indicatorIds": [
+                    "15.8.1"
+                ]
+            },
+            {
+                "key": "ER_IAS_GLOFUNP",
+                "value": "Proportion of recipient countries of global funding with access to any funding from global financial mechanisms for projects related to invasive alien species  management (%)",
                 "indicatorId": "15.8.1",
                 "indicatorIds": [
                     "15.8.1"
