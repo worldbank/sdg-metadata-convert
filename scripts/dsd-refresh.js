@@ -5,7 +5,7 @@ const dom = require('xmldom').DOMParser
 
 const args = process.argv.slice(2)
 if (args.length < 1) {
-    console.log('Please indicate a URL for a DSD. Example: node dsd-refresh.js https://registry.sdmx.org/ws/public/sdmxapi/rest/datastructure/IAEG-SDGs/SDG/latest/?format=sdmx-2.1&detail=full&references=children')
+    console.log('Please indicate a URL for a DSD in quotes. Example: node dsd-refresh.js "https://registry.sdmx.org/ws/public/sdmxapi/rest/datastructure/IAEG-SDGs/SDG/latest/?format=sdmx-2.1&detail=full&references=children"')
     return
 }
 refreshFromDsd(args[0])
