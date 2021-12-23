@@ -874,7 +874,7 @@
             },
             {
                 "key": "AG_FPA_CFPI",
-                "value": "Consumer Food Price Index",
+                "value": "Indicator of Food Price Anomalies (IFPA), by Consumer Food Price Index",
                 "indicatorId": "2.c.1",
                 "indicatorIds": [
                     "2.c.1"
@@ -2098,7 +2098,7 @@
             },
             {
                 "key": "ER_H2O_IWRMD",
-                "value": "Degree of integrated water resources management implementation",
+                "value": "Degree of integrated water resources management implementation (%)",
                 "indicatorId": "6.5.1",
                 "indicatorIds": [
                     "6.5.1"
@@ -2107,6 +2107,38 @@
             {
                 "key": "ER_H2O_IWRMP",
                 "value": "Proportion of countries by IWRM implementation category",
+                "indicatorId": "6.5.1",
+                "indicatorIds": [
+                    "6.5.1"
+                ]
+            },
+            {
+                "key": "ER_H2O_IWRMD_EE",
+                "value": "Degree of integrated water resources management implementation, enabling environment (%)",
+                "indicatorId": "6.5.1",
+                "indicatorIds": [
+                    "6.5.1"
+                ]
+            },
+            {
+                "key": "ER_H2O_IWRMD_IP",
+                "value": "Degree of integrated water resources management implementation, institutions and participation (%)",
+                "indicatorId": "6.5.1",
+                "indicatorIds": [
+                    "6.5.1"
+                ]
+            },
+            {
+                "key": "ER_H2O_IWRMD_MI",
+                "value": "Degree of integrated water resources management implementation, management instruments (%)",
+                "indicatorId": "6.5.1",
+                "indicatorIds": [
+                    "6.5.1"
+                ]
+            },
+            {
+                "key": "ER_H2O_IWRMD_FI",
+                "value": "Degree of integrated water resources management implementation, financing (%)",
                 "indicatorId": "6.5.1",
                 "indicatorIds": [
                     "6.5.1"
@@ -3286,6 +3318,78 @@
                 ]
             },
             {
+                "key": "GB_XPD_CULNAT_PB",
+                "value": "Total expenditure per capita spent on cultural and natural heritage, public",
+                "indicatorId": "11.4.1",
+                "indicatorIds": [
+                    "11.4.1"
+                ]
+            },
+            {
+                "key": "GB_XPD_CULNAT_PV",
+                "value": "Total expenditure per capita spent on cultural and natural heritage, private",
+                "indicatorId": "11.4.1",
+                "indicatorIds": [
+                    "11.4.1"
+                ]
+            },
+            {
+                "key": "GB_XPD_CULNAT_PBPV",
+                "value": "Total expenditure per capita spent on cultural and natural heritage, public and private",
+                "indicatorId": "11.4.1",
+                "indicatorIds": [
+                    "11.4.1"
+                ]
+            },
+            {
+                "key": "GB_XPD_CUL_PB",
+                "value": "Total expenditure per capita spent on cultural heritage, public",
+                "indicatorId": "11.4.1",
+                "indicatorIds": [
+                    "11.4.1"
+                ]
+            },
+            {
+                "key": "GB_XPD_CUL_PV",
+                "value": "Total expenditure per capita spent on cultural heritage, private",
+                "indicatorId": "11.4.1",
+                "indicatorIds": [
+                    "11.4.1"
+                ]
+            },
+            {
+                "key": "GB_XPD_CUL_PBPV",
+                "value": "Total expenditure per capita spent on cultural heritage, public and private",
+                "indicatorId": "11.4.1",
+                "indicatorIds": [
+                    "11.4.1"
+                ]
+            },
+            {
+                "key": "GB_XPD_NAT_PB",
+                "value": "Total expenditure per capita spent on natural heritage, public",
+                "indicatorId": "11.4.1",
+                "indicatorIds": [
+                    "11.4.1"
+                ]
+            },
+            {
+                "key": "GB_XPD_NAT_PV",
+                "value": "Total expenditure per capita spent on natural heritage, private",
+                "indicatorId": "11.4.1",
+                "indicatorIds": [
+                    "11.4.1"
+                ]
+            },
+            {
+                "key": "GB_XPD_NAT_PBPV",
+                "value": "Total expenditure per capita spent on natural heritage, public and private",
+                "indicatorId": "11.4.1",
+                "indicatorIds": [
+                    "11.4.1"
+                ]
+            },
+            {
                 "key": "VC_DSR_CDAN",
                 "value": "Number of damaged critical infrastructure attributed to disasters",
                 "indicatorId": "11.5.2",
@@ -4358,10 +4462,11 @@
             },
             {
                 "key": "ER_WLD_TRPOACH",
-                "value": "Proportion of traded wildlife that was poached or illicitly trafficked",
+                "value": "Proportion of traded wildlife that was poached or illicitly trafficked ",
                 "indicatorId": "15.7.1",
                 "indicatorIds": [
-                    "15.7.1"
+                    "15.7.1",
+                    "15.c.1"
                 ]
             },
             {
@@ -5036,19 +5141,19 @@
                 ]
             },
             {
-                "key": "SG_PLN_MSTKSDG_P",
-                "value": "Progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals, Provider (1 = YES; 0 = NO)",
-                "indicatorId": "17.16.1",
+                "key": "SG_CPA_SIGN_BIT",
+                "value": "Number of countries with a signed bilateral investment treaty (BIT)",
+                "indicatorId": "17.5.1",
                 "indicatorIds": [
-                    "17.16.1"
+                    "17.5.1"
                 ]
             },
             {
-                "key": "SG_PLN_MSTKSDG_R",
-                "value": "Progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals, Recipient (1 = YES; 0 = NO)",
-                "indicatorId": "17.16.1",
+                "key": "SG_CPA_INFORCE_BIT",
+                "value": "Number of countries with an inforce bilateral investment treaty (BIT)",
+                "indicatorId": "17.5.1",
                 "indicatorIds": [
-                    "17.16.1"
+                    "17.5.1"
                 ]
             },
             {
@@ -5164,6 +5269,166 @@
                 ]
             },
             {
+                "key": "FB_BNK_CAPA_ZS",
+                "value": "Bank capital to assets ratio (%)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "FM_LBL_BMNY_ZG",
+                "value": "Annual broad money growth (%)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "FM_LBL_BMNY_IR_ZS",
+                "value": "Broad money to total reserves ratio",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "BN_CAB_XOKA_GD_ZS",
+                "value": "Current account balance as a proportion of GDP (%)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "NE_EXP_GNFS_KD_ZG",
+                "value": "Annual growth of exports of goods and services (%)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "DT_DOD_DECT_GN_ZS",
+                "value": "External debt stocks as a proportion of GNI (%)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "BX_KLT_DINV_WD_GD_ZS",
+                "value": "Foreign direct investment, net inflows, as a proportion of GDP (%)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "NY_GDP_MKTP_KD_ZG",
+                "value": "Annual GDP growth (%)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "NE_CON_GOVT_KD_ZG",
+                "value": "Annual growth of the general government final consumption expenditure (%)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "NE_GDI_TOTL_KD_ZG",
+                "value": "Annual growth of the gross capital formation (%)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "NE_IMP_GNFS_KD_ZG",
+                "value": "Annual growth of imports of goods and services (%)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "FP_CPI_TOTL_ZG",
+                "value": "Annual inflation, consumer prices (%)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "TG_VAL_TOTL_GD_ZS",
+                "value": "Merchandise trade as a proportion of GDP (%)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "BN_KLT_PTXL_CD",
+                "value": "Portfolio investment, net (Balance of Payments, current United States dollars)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "GC_TAX_TOTL_GD_ZS",
+                "value": "Tax revenue as a proportion of GDP (%)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "FI_RES_TOTL_MO",
+                "value": "Total reserves in months of imports (ratio)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "DP_DOD_DLD2_CR_CG_Z1",
+                "value": "Gross public sector debt, Central Government, as a proportion of GDP (%)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "GC_BAL_CASH_GD_ZS",
+                "value": "Cash surplus/deficit as a proportion of GDP",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "PA_NUS_ATLS",
+                "value": "DEC alternative conversion factor (in local currency unit per United States dollar)",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
+                "key": "NE_CON_PRVT_KD_ZG",
+                "value": "Annual growth of households and NPISHs final consumption expenditure",
+                "indicatorId": "17.13.1",
+                "indicatorIds": [
+                    "17.13.1"
+                ]
+            },
+            {
                 "key": "SG_CPA_SDEV",
                 "value": "Countries with mechanisms in place to enhance policy coherence of sustainable development  (1 = YES; 0 = NO)",
                 "indicatorId": "17.14.1",
@@ -5252,19 +5517,19 @@
                 ]
             },
             {
-                "key": "SG_CPA_SIGN_BIT",
-                "value": "Number of countries with a signed bilateral investment treaty (BIT)",
-                "indicatorId": "17.5.1",
+                "key": "SG_PLN_MSTKSDG_P",
+                "value": "Progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals, Provider (1 = YES; 0 = NO)",
+                "indicatorId": "17.16.1",
                 "indicatorIds": [
-                    "17.5.1"
+                    "17.16.1"
                 ]
             },
             {
-                "key": "SG_CPA_INFORCE_BIT",
-                "value": "Number of countries with an inforce bilateral investment treaty (BIT)",
-                "indicatorId": "17.5.1",
+                "key": "SG_PLN_MSTKSDG_R",
+                "value": "Progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals, Recipient (1 = YES; 0 = NO)",
+                "indicatorId": "17.16.1",
                 "indicatorIds": [
-                    "17.5.1"
+                    "17.16.1"
                 ]
             },
             {
