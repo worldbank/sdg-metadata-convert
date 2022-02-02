@@ -34,7 +34,6 @@ for (const sdmxInputFile of sdmxInputFiles) {
     it('should import the required and expected metadata', async () => {
       const metadata = await sdmxInput.read(path.join('test', 'inputs', sdmxInputFile))
       expect(testMetadata(metadata)).to.be.true
-      expect(metadata.validateMetaLastUpdate()).to.be.true
     })
   })
 }
@@ -66,8 +65,6 @@ for (const harmonizedInputFile of harmonizedInputFiles) {
       for (const [key, value] of Object.entries(getExpectedDescriptors())) {
         metadata.setDescriptor(key, value)
       }
-
-      console.log(metadata.getConcept('COLL_METHOD'))
 
       expect(testMetadata(metadata)).to.be.true
     })
@@ -103,6 +100,10 @@ function testMetadata(metadata) {
     if (concept !== '' && concept !== expectedConcepts[conceptId]) {
       throw Error('Concept ' + conceptId + ' incorrect or missing.')
     }
+  }
+
+  if (!metadata.validateMetaLastUpdate()) {
+    throw Error('META_LAST_UPDATE is in invalid format: ' + metadata.getConcept('META_LAST_UPDATE'))
   }
 
   return true
