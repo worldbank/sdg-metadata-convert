@@ -67,6 +67,8 @@ for (const harmonizedInputFile of harmonizedInputFiles) {
         metadata.setDescriptor(key, value)
       }
 
+      console.log(metadata.getConcept('COLL_METHOD'))
+
       expect(testMetadata(metadata)).to.be.true
     })
   })
