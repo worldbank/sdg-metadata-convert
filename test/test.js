@@ -1,5 +1,5 @@
 const path = require('path')
-const { WordTemplateInput, SdmxInput, YamlInput } = require('../lib/index.js')
+const { WordTemplateInput, SdmxInput, YamlInput, HarmonizedWordTemplateInput } = require('../lib/index.js')
 const { expect } = require('chai')
 
 const wordInput = new WordTemplateInput()
@@ -51,6 +51,26 @@ for (const yamlInputFile of yamlInputFiles) {
   })
 }
 
+const harmonizedInput = new HarmonizedWordTemplateInput()
+const harmonizedInputFiles = [
+  'SDG_Metadata_Authoring_Tool__Word_Harmonized_v1.0.docx',
+]
+for (const harmonizedInputFile of harmonizedInputFiles) {
+  describe(harmonizedInputFile, function() {
+    it('should import the required and expected metadata', async () => {
+      const metadata = await harmonizedInput.read(path.join('test', 'inputs', harmonizedInputFile))
+
+      // We have to manually set the descriptors because the harmonized
+      // template does not collect them.
+      for (const [key, value] of Object.entries(getExpectedDescriptors())) {
+        metadata.setDescriptor(key, value)
+      }
+
+      expect(testMetadata(metadata)).to.be.true
+    })
+  })
+}
+
 function testMetadata(metadata) {
 
   const expectedDescriptors = getExpectedDescriptors()
@@ -82,6 +102,10 @@ function testMetadata(metadata) {
     }
   }
 
+  if (!metadata.validateMetaLastUpdate()) {
+    throw Error('META_LAST_UPDATE is in invalid format: ' + metadata.getConcept('META_LAST_UPDATE'))
+  }
+
   return true
 }
 
@@ -92,7 +116,7 @@ function getExpectedConcepts() {
     SDG_TARGET: '<p>3</p>',
     SDG_INDICATOR: '<p>4</p>',
     SDG_SERIES_DESCR: '<p>5</p>',
-    META_LAST_UPDATE: '<p>6</p>',
+    META_LAST_UPDATE: '2022-01-01',
     SDG_RELATED_INDICATORS: '<p>7</p>',
     SDG_CUSTODIAN_AGENCIES: '<p>8</p>',
     CONTACT: '<p>9</p>',

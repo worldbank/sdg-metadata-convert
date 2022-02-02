@@ -66,7 +66,7 @@
           <com:Text xml:lang="en"><![CDATA[<p>5</p>]]></com:Text>
         </gen:ReportedAttribute>
         <gen:ReportedAttribute id="META_LAST_UPDATE">
-          <com:Text xml:lang="en"><![CDATA[<p>6</p>]]></com:Text>
+          <com:Text xml:lang="en"><![CDATA[2022-01-01]]></com:Text>
         </gen:ReportedAttribute>
         <gen:ReportedAttribute id="SDG_RELATED_INDICATORS">
           <com:Text xml:lang="en"><![CDATA[<p>7</p>]]></com:Text>
