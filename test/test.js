@@ -34,6 +34,7 @@ for (const sdmxInputFile of sdmxInputFiles) {
     it('should import the required and expected metadata', async () => {
       const metadata = await sdmxInput.read(path.join('test', 'inputs', sdmxInputFile))
       expect(testMetadata(metadata)).to.be.true
+      expect(metadata.validateMetaLastUpdate()).to.be.true
     })
   })
 }
@@ -92,7 +93,7 @@ function getExpectedConcepts() {
     SDG_TARGET: '<p>3</p>',
     SDG_INDICATOR: '<p>4</p>',
     SDG_SERIES_DESCR: '<p>5</p>',
-    META_LAST_UPDATE: '<p>6</p>',
+    META_LAST_UPDATE: '6',
     SDG_RELATED_INDICATORS: '<p>7</p>',
     SDG_CUSTODIAN_AGENCIES: '<p>8</p>',
     CONTACT: '<p>9</p>',
