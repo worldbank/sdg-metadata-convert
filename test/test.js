@@ -46,6 +46,7 @@ for (const yamlInputFile of yamlInputFiles) {
   describe(yamlInputFile, function() {
     it('should import the required and expected metadata', async () => {
       const metadata = await yamlInput.read(path.join('test', 'inputs', yamlInputFile))
+      metadata.fixMetaLastUpdate()
       expect(testMetadata(metadata)).to.be.true
     })
   })
