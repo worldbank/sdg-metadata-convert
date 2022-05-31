@@ -401,16 +401,6 @@
                 ]
             },
             {
-                "key": "SG_DSR_SFDRR",
-                "value": "Countries that reported having a National DRR Strategy which is aligned to the Sendai Framework to a certain extent (1 = YES; 0 = NO) [1.5.3, 11.b.1, 13.1.2]",
-                "indicatorId": "1.5.3",
-                "indicatorIds": [
-                    "1.5.3",
-                    "11.b.1",
-                    "13.1.2"
-                ]
-            },
-            {
                 "key": "VC_DSR_GDPLS",
                 "value": "Direct economic loss attributed to disasters",
                 "indicatorId": "1.5.2",
@@ -471,6 +461,16 @@
                 "indicatorIds": [
                     "1.5.2",
                     "11.5.2"
+                ]
+            },
+            {
+                "key": "SG_DSR_SFDRR",
+                "value": "Countries that reported having a National DRR Strategy which is aligned to the Sendai Framework to a certain extent (1 = YES; 0 = NO) [1.5.3, 11.b.1, 13.1.2]",
+                "indicatorId": "1.5.3",
+                "indicatorIds": [
+                    "1.5.3",
+                    "11.b.1",
+                    "13.1.2"
                 ]
             },
             {
@@ -1074,7 +1074,7 @@
             },
             {
                 "key": "SP_DYN_ADKL",
-                "value": "Adolescent birth rate (per 1,000 women aged 15-19 years)",
+                "value": "Adolescent birth rate (per 1,000 women aged 15-19 and 10-14 years)",
                 "indicatorId": "3.7.2",
                 "indicatorIds": [
                     "3.7.2"
@@ -1242,7 +1242,7 @@
             },
             {
                 "key": "SH_MED_DEN",
-                "value": "Health workder density",
+                "value": "Health worker density, by type of occupation (per 10,000 population)",
                 "indicatorId": "3.c.1",
                 "indicatorIds": [
                     "3.c.1"
@@ -1722,7 +1722,7 @@
             },
             {
                 "key": "SG_GEN_PARLNT",
-                "value": "Number of seats in national parliaments",
+                "value": "Current number of seats in national parliaments",
                 "indicatorId": "5.5.1",
                 "indicatorIds": [
                     "5.5.1"
@@ -2979,7 +2979,7 @@
             },
             {
                 "key": "EN_ATM_CO2GDP",
-                "value": "Carbon dioxide emissions per unit of GDP",
+                "value": "Carbon dioxide emissions per unit of GDP PPP (kilogrammes of CO2 per constant United States dollars)",
                 "indicatorId": "9.4.1",
                 "indicatorIds": [
                     "9.4.1"
@@ -3182,6 +3182,14 @@
                 ]
             },
             {
+                "key": "SL_EMP_RCOST_MO",
+                "value": "Migrant recruitment costs (number of months of earnings)",
+                "indicatorId": "10.7.1",
+                "indicatorIds": [
+                    "10.7.1"
+                ]
+            },
+            {
                 "key": "SG_CPA_MIGR",
                 "value": "Countries that have implemented well-managed migration policies  (1 = YES; 0 = NO)",
                 "indicatorId": "10.7.2",
@@ -3255,7 +3263,7 @@
             },
             {
                 "key": "SI_RMT_COST",
-                "value": "Remittance costs as a proportion of the amount remitted",
+                "value": "Average remittance costs of sending $200 to a receiving country as a proportion of the amount remitted",
                 "indicatorId": "10.c.1",
                 "indicatorIds": [
                     "10.c.1"
@@ -3263,7 +3271,7 @@
             },
             {
                 "key": "SI_RMT_COST_BC",
-                "value": "Corridor remittance costs as a proportion of the amount remitted",
+                "value": "Average remittance costs of sending $200 in a corridor as a proportion of the amount remitted",
                 "indicatorId": "10.c.1",
                 "indicatorIds": [
                     "10.c.1"
@@ -3271,7 +3279,15 @@
             },
             {
                 "key": "SI_RMT_COST_SC",
-                "value": "SmaRT corridor remittance costs as a proportion of the amount remitted",
+                "value": "SmaRT average remittance costs of sending $200 in a corridor as a proportion of the amount remitted",
+                "indicatorId": "10.c.1",
+                "indicatorIds": [
+                    "10.c.1"
+                ]
+            },
+            {
+                "key": "SI_RMT_COST_SND",
+                "value": "Average remittance costs of sending $200 for a sending country as a proportion of the amount remitted",
                 "indicatorId": "10.c.1",
                 "indicatorIds": [
                     "10.c.1"
@@ -3392,65 +3408,65 @@
             {
                 "key": "VC_DSR_CDAN",
                 "value": "Number of damaged critical infrastructure attributed to disasters",
-                "indicatorId": "11.5.2",
+                "indicatorId": "11.5.3",
                 "indicatorIds": [
-                    "11.5.2"
+                    "11.5.3"
                 ]
             },
             {
                 "key": "VC_DSR_HFDN",
                 "value": "Number of destroyed or damaged health facilities attributed to disasters",
-                "indicatorId": "11.5.2",
+                "indicatorId": "11.5.3",
                 "indicatorIds": [
-                    "11.5.2"
+                    "11.5.3"
                 ]
             },
             {
                 "key": "VC_DSR_EFDN",
                 "value": "Number of destroyed or damaged educational facilities attributed to disasters",
-                "indicatorId": "11.5.2",
+                "indicatorId": "11.5.3",
                 "indicatorIds": [
-                    "11.5.2"
+                    "11.5.3"
                 ]
             },
             {
                 "key": "VC_DSR_CDYN",
                 "value": "Number of other destroyed or damaged critical infrastructure units and facilities attributed to disasters",
-                "indicatorId": "11.5.2",
+                "indicatorId": "11.5.3",
                 "indicatorIds": [
-                    "11.5.2"
+                    "11.5.3"
                 ]
             },
             {
                 "key": "VC_DSR_BSDN",
                 "value": "Number of disruptions to basic services attributed to disasters",
-                "indicatorId": "11.5.2",
+                "indicatorId": "11.5.3",
                 "indicatorIds": [
-                    "11.5.2"
+                    "11.5.3"
                 ]
             },
             {
                 "key": "VC_DSR_ESDN",
                 "value": "Number of disruptions to educational services attributed to disasters",
-                "indicatorId": "11.5.2",
+                "indicatorId": "11.5.3",
                 "indicatorIds": [
-                    "11.5.2"
+                    "11.5.3"
                 ]
             },
             {
                 "key": "VC_DSR_HSDN",
                 "value": "Number of disruptions to health services attributed to disasters",
-                "indicatorId": "11.5.2",
+                "indicatorId": "11.5.3",
                 "indicatorIds": [
-                    "11.5.2"
+                    "11.5.3"
                 ]
             },
             {
                 "key": "VC_DSR_OBDN",
                 "value": "Number of disruptions to other basic services attributed to disasters",
-                "indicatorId": "11.5.2",
+                "indicatorId": "11.5.3",
                 "indicatorIds": [
-                    "11.5.2"
+                    "11.5.3"
                 ]
             },
             {
@@ -3933,6 +3949,22 @@
                 ]
             },
             {
+                "key": "ER_FFS_CMPT_CD",
+                "value": "Fossil-fuel subsidies (consumption and production)",
+                "indicatorId": "12.c.1",
+                "indicatorIds": [
+                    "12.c.1"
+                ]
+            },
+            {
+                "key": "ER_FFS_CMPT_PC_CD",
+                "value": "Fossil-fuel subsidies (consumption and production) per capita",
+                "indicatorId": "12.c.1",
+                "indicatorIds": [
+                    "12.c.1"
+                ]
+            },
+            {
                 "key": "EN_NACOM_AIP",
                 "value": "Number of countries with national communications, Annex I Parties",
                 "indicatorId": "13.2.1",
@@ -4141,6 +4173,54 @@
                 ]
             },
             {
+                "key": "EN_MAR_PLASDD",
+                "value": "Floating plastic debris density (count per km2)",
+                "indicatorId": "14.1.1",
+                "indicatorIds": [
+                    "14.1.1"
+                ]
+            },
+            {
+                "key": "EN_MAR_BEALIT_BP",
+                "value": "Beach litter originating from national land-based sources that ends in the beach (%)",
+                "indicatorId": "14.1.1",
+                "indicatorIds": [
+                    "14.1.1"
+                ]
+            },
+            {
+                "key": "EN_MAR_BEALIT_BV",
+                "value": "Beach litter originating from national land-based sources that ends in the beach (Tonnes)",
+                "indicatorId": "14.1.1",
+                "indicatorIds": [
+                    "14.1.1"
+                ]
+            },
+            {
+                "key": "EN_MAR_BEALIT_OP",
+                "value": "Beach litter originating from national land-based sources that ends in the ocean (%)",
+                "indicatorId": "14.1.1",
+                "indicatorIds": [
+                    "14.1.1"
+                ]
+            },
+            {
+                "key": "EN_MAR_BEALIT_OV",
+                "value": "Beach litter originating from national land-based sources that ends in the ocean (Tonnes)",
+                "indicatorId": "14.1.1",
+                "indicatorIds": [
+                    "14.1.1"
+                ]
+            },
+            {
+                "key": "EN_MAR_BEALIT_EXP",
+                "value": "Exported beach litter originating from national land-based sources (Tonnes)",
+                "indicatorId": "14.1.1",
+                "indicatorIds": [
+                    "14.1.1"
+                ]
+            },
+            {
                 "key": "EN_SCP_EZECO",
                 "value": "Proportion of national exclusive economic zones managed using ecosystem-based approaches",
                 "indicatorId": "14.2.1",
@@ -4150,7 +4230,7 @@
             },
             {
                 "key": "EN_SCP_ECSYBA",
-                "value": "Countries using ecosystem-based approaches (1 = YES; 0 = NO)",
+                "value": "Number of countries using ecosystem-based approaches to managing marine areas (1 = YES; 0 = NO)",
                 "indicatorId": "14.2.1",
                 "indicatorIds": [
                     "14.2.1"
@@ -4326,7 +4406,7 @@
             },
             {
                 "key": "AG_LND_FRSTBIOPHA",
-                "value": "Above-ground biomass in forest per hectare (tonnes per hectare)",
+                "value": "Above-ground biomass in forest (tonnes per hectare)",
                 "indicatorId": "15.2.1",
                 "indicatorIds": [
                     "15.2.1"
@@ -4342,7 +4422,7 @@
             },
             {
                 "key": "AG_LND_FRSTCHG",
-                "value": "Forest area net change rate (%)",
+                "value": "Annual forest area change rate (%)",
                 "indicatorId": "15.2.1",
                 "indicatorIds": [
                     "15.2.1"
@@ -4462,7 +4542,7 @@
             },
             {
                 "key": "ER_WLD_TRPOACH",
-                "value": "Proportion of traded wildlife that was poached or illicitly trafficked ",
+                "value": "Proportion of traded wildlife that was poached or illicitly trafficked",
                 "indicatorId": "15.7.1",
                 "indicatorIds": [
                     "15.7.1",
@@ -4689,7 +4769,7 @@
             },
             {
                 "key": "VC_HTF_DETVSX",
-                "value": "Detected victims of human trafficking for sexual exploitaton (number)",
+                "value": "Detected victims of human trafficking for sexual exploitation, by age and sex (number)",
                 "indicatorId": "16.2.2",
                 "indicatorIds": [
                     "16.2.2"
@@ -4906,6 +4986,46 @@
             {
                 "key": "SG_DMK_PARLYN_UC",
                 "value": "Number of youth in parliament (age 45 or below), Upper Chamber",
+                "indicatorId": "16.7.1",
+                "indicatorIds": [
+                    "16.7.1"
+                ]
+            },
+            {
+                "key": "SG_DMK_PSRVC",
+                "value": "Proportions of positions in the public service compared to national distributions",
+                "indicatorId": "16.7.1",
+                "indicatorIds": [
+                    "16.7.1"
+                ]
+            },
+            {
+                "key": "SG_DMK_JDC",
+                "value": "Proportions of positions in the judiciary compared to national distributions",
+                "indicatorId": "16.7.1",
+                "indicatorIds": [
+                    "16.7.1"
+                ]
+            },
+            {
+                "key": "SG_DMK_JDC_HGR",
+                "value": "Proportions of positions in the judiciary compared to national distributions, Higher Courts",
+                "indicatorId": "16.7.1",
+                "indicatorIds": [
+                    "16.7.1"
+                ]
+            },
+            {
+                "key": "SG_DMK_JDC_LWR",
+                "value": "Proportions of positions in the judiciary compared to national distributions, Lower Courts",
+                "indicatorId": "16.7.1",
+                "indicatorIds": [
+                    "16.7.1"
+                ]
+            },
+            {
+                "key": "SG_DMK_JDC_CNS",
+                "value": "Proportions of positions in the judiciary compared to national distributions, Constitutional Court",
                 "indicatorId": "16.7.1",
                 "indicatorIds": [
                     "16.7.1"
@@ -5181,6 +5301,38 @@
                 ]
             },
             {
+                "key": "DC_ENVTECH_EXP",
+                "value": "Amount of tracked exported Environmentally Sound Technologies",
+                "indicatorId": "17.7.1",
+                "indicatorIds": [
+                    "17.7.1"
+                ]
+            },
+            {
+                "key": "DC_ENVTECH_IMP",
+                "value": "Amount of tracked imported Environmentally Sound Technologies",
+                "indicatorId": "17.7.1",
+                "indicatorIds": [
+                    "17.7.1"
+                ]
+            },
+            {
+                "key": "DC_ENVTECH_REXP",
+                "value": "Amount of tracked re-exported Environmentally Sound Technologies",
+                "indicatorId": "17.7.1",
+                "indicatorIds": [
+                    "17.7.1"
+                ]
+            },
+            {
+                "key": "DC_ENVTECH_RIMP",
+                "value": "Amount of tracked re-imported Environmentally Sound Technologies",
+                "indicatorId": "17.7.1",
+                "indicatorIds": [
+                    "17.7.1"
+                ]
+            },
+            {
                 "key": "IT_USE_II99",
                 "value": "Internet users per 100 inhabitants",
                 "indicatorId": "17.8.1",
@@ -5446,7 +5598,7 @@
             },
             {
                 "key": "SG_PLN_PRVNDI",
-                "value": "Proportion of new development interventions drawn from country-led result frameworks - data by provider (%)",
+                "value": "Proportion of project objectives of new development interventions drawn from country-led result frameworks - data by provider",
                 "indicatorId": "17.15.1",
                 "indicatorIds": [
                     "17.15.1"
@@ -5470,7 +5622,7 @@
             },
             {
                 "key": "SG_PLN_RECNDI",
-                "value": "Proportion of new development interventions drawn from country-led result frameworks - data by recipient (%)",
+                "value": "Proportion of project objectives in new development interventions drawn from country-led result frameworks - data by recipient",
                 "indicatorId": "17.15.1",
                 "indicatorIds": [
                     "17.15.1"
@@ -5518,7 +5670,7 @@
             },
             {
                 "key": "SG_PLN_MSTKSDG_P",
-                "value": "Progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals, Provider (1 = YES; 0 = NO)",
+                "value": "Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals, Provider (1 = YES; 0 = NO)",
                 "indicatorId": "17.16.1",
                 "indicatorIds": [
                     "17.16.1"
@@ -5526,7 +5678,7 @@
             },
             {
                 "key": "SG_PLN_MSTKSDG_R",
-                "value": "Progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals, Recipient (1 = YES; 0 = NO)",
+                "value": "Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals, Recipient (1 = YES; 0 = NO)",
                 "indicatorId": "17.16.1",
                 "indicatorIds": [
                     "17.16.1"
@@ -7144,6 +7296,10 @@
             {
                 "key": "99041",
                 "value": "Belgium and Luxembourg"
+            },
+            {
+                "key": "99049",
+                "value": "Residual/unallocated ODA: Unspecified, developing countries"
             }
         ]
     }
