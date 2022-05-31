@@ -4,11 +4,11 @@ const xpath = require('xpath')
 const dom = require('xmldom').DOMParser
 
 const args = process.argv.slice(2)
-if (args.length < 1) {
-    console.log('Please indicate a URL for a DSD in quotes. Example: node dsd-refresh.js "https://registry.sdmx.org/ws/public/sdmxapi/rest/datastructure/IAEG-SDGs/SDG/latest/?format=sdmx-2.1&detail=full&references=children"')
-    return
+let url = 'https://registry.sdmx.org/ws/public/sdmxapi/rest/datastructure/IAEG-SDGs/SDG/latest/?format=sdmx-2.1&detail=full&references=children'
+if (args.length > 0) {
+    url = args[0]
 }
-refreshFromDsd(args[0])
+refreshFromDsd(url)
 
 function normalizeSeriesName(name) {
     // Historically the series names in this library do not include the
