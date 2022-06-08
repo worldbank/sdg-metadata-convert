@@ -56,6 +56,7 @@ for (const yamlInputFile of yamlInputFiles) {
 const harmonizedInput = new HarmonizedWordTemplateInput()
 const harmonizedInputFiles = [
   'SDG_Metadata_Authoring_Tool__Word_Harmonized_v1.0.docx',
+  'SDG_Metadata_Authoring_Tool__Word_Harmonized_v1.1.docx',
 ]
 for (const harmonizedInputFile of harmonizedInputFiles) {
   describe(harmonizedInputFile, function() {
