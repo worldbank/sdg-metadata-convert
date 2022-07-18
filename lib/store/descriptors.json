@@ -1161,6 +1161,14 @@
                 ]
             },
             {
+                "key": "SH_STA_WASHARI",
+                "value": "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene from diarrhoea, intestinal nematode infections, malnutrition and acute respiratory infections",
+                "indicatorId": "3.9.2",
+                "indicatorIds": [
+                    "3.9.2"
+                ]
+            },
+            {
                 "key": "SH_STA_POISN",
                 "value": "Mortality rate attributed to unintentional poisonings",
                 "indicatorId": "3.9.3",
@@ -3586,10 +3594,7 @@
             {
                 "key": "AG_FLS_IDX",
                 "value": "Global food loss index",
-                "indicatorId": "12.3.1",
-                "indicatorIds": [
-                    "12.3.1"
-                ]
+                "indicatorIds": []
             },
             {
                 "key": "AG_FOOD_WST_PC",
@@ -3602,6 +3607,22 @@
             {
                 "key": "AG_FOOD_WST",
                 "value": "Food waste",
+                "indicatorId": "12.3.1",
+                "indicatorIds": [
+                    "12.3.1"
+                ]
+            },
+            {
+                "key": "AG_FLS_INDEX",
+                "value": "Global food loss index",
+                "indicatorId": "12.3.1",
+                "indicatorIds": [
+                    "12.3.1"
+                ]
+            },
+            {
+                "key": "AG_FLS_PCT",
+                "value": "Food loss percentage",
                 "indicatorId": "12.3.1",
                 "indicatorIds": [
                     "12.3.1"
@@ -4674,10 +4695,7 @@
             {
                 "key": "VC_DTH_TOCV",
                 "value": "Conflict-related deaths per 100,000 population",
-                "indicatorId": "16.1.2",
-                "indicatorIds": [
-                    "16.1.2"
-                ]
+                "indicatorIds": []
             },
             {
                 "key": "VC_DTH_TOCVN",
@@ -4690,6 +4708,46 @@
             {
                 "key": "VC_DTH_TOCVR",
                 "value": "Conflict-related death rate (civilians), by sex, age and cause of death (%)",
+                "indicatorId": "16.1.2",
+                "indicatorIds": [
+                    "16.1.2"
+                ]
+            },
+            {
+                "key": "VC_DTH_TOTR",
+                "value": "Number of total conflict-related deaths per 100,000 population",
+                "indicatorId": "16.1.2",
+                "indicatorIds": [
+                    "16.1.2"
+                ]
+            },
+            {
+                "key": "VC_DTH_TOTN",
+                "value": "Number of total conflict-related deaths, by sex, age and cause of death",
+                "indicatorId": "16.1.2",
+                "indicatorIds": [
+                    "16.1.2"
+                ]
+            },
+            {
+                "key": "VC_DTH_TOUNN",
+                "value": "Number of conflict-related deaths (unknown), by sex, age and cause of death",
+                "indicatorId": "16.1.2",
+                "indicatorIds": [
+                    "16.1.2"
+                ]
+            },
+            {
+                "key": "VC_DTH_TONCVN",
+                "value": "Number of conflict-related deaths (non-civilians), by sex, age and cause of death",
+                "indicatorId": "16.1.2",
+                "indicatorIds": [
+                    "16.1.2"
+                ]
+            },
+            {
+                "key": "VC_DTH_TOTPT",
+                "value": "Conflict-related total death rate, by sex, age and cause of death (%)",
                 "indicatorId": "16.1.2",
                 "indicatorIds": [
                     "16.1.2"
@@ -4722,6 +4780,14 @@
             {
                 "key": "VC_SNS_WALN",
                 "value": "Proportion of population that feel safe walking alone around the area they live in",
+                "indicatorId": "16.1.4",
+                "indicatorIds": [
+                    "16.1.4"
+                ]
+            },
+            {
+                "key": "VC_SNS_WALN_DRK",
+                "value": "Proportion of population that feel safe walking alone around the area they live after dark",
                 "indicatorId": "16.1.4",
                 "indicatorIds": [
                     "16.1.4"
@@ -5262,7 +5328,7 @@
             },
             {
                 "key": "SG_CPA_SIGN_BIT",
-                "value": "Number of countries with a signed bilateral investment treaty (BIT)",
+                "value": "Number of countries with a signed bilateral investment treaty (BIT) with least developed countries and developing countries",
                 "indicatorId": "17.5.1",
                 "indicatorIds": [
                     "17.5.1"
@@ -5270,7 +5336,7 @@
             },
             {
                 "key": "SG_CPA_INFORCE_BIT",
-                "value": "Number of countries with an inforce bilateral investment treaty (BIT)",
+                "value": "Number of countries with an in-force bilateral investment treaty (BIT) with least developed countries and developing countries",
                 "indicatorId": "17.5.1",
                 "indicatorIds": [
                     "17.5.1"
