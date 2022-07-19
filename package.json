@@ -20,7 +20,7 @@
     "js-yaml": "^4.0.0",
     "jsdiff": "1.1.1",
     "jsondiffpatch": "0.4.1",
-    "mammoth": "github:brockfanning/mammoth.js#math-support",
+    "mammoth": "https://github.com/brockfanning/mammoth.js#math-support",
     "mocha": "7.1.1",
     "nunjucks": "3.2.1",
     "pdf-puppeteer": "1.1.10",
