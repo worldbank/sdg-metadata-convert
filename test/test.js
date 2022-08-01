@@ -15,6 +15,7 @@ const wordInputFiles = [
   'SDG_Metadata_Authoring_Tool__Word_v3.2.docm',
   'SDG_Metadata_Authoring_Tool__Word_v3.3.docm',
   'SDG_Metadata_Authoring_Tool__Word_v3.4.docm',
+  'SDG_Metadata_Authoring_Tool__Word_v3.5.docm',
 ]
 for (const wordInputFile of wordInputFiles) {
   describe(wordInputFile, function() {
@@ -55,6 +56,7 @@ for (const yamlInputFile of yamlInputFiles) {
 const harmonizedInput = new HarmonizedWordTemplateInput()
 const harmonizedInputFiles = [
   'SDG_Metadata_Authoring_Tool__Word_Harmonized_v1.0.docx',
+  'SDG_Metadata_Authoring_Tool__Word_Harmonized_v1.1.docx',
 ]
 for (const harmonizedInputFile of harmonizedInputFiles) {
   describe(harmonizedInputFile, function() {
@@ -99,7 +101,7 @@ function testMetadata(metadata) {
   for (const conceptId in expectedConcepts) {
     const concept = metadata.getConcept(conceptId)
     if (concept !== '' && concept !== expectedConcepts[conceptId]) {
-      throw Error('Concept ' + conceptId + ' incorrect or missing.')
+      throw Error('Concept ' + conceptId + ' incorrect or missing. Expected ' + expectedConcepts[conceptId] + ' but saw: ' + concept)
     }
   }
 
