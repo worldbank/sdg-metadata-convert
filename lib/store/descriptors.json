@@ -478,7 +478,9 @@
                 "value": "Countries with legislative and/or regulatory provisions been made for managing disaster risk (1 = YES; 0 = NO)",
                 "indicatorId": "1.5.3",
                 "indicatorIds": [
-                    "1.5.3"
+                    "1.5.3",
+                    "11.b.1",
+                    "13.1.2"
                 ]
             },
             {
@@ -548,6 +550,14 @@
                 "indicatorId": "1.a.1",
                 "indicatorIds": [
                     "1.a.1"
+                ]
+            },
+            {
+                "key": "SD_XPD_ESSRV",
+                "value": "Proportion of total government spending on essential services",
+                "indicatorId": "1.a.2",
+                "indicatorIds": [
+                    "1.a.2"
                 ]
             },
             {
@@ -811,6 +821,14 @@
             {
                 "key": "ER_GRF_PLNTSTOR",
                 "value": "Plant genetic resources accessions stored ex situ (number)",
+                "indicatorId": "2.5.1",
+                "indicatorIds": [
+                    "2.5.1"
+                ]
+            },
+            {
+                "key": "ER_GRF_ANIMRCNTN_TRB",
+                "value": "Number of transboundary breeds for which sufficient genetic resources are stored for reconstitution",
                 "indicatorId": "2.5.1",
                 "indicatorIds": [
                     "2.5.1"
@@ -2836,6 +2854,22 @@
             {
                 "key": "FB_BNK_ACCSS",
                 "value": "Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider",
+                "indicatorId": "8.10.2",
+                "indicatorIds": [
+                    "8.10.2"
+                ]
+            },
+            {
+                "key": "FB_BNK_ACCSS_ILF",
+                "value": "Proportion of adults (15 years and older) active in labor force with an account at a financial institution or mobile-money-service provider",
+                "indicatorId": "8.10.2",
+                "indicatorIds": [
+                    "8.10.2"
+                ]
+            },
+            {
+                "key": "FB_BNK_ACCSS_OLF",
+                "value": "Proportion of adults (15 years and older) out of labor force with an account at a financial institution or mobile-money-service provider",
                 "indicatorId": "8.10.2",
                 "indicatorIds": [
                     "8.10.2"
@@ -4898,6 +4932,38 @@
                 ]
             },
             {
+                "key": "SP_DISP_RESOL",
+                "value": "Proportion of the population who have experienced a dispute in the past two years who accessed a formal or informal dispute resolution mechanism",
+                "indicatorId": "16.3.3",
+                "indicatorIds": [
+                    "16.3.3"
+                ]
+            },
+            {
+                "key": "SP_DISP_RESOL_ETH",
+                "value": "Proportion of the population who have experienced a dispute in the past two years who accessed a formal or informal dispute resolution mechanism, by ethnicity",
+                "indicatorId": "16.3.3",
+                "indicatorIds": [
+                    "16.3.3"
+                ]
+            },
+            {
+                "key": "SP_DISP_RESOL_MIG",
+                "value": "Proportion of the population who have experienced a dispute in the past two years who accessed a formal or informal dispute resolution mechanism, by migration background",
+                "indicatorId": "16.3.3",
+                "indicatorIds": [
+                    "16.3.3"
+                ]
+            },
+            {
+                "key": "SP_DISP_RESOL_CTZ",
+                "value": "Proportion of the population who have experienced a dispute in the past two years who accessed a formal or informal dispute resolution mechanism, by citizenship",
+                "indicatorId": "16.3.3",
+                "indicatorIds": [
+                    "16.3.3"
+                ]
+            },
+            {
                 "key": "DI_ILL_IN",
                 "value": "Total value of inward illicit financial flows",
                 "indicatorId": "16.4.1",
@@ -4948,6 +5014,70 @@
             {
                 "key": "SP_PSR_SATIS",
                 "value": "Proportion of population satisfied with their last experience of public services",
+                "indicatorId": "16.6.2",
+                "indicatorIds": [
+                    "16.6.2"
+                ]
+            },
+            {
+                "key": "SP_PSR_SATIS_HLTH",
+                "value": "Proportion of population satisfied with their last experience of public services, healthcare services",
+                "indicatorId": "16.6.2",
+                "indicatorIds": [
+                    "16.6.2"
+                ]
+            },
+            {
+                "key": "SP_PSR_SATIS_PRM",
+                "value": "Proportion of population satisfied with their last experience of public services, primary education services",
+                "indicatorId": "16.6.2",
+                "indicatorIds": [
+                    "16.6.2"
+                ]
+            },
+            {
+                "key": "SP_PSR_SATIS_SEC",
+                "value": "Proportion of population satisfied with their last experience of public services, secondary education services",
+                "indicatorId": "16.6.2",
+                "indicatorIds": [
+                    "16.6.2"
+                ]
+            },
+            {
+                "key": "SP_PSR_SATIS_GOV",
+                "value": "Proportion of population satisfied with their last experience of public services, government services",
+                "indicatorId": "16.6.2",
+                "indicatorIds": [
+                    "16.6.2"
+                ]
+            },
+            {
+                "key": "SP_PSR_OSATIS_HLTH",
+                "value": "Proportion of population who say that overall they are satisfied with the quality of healthcare services",
+                "indicatorId": "16.6.2",
+                "indicatorIds": [
+                    "16.6.2"
+                ]
+            },
+            {
+                "key": "SP_PSR_OSATIS_PRM",
+                "value": "Proportion of population who say that overall they are satisfied with the quality of primary education services",
+                "indicatorId": "16.6.2",
+                "indicatorIds": [
+                    "16.6.2"
+                ]
+            },
+            {
+                "key": "SP_PSR_OSATIS_SEC",
+                "value": "Proportion of population who say that overall they are satisfied with the quality of secondary education services",
+                "indicatorId": "16.6.2",
+                "indicatorIds": [
+                    "16.6.2"
+                ]
+            },
+            {
+                "key": "SP_PSR_OSATIS_GOV",
+                "value": "Proportion of population who say that overall they are satisfied with the quality of government services",
                 "indicatorId": "16.6.2",
                 "indicatorIds": [
                     "16.6.2"
@@ -5100,6 +5230,22 @@
             {
                 "key": "IU_DMK_ICRS",
                 "value": "Proportion of population who believe decision-making is inclusive and responsive",
+                "indicatorId": "16.7.2",
+                "indicatorIds": [
+                    "16.7.2"
+                ]
+            },
+            {
+                "key": "IU_DMK_INCL",
+                "value": "Proportion of population who believe decision-making is inclusive",
+                "indicatorId": "16.7.2",
+                "indicatorIds": [
+                    "16.7.2"
+                ]
+            },
+            {
+                "key": "IU_DMK_RESP",
+                "value": "Proportion of population who believe decision-making is responsive",
                 "indicatorId": "16.7.2",
                 "indicatorIds": [
                     "16.7.2"
@@ -5361,6 +5507,14 @@
             {
                 "key": "DC_TOF_ENVTECH",
                 "value": "Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",
+                "indicatorId": "17.7.1",
+                "indicatorIds": [
+                    "17.7.1"
+                ]
+            },
+            {
+                "key": "DC_ENVTECH_INV",
+                "value": "Total investment in Environment Sound Technologies, by sector",
                 "indicatorId": "17.7.1",
                 "indicatorIds": [
                     "17.7.1"
